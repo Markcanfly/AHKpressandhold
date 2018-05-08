@@ -7,7 +7,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ; The ~ modifier symbol makes it so that the system still receives the information of an e being presed
 ; Then it can delete the last character and paste the accurate new one
-
+; todo: add some extra accents not found in macOS
 ; a
 
 ~a & 1::
@@ -223,5 +223,31 @@ return
 ~o & 8::
 Send, {BackSpace}
 Send, õ
+
+return
+
+; s
+
+~s & 1::
+Send, {BackSpace}
+Send, ß
+
+return
+
+~s & 2::
+Send, {BackSpace}
+Send, ś
+
+return
+
+~s & 3::
+Send, {BackSpace}
+Send, š
+
+return
+
+~s & 4::
+Send, {BackSpace}
+Send, ë
 
 return
