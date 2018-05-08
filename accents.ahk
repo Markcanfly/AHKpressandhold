@@ -139,3 +139,39 @@ Send, {BackSpace}
 Send, ū
 
 return
+
+; i
+
+~i & 1::
+Send, {BackSpace}
+Send, î 
+
+return
+
+~i & 2::
+Send, {BackSpace}
+Send, ï
+
+return
+
+~i & 3::
+Send, {BackSpace}
+Send, í
+
+return
+
+~i & 4::
+Send, {BackSpace}
+Send, ī
+
+return
+
+~i & 5::
+Send, {BackSpace}
+Send, į
+
+return
+
+~i & 6::
+Send, {BackSpace}
+Send, ì
