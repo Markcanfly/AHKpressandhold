@@ -251,3 +251,57 @@ return
 ~l & 1::
 Send, {BackSpace}
 Send, ł
+
+; z
+
+~z & 1::
+Send, {BackSpace}
+Send, ž
+
+return
+
+~z & 2::
+Send, {BackSpace}
+Send, ź
+
+return
+
+~z & 3::
+Send, {BackSpace}
+Send, ż
+
+return
+
+; c
+
+~c & 1::
+Send, {BackSpace}
+Send, ç
+
+return
+
+~c & 2::
+Send, {BackSpace}
+Send, ć
+
+return
+
+~c & 3::
+Send, {BackSpace}
+Send, č
+
+return
+
+; z
+
+~n & 1::
+Send, {BackSpace}
+Send, ñ
+
+return
+
+~n & 2::
+Send, {BackSpace}
+Send, ń
+
+return
