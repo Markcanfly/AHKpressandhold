@@ -246,8 +246,8 @@ Send, š
 
 return
 
-~s & 4::
-Send, {BackSpace}
-Send, ë
+; l
 
-return
+~l & 1::
+Send, {BackSpace}
+Send, ł
