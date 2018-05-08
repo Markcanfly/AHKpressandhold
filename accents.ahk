@@ -256,6 +256,8 @@ return
 Send, {BackSpace}
 Send, ł
 
+return
+
 ; z
 
 ~z & 1::
