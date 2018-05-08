@@ -101,3 +101,9 @@ Send, {BackSpace}
 Send, ę
 
 return
+
+; y
+
+~y & 1::
+Send, {BackSpace}
+Send, ÿ
