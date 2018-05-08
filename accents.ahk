@@ -178,6 +178,8 @@ return
 Send, {BackSpace}
 Send, ì
 
+return
+
 ; o
 
 ~o & 1::
