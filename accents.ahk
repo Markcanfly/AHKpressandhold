@@ -107,3 +107,35 @@ return
 ~y & 1::
 Send, {BackSpace}
 Send, ÿ
+
+; u
+
+~u & 1::
+Send, {BackSpace}
+Send, û 
+
+return
+
+~u & 2::
+Send, {BackSpace}
+Send, ü
+
+return
+
+~u & 3::
+Send, {BackSpace}
+Send, ù
+
+return
+
+~u & 4::
+Send, {BackSpace}
+Send, ú
+
+return
+
+~u & 5::
+Send, {BackSpace}
+Send, ū
+
+return
