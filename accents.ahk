@@ -175,3 +175,53 @@ return
 ~i & 6::
 Send, {BackSpace}
 Send, ì
+
+; o
+
+~o & 1::
+Send, {BackSpace}
+Send, ô
+
+return
+
+~o & 2::
+Send, {BackSpace}
+Send, ö
+
+return
+
+~o & 3::
+Send, {BackSpace}
+Send, ò
+
+return
+
+~o & 4::
+Send, {BackSpace}
+Send, ó
+
+return
+
+~o & 5::
+Send, {BackSpace}
+Send, œ
+
+return
+
+~o & 6::
+Send, {BackSpace}
+Send, ø
+
+return
+
+~o & 7::
+Send, {BackSpace}
+Send, ō
+
+return
+
+~o & 8::
+Send, {BackSpace}
+Send, õ
+
+return
