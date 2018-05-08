@@ -108,6 +108,8 @@ return
 Send, {BackSpace}
 Send, ÿ
 
+return
+
 ; u
 
 ~u & 1::
