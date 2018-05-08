@@ -8,6 +8,56 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; The ~ modifier symbol makes it so that the system still receives the information of an e being presed
 ; Then it can delete the last character and paste the accurate new one
 
+; a
+
+~a & 1::
+Send, {BackSpace}
+Send, à
+
+return
+
+~a & 2::
+Send, {BackSpace}
+Send, á
+
+return
+
+~a & 3::
+Send, {BackSpace}
+Send, â
+
+return
+
+~a & 4::
+Send, {BackSpace}
+Send, ä
+
+return
+
+~a & 5::
+Send, {BackSpace}
+Send, æ
+
+return
+
+~a & 6::
+Send, {BackSpace}
+Send, ã
+
+return
+
+~a & 7::
+Send, {BackSpace}
+Send, å
+
+return
+
+~a & 8::
+Send, {BackSpace}
+Send, ā
+
+return
+
 ; e
 
 ~e & 1::
