@@ -8,6 +8,9 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; The ~ modifier symbol makes it so that the system still receives the information of an e being presed
 ; Then it can delete the last character and paste the accurate new one
 ; todo: add some extra accents not found in macOS
+; todo: add tooltip to show available combinations
+; todo: add ability to long-press, release button, and then press number
+
 ; a
 
 ~a & 1::
