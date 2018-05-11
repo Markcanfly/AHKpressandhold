@@ -29,7 +29,7 @@ i_upper_tooltip := "Î   Ï   Í   Ī   Į   Ì`n1  2  3  4  5  6"
 o_lower := ["ô", "ö", "ò", "ó", "œ", "ø", "ō", "õ"]
 o_lower_tooltip := "ô  ö  ò  ó  œ  ø  ō  õ`n1  2  3   4   5   6  7  8"
 o_upper := ["Ô", "Ö", "Ò", "Ó", "Œ", "Ø", "Ō", "Õ"]
-o_upper_tooltip := "Ô  Ö  Ò  Ó  Œ  Ø  Ō  Õ`n1  2  3  4  5  6  7  8"
+o_upper_tooltip := "Ô  Ö  Ò  Ó  Œ  Ø  Ō  Õ`n1  2  3   4   5   6  7  8"
 a_lower := ["à", "á", "â", "ä", "æ", "ã", "å", "ā"]
 a_lower_tooltip := "à  á  â  ä  æ  ã  å  ā`n1  2  3  4  5  6  7  8"
 a_upper := ["À", "Á", "Â", "Ä", "Æ", "Ã", "Å", "Ā"]
@@ -62,7 +62,7 @@ n_upper_tooltip := "Ñ  Ń`n1  2"
 ; paste the python file's output here
 
 ~*a::
-    KeyWait, a, T0.5
+    KeyWait, a, T0.8
     if ErrorLevel
         if (GetKeyState("Shift", "P")){
             ToolTip, % a_upper_tooltip, %A_CaretX%, %A_CaretY%
@@ -153,7 +153,7 @@ ToolTip
 return
 
 ~*c::
-    KeyWait, c, T0.5
+    KeyWait, c, T0.8
     if ErrorLevel
         if (GetKeyState("Shift", "P")){
             ToolTip, % c_upper_tooltip, %A_CaretX%, %A_CaretY%
@@ -194,7 +194,7 @@ ToolTip
 return
 
 ~*e::
-    KeyWait, e, T0.5
+    KeyWait, e, T0.8
     if ErrorLevel
         if (GetKeyState("Shift", "P")){
             ToolTip, % e_upper_tooltip, %A_CaretX%, %A_CaretY%
@@ -275,7 +275,7 @@ ToolTip
 return
 
 ~*i::
-    KeyWait, i, T0.5
+    KeyWait, i, T0.8
     if ErrorLevel
         if (GetKeyState("Shift", "P")){
             ToolTip, % i_upper_tooltip, %A_CaretX%, %A_CaretY%
@@ -346,7 +346,7 @@ ToolTip
 return
 
 ~*l::
-    KeyWait, l, T0.5
+    KeyWait, l, T0.8
     if ErrorLevel
         if (GetKeyState("Shift", "P")){
             ToolTip, % l_upper_tooltip, %A_CaretX%, %A_CaretY%
@@ -367,7 +367,7 @@ ToolTip
 return
 
 ~*o::
-    KeyWait, o, T0.5
+    KeyWait, o, T0.8
     if ErrorLevel
         if (GetKeyState("Shift", "P")){
             ToolTip, % o_upper_tooltip, %A_CaretX%, %A_CaretY%
@@ -458,7 +458,7 @@ ToolTip
 return
 
 ~*n::
-    KeyWait, n, T0.5
+    KeyWait, n, T0.8
     if ErrorLevel
         if (GetKeyState("Shift", "P")){
             ToolTip, % n_upper_tooltip, %A_CaretX%, %A_CaretY%
@@ -489,7 +489,7 @@ ToolTip
 return
 
 ~*s::
-    KeyWait, s, T0.5
+    KeyWait, s, T0.8
     if ErrorLevel
         if (GetKeyState("Shift", "P")){
             ToolTip, % s_upper_tooltip, %A_CaretX%, %A_CaretY%
@@ -530,7 +530,7 @@ ToolTip
 return
 
 ~*u::
-    KeyWait, u, T0.5
+    KeyWait, u, T0.8
     if ErrorLevel
         if (GetKeyState("Shift", "P")){
             ToolTip, % u_upper_tooltip, %A_CaretX%, %A_CaretY%
@@ -591,7 +591,7 @@ ToolTip
 return
 
 ~*y::
-    KeyWait, y, T0.5
+    KeyWait, y, T0.8
     if ErrorLevel
         if (GetKeyState("Shift", "P")){
             ToolTip, % y_upper_tooltip, %A_CaretX%, %A_CaretY%
@@ -612,7 +612,7 @@ ToolTip
 return
 
 ~*z::
-    KeyWait, z, T0.5
+    KeyWait, z, T0.8
     if ErrorLevel
         if (GetKeyState("Shift", "P")){
             ToolTip, % z_upper_tooltip, %A_CaretX%, %A_CaretY%

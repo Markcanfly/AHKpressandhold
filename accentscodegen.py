@@ -1,9 +1,9 @@
 chars = {"e":7, "y":1, "u":5, "i":6, "o":8, "a":8, "s":3, "l":1, "z":3, "c":3, "n":2}
-
+delay = 0.8 # float, the number of seconds for how long you'll need to hold down the key for the tooltip to pop up
 for char in chars:
     # this writes the tooltip displayer segment
     print("~*{0}::".format(char)) 
-    print("    KeyWait, {0}, T0.5".format(char))
+    print("    KeyWait, {0}, T{1}".format(char, delay))
     print("    if ErrorLevel")
     print("        if (GetKeyState(\"Shift\", \"P\")){")
     print("            ToolTip, % {0}_upper_tooltip, %A_CaretX%, %A_CaretY%".format(char))
