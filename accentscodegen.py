@@ -4,14 +4,67 @@ import configparser
 config = configparser.ConfigParser()
 
 # parse config file
-config.read('config.ini')
+config.read("config.ini")
 
-tooltips=config.getboolean('tooltips', 'tooltips')
+tooltips=config.getboolean("tooltips", "tooltips")
 if tooltips:
-    delayBeforeTooltip = config.getfloat('tooltips', 'delayBeforeTooltip')
-    tooltipTimeout = int(config.getfloat('tooltips', 'tooltipTimeout') * 1000)
+    delayBeforeTooltip = config.getfloat("tooltips", "delayBeforeTooltip")
+    tooltipTimeout = int(config.getfloat("tooltips", "tooltipTimeout") * 1000)
 
-chars = {"e":7, "y":1, "u":5, "i":6, "o":8, "a":8, "s":3, "l":1, "z":3, "c":3, "n":2}
+# todo: check if the number of lowercase and uppercase chars for the same char are the same
+# todo: check each user input
+
+# set number of versions for each character
+chars = dict()
+
+for char in config["lowercase"]:
+    chars[char] = len(config["lowercase"][char].split(","))
+
+print("#NoEnv")
+print("SendMode Input")
+print("")
+
+# Set Repeat and Slow Keys in Ease of Access Center to slow down keyboard repeat rates 
+# to allow for more time for the second keypress
+
+# print lists of character variations and tooltips
+
+# print lowercase
+
+for char in config["lowercase"]:
+    charList = config["lowercase"][char].replace(" ", "").split(",")
+    print(char + "_lower := " + str(charList).replace("\'","\""))
+    tooltip = charList[0]
+    if len(charList) > 1:
+        for index in range(1, len(charList)):
+            tooltip += "   "
+            tooltip += charList[index]
+    tooltip += "`n1"
+    if len(charList) > 1:
+        for index in range(2, len(charList) + 1):
+            tooltip += "   "
+            tooltip += str(index)
+    print(char + "_lower_tooltip := \"" + tooltip + "\"")
+            
+
+# print uppercase
+
+for char in config["uppercase"]:
+    charList = config["uppercase"][char].replace(" ", "").split(",")
+    print(char + "_upper := " + str(charList).replace("\'","\""))
+    tooltip = charList[0]
+    if len(charList) > 1:
+        for index in range(1, len(charList)):
+            tooltip += "   "
+            tooltip += charList[index]
+    tooltip += "`n1"
+    if len(charList) > 1:
+        for index in range(2, len(charList) + 1):
+            tooltip += "   "
+            tooltip += str(index)
+    print(char + "_upper_tooltip := \"" + tooltip + "\"")
+
+# print code necessary for the key combinations
 
 for char in chars:
     # this writes the tooltip displayer segment
@@ -39,4 +92,9 @@ for char in chars:
             print("ToolTip")
         print("return")
         print("")
+
+print("""RemoveToolTip:
+SetTimer, RemoveToolTip, Off
+ToolTip
+return""")
 
