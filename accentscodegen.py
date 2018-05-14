@@ -1,5 +1,7 @@
 import configparser
 
+# TODO: add ability to select which programs should the script be enabled and disabled in
+
 # instantiate
 config = configparser.ConfigParser()
 
