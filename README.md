@@ -1,7 +1,9 @@
 # macosaccents
 An Autohotkey script made to mimic the macOS accent menu
 
-List of versions available for each character
+The script itself only requires AutoHotkey to be installed.
+
+Basic variations taken from the US layout (international)
 
 |     |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |
 |----:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -16,3 +18,5 @@ List of versions available for each character
 |**u**|  û  |  ü  |  ù  |  ú  |  ū  |     |     |     |
 |**y**|  ÿ  |     |     |     |     |     |     |     |
 |**z**|  ž  |  ź  |  ż  |     |     |     |     |     |
+
+To change the basic layout or the properties of the tooltips, change the included config.ini, then run accentscodegen.py (written in Python3), the output of which will be your code.
