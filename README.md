@@ -1,7 +1,7 @@
 # macosaccents
 An AutoHotkey script made to mimic the macOS accent menu
 
-*The script itself only requires AutoHotkey to be installed, you only need Python to easily update the script.*
+*The script itself only requires AutoHotkey to be installed, but Python is needed to easily update the script.*
 
 Basic variations taken from the US layout (international)
 
