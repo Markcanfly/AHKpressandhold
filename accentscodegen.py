@@ -96,7 +96,7 @@ Send, % {0}_upper[{1}]
 Send, % {0}_lower[{1}]
 }}""".format(char,n))
         if tooltips:
-            file.write("ToolTip\n")
+            file.write("\nToolTip\n")
         file.write("return\n\n")
 
 file.write("""RemoveToolTip:

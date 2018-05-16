@@ -56,11 +56,13 @@ KeyWait, e, T0.9
             }
 SetTimer, RemoveToolTip, 2500
 return
+
 ~e & 1::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % e_upper[1]
-} else {    Send, % e_lower[1]
+Send, % e_upper[1]
+} else {
+Send, % e_lower[1]
 }
 ToolTip
 return
@@ -68,8 +70,9 @@ return
 ~e & 2::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % e_upper[2]
-} else {    Send, % e_lower[2]
+Send, % e_upper[2]
+} else {
+Send, % e_lower[2]
 }
 ToolTip
 return
@@ -77,8 +80,9 @@ return
 ~e & 3::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % e_upper[3]
-} else {    Send, % e_lower[3]
+Send, % e_upper[3]
+} else {
+Send, % e_lower[3]
 }
 ToolTip
 return
@@ -86,8 +90,9 @@ return
 ~e & 4::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % e_upper[4]
-} else {    Send, % e_lower[4]
+Send, % e_upper[4]
+} else {
+Send, % e_lower[4]
 }
 ToolTip
 return
@@ -95,8 +100,9 @@ return
 ~e & 5::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % e_upper[5]
-} else {    Send, % e_lower[5]
+Send, % e_upper[5]
+} else {
+Send, % e_lower[5]
 }
 ToolTip
 return
@@ -104,8 +110,9 @@ return
 ~e & 6::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % e_upper[6]
-} else {    Send, % e_lower[6]
+Send, % e_upper[6]
+} else {
+Send, % e_lower[6]
 }
 ToolTip
 return
@@ -113,8 +120,9 @@ return
 ~e & 7::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % e_upper[7]
-} else {    Send, % e_lower[7]
+Send, % e_upper[7]
+} else {
+Send, % e_lower[7]
 }
 ToolTip
 return
@@ -129,11 +137,13 @@ KeyWait, y, T0.9
             }
 SetTimer, RemoveToolTip, 2500
 return
+
 ~y & 1::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % y_upper[1]
-} else {    Send, % y_lower[1]
+Send, % y_upper[1]
+} else {
+Send, % y_lower[1]
 }
 ToolTip
 return
@@ -148,11 +158,13 @@ KeyWait, u, T0.9
             }
 SetTimer, RemoveToolTip, 2500
 return
+
 ~u & 1::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % u_upper[1]
-} else {    Send, % u_lower[1]
+Send, % u_upper[1]
+} else {
+Send, % u_lower[1]
 }
 ToolTip
 return
@@ -160,8 +172,9 @@ return
 ~u & 2::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % u_upper[2]
-} else {    Send, % u_lower[2]
+Send, % u_upper[2]
+} else {
+Send, % u_lower[2]
 }
 ToolTip
 return
@@ -169,8 +182,9 @@ return
 ~u & 3::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % u_upper[3]
-} else {    Send, % u_lower[3]
+Send, % u_upper[3]
+} else {
+Send, % u_lower[3]
 }
 ToolTip
 return
@@ -178,8 +192,9 @@ return
 ~u & 4::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % u_upper[4]
-} else {    Send, % u_lower[4]
+Send, % u_upper[4]
+} else {
+Send, % u_lower[4]
 }
 ToolTip
 return
@@ -187,8 +202,9 @@ return
 ~u & 5::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % u_upper[5]
-} else {    Send, % u_lower[5]
+Send, % u_upper[5]
+} else {
+Send, % u_lower[5]
 }
 ToolTip
 return
@@ -203,11 +219,13 @@ KeyWait, i, T0.9
             }
 SetTimer, RemoveToolTip, 2500
 return
+
 ~i & 1::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % i_upper[1]
-} else {    Send, % i_lower[1]
+Send, % i_upper[1]
+} else {
+Send, % i_lower[1]
 }
 ToolTip
 return
@@ -215,8 +233,9 @@ return
 ~i & 2::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % i_upper[2]
-} else {    Send, % i_lower[2]
+Send, % i_upper[2]
+} else {
+Send, % i_lower[2]
 }
 ToolTip
 return
@@ -224,8 +243,9 @@ return
 ~i & 3::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % i_upper[3]
-} else {    Send, % i_lower[3]
+Send, % i_upper[3]
+} else {
+Send, % i_lower[3]
 }
 ToolTip
 return
@@ -233,8 +253,9 @@ return
 ~i & 4::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % i_upper[4]
-} else {    Send, % i_lower[4]
+Send, % i_upper[4]
+} else {
+Send, % i_lower[4]
 }
 ToolTip
 return
@@ -242,8 +263,9 @@ return
 ~i & 5::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % i_upper[5]
-} else {    Send, % i_lower[5]
+Send, % i_upper[5]
+} else {
+Send, % i_lower[5]
 }
 ToolTip
 return
@@ -251,8 +273,9 @@ return
 ~i & 6::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % i_upper[6]
-} else {    Send, % i_lower[6]
+Send, % i_upper[6]
+} else {
+Send, % i_lower[6]
 }
 ToolTip
 return
@@ -267,11 +290,13 @@ KeyWait, o, T0.9
             }
 SetTimer, RemoveToolTip, 2500
 return
+
 ~o & 1::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % o_upper[1]
-} else {    Send, % o_lower[1]
+Send, % o_upper[1]
+} else {
+Send, % o_lower[1]
 }
 ToolTip
 return
@@ -279,8 +304,9 @@ return
 ~o & 2::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % o_upper[2]
-} else {    Send, % o_lower[2]
+Send, % o_upper[2]
+} else {
+Send, % o_lower[2]
 }
 ToolTip
 return
@@ -288,8 +314,9 @@ return
 ~o & 3::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % o_upper[3]
-} else {    Send, % o_lower[3]
+Send, % o_upper[3]
+} else {
+Send, % o_lower[3]
 }
 ToolTip
 return
@@ -297,8 +324,9 @@ return
 ~o & 4::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % o_upper[4]
-} else {    Send, % o_lower[4]
+Send, % o_upper[4]
+} else {
+Send, % o_lower[4]
 }
 ToolTip
 return
@@ -306,8 +334,9 @@ return
 ~o & 5::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % o_upper[5]
-} else {    Send, % o_lower[5]
+Send, % o_upper[5]
+} else {
+Send, % o_lower[5]
 }
 ToolTip
 return
@@ -315,8 +344,9 @@ return
 ~o & 6::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % o_upper[6]
-} else {    Send, % o_lower[6]
+Send, % o_upper[6]
+} else {
+Send, % o_lower[6]
 }
 ToolTip
 return
@@ -324,8 +354,9 @@ return
 ~o & 7::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % o_upper[7]
-} else {    Send, % o_lower[7]
+Send, % o_upper[7]
+} else {
+Send, % o_lower[7]
 }
 ToolTip
 return
@@ -333,8 +364,9 @@ return
 ~o & 8::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % o_upper[8]
-} else {    Send, % o_lower[8]
+Send, % o_upper[8]
+} else {
+Send, % o_lower[8]
 }
 ToolTip
 return
@@ -349,11 +381,13 @@ KeyWait, a, T0.9
             }
 SetTimer, RemoveToolTip, 2500
 return
+
 ~a & 1::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % a_upper[1]
-} else {    Send, % a_lower[1]
+Send, % a_upper[1]
+} else {
+Send, % a_lower[1]
 }
 ToolTip
 return
@@ -361,8 +395,9 @@ return
 ~a & 2::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % a_upper[2]
-} else {    Send, % a_lower[2]
+Send, % a_upper[2]
+} else {
+Send, % a_lower[2]
 }
 ToolTip
 return
@@ -370,8 +405,9 @@ return
 ~a & 3::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % a_upper[3]
-} else {    Send, % a_lower[3]
+Send, % a_upper[3]
+} else {
+Send, % a_lower[3]
 }
 ToolTip
 return
@@ -379,8 +415,9 @@ return
 ~a & 4::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % a_upper[4]
-} else {    Send, % a_lower[4]
+Send, % a_upper[4]
+} else {
+Send, % a_lower[4]
 }
 ToolTip
 return
@@ -388,8 +425,9 @@ return
 ~a & 5::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % a_upper[5]
-} else {    Send, % a_lower[5]
+Send, % a_upper[5]
+} else {
+Send, % a_lower[5]
 }
 ToolTip
 return
@@ -397,8 +435,9 @@ return
 ~a & 6::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % a_upper[6]
-} else {    Send, % a_lower[6]
+Send, % a_upper[6]
+} else {
+Send, % a_lower[6]
 }
 ToolTip
 return
@@ -406,8 +445,9 @@ return
 ~a & 7::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % a_upper[7]
-} else {    Send, % a_lower[7]
+Send, % a_upper[7]
+} else {
+Send, % a_lower[7]
 }
 ToolTip
 return
@@ -415,8 +455,9 @@ return
 ~a & 8::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % a_upper[8]
-} else {    Send, % a_lower[8]
+Send, % a_upper[8]
+} else {
+Send, % a_lower[8]
 }
 ToolTip
 return
@@ -431,11 +472,13 @@ KeyWait, s, T0.9
             }
 SetTimer, RemoveToolTip, 2500
 return
+
 ~s & 1::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % s_upper[1]
-} else {    Send, % s_lower[1]
+Send, % s_upper[1]
+} else {
+Send, % s_lower[1]
 }
 ToolTip
 return
@@ -443,8 +486,9 @@ return
 ~s & 2::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % s_upper[2]
-} else {    Send, % s_lower[2]
+Send, % s_upper[2]
+} else {
+Send, % s_lower[2]
 }
 ToolTip
 return
@@ -452,8 +496,9 @@ return
 ~s & 3::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % s_upper[3]
-} else {    Send, % s_lower[3]
+Send, % s_upper[3]
+} else {
+Send, % s_lower[3]
 }
 ToolTip
 return
@@ -468,11 +513,13 @@ KeyWait, l, T0.9
             }
 SetTimer, RemoveToolTip, 2500
 return
+
 ~l & 1::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % l_upper[1]
-} else {    Send, % l_lower[1]
+Send, % l_upper[1]
+} else {
+Send, % l_lower[1]
 }
 ToolTip
 return
@@ -487,11 +534,13 @@ KeyWait, z, T0.9
             }
 SetTimer, RemoveToolTip, 2500
 return
+
 ~z & 1::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % z_upper[1]
-} else {    Send, % z_lower[1]
+Send, % z_upper[1]
+} else {
+Send, % z_lower[1]
 }
 ToolTip
 return
@@ -499,8 +548,9 @@ return
 ~z & 2::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % z_upper[2]
-} else {    Send, % z_lower[2]
+Send, % z_upper[2]
+} else {
+Send, % z_lower[2]
 }
 ToolTip
 return
@@ -508,8 +558,9 @@ return
 ~z & 3::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % z_upper[3]
-} else {    Send, % z_lower[3]
+Send, % z_upper[3]
+} else {
+Send, % z_lower[3]
 }
 ToolTip
 return
@@ -524,11 +575,13 @@ KeyWait, c, T0.9
             }
 SetTimer, RemoveToolTip, 2500
 return
+
 ~c & 1::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % c_upper[1]
-} else {    Send, % c_lower[1]
+Send, % c_upper[1]
+} else {
+Send, % c_lower[1]
 }
 ToolTip
 return
@@ -536,8 +589,9 @@ return
 ~c & 2::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % c_upper[2]
-} else {    Send, % c_lower[2]
+Send, % c_upper[2]
+} else {
+Send, % c_lower[2]
 }
 ToolTip
 return
@@ -545,8 +599,9 @@ return
 ~c & 3::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % c_upper[3]
-} else {    Send, % c_lower[3]
+Send, % c_upper[3]
+} else {
+Send, % c_lower[3]
 }
 ToolTip
 return
@@ -561,11 +616,13 @@ KeyWait, n, T0.9
             }
 SetTimer, RemoveToolTip, 2500
 return
+
 ~n & 1::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % n_upper[1]
-} else {    Send, % n_lower[1]
+Send, % n_upper[1]
+} else {
+Send, % n_lower[1]
 }
 ToolTip
 return
@@ -573,8 +630,9 @@ return
 ~n & 2::
 Send, {BackSpace}
 if (GetKeyState("Shift", "P")) {
-    Send, % n_upper[2]
-} else {    Send, % n_lower[2]
+Send, % n_upper[2]
+} else {
+Send, % n_lower[2]
 }
 ToolTip
 return
