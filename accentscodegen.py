@@ -6,7 +6,7 @@ import configparser
 config = configparser.ConfigParser()
 
 # parse config file
-config.read("config.ini")
+config.read("config.ini", encoding="utf-8")
 
 tooltips=config.getboolean("tooltips", "tooltips")
 if tooltips:
