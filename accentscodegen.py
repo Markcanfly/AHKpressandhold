@@ -1,4 +1,8 @@
-import configparser
+try:
+    import configparser
+    config = configparser.ConfigParser()
+except ImportError:
+    import ConfigParser as configparser
 
 file = open('accents.ahk', mode="w", encoding="utf-8-sig")
 
