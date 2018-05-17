@@ -51,17 +51,18 @@ file.write("SendMode Input\n\n")
 for char in config["lowercase"]:
     charList = config["lowercase"][char].replace(" ", "").split(",")
     file.write(char + "_lower := " + str(charList).replace("\'","\"") + "\n")
-    tooltip = charList[0]
-    if len(charList) > 1:
-        for index in range(1, len(charList)):
-            tooltip += "   "
-            tooltip += charList[index]
-    tooltip += "`n1"
-    if len(charList) > 1:
-        for index in range(2, len(charList) + 1):
-            tooltip += "   "
-            tooltip += str(index)
-    file.write(char + "_lower_tooltip := \"" + tooltip + "\"\n")
+    if tooltips:
+        tooltip = charList[0]
+        if len(charList) > 1:
+            for index in range(1, len(charList)):
+                tooltip += "   "
+                tooltip += charList[index]
+        tooltip += "`n1"
+        if len(charList) > 1:
+            for index in range(2, len(charList) + 1):
+                tooltip += "   "
+                tooltip += str(index)
+        file.write(char + "_lower_tooltip := \"" + tooltip + "\"\n")
 
 
 # print uppercase
@@ -69,17 +70,18 @@ for char in config["lowercase"]:
 for char in config["uppercase"]:
     charList = config["uppercase"][char].replace(" ", "").split(",")
     file.write(char + "_upper := " + str(charList).replace("\'","\"") + "\n")
-    tooltip = charList[0]
-    if len(charList) > 1:
-        for index in range(1, len(charList)):
-            tooltip += "   "
-            tooltip += charList[index]
-    tooltip += "`n1"
-    if len(charList) > 1:
-        for index in range(2, len(charList) + 1):
-            tooltip += "   "
-            tooltip += str(index)
-    file.write(char + "_upper_tooltip := \"" + tooltip + "\"\n")
+    if tooltips:
+        tooltip = charList[0]
+        if len(charList) > 1:
+            for index in range(1, len(charList)):
+                tooltip += "   "
+                tooltip += charList[index]
+        tooltip += "`n1"
+        if len(charList) > 1:
+            for index in range(2, len(charList) + 1):
+                tooltip += "   "
+                tooltip += str(index)
+        file.write(char + "_upper_tooltip := \"" + tooltip + "\"\n")
 
 file.write("\n")
 
@@ -110,10 +112,10 @@ Send, % {0}_upper[{1}]
 Send, % {0}_lower[{1}]
 }}""".format(char,n))
         if tooltips:
-            file.write("\nToolTip\n")
-        file.write("return\n\n")
-
-file.write("""RemoveToolTip:
+            file.write("\nToolTip")
+        file.write("\nreturn\n\n")
+if tooltips:
+    file.write("""RemoveToolTip:
 SetTimer, RemoveToolTip, Off
 ToolTip
 return""")
