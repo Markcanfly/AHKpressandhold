@@ -19,4 +19,4 @@ Basic variations taken from the US layout (international)
 |**y**|  ÿ  |     |     |     |     |     |     |     |
 |**z**|  ž  |  ź  |  ż  |     |     |     |     |     |
 
-To change the basic layout or the properties of the tooltips, change the included config.ini, then run accentscodegen.py (written in Python3), the output of which will be your code.
+To change the basic layout or the properties of the tooltips, change the included config.ini, then run accentscodegen.py (written in Python3), which writes the generated code to the .ahk file. 
