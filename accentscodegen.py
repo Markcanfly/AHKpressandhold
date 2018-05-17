@@ -12,8 +12,11 @@ file = open('accents.ahk', mode="w", encoding="utf-8-sig")
 config = configparser.ConfigParser()
 
 # parse config file
-config.read("config.ini", encoding="utf-8")
-
+try:
+    config.read("config.ini", encoding="utf-8")
+except FileNotFoundError:
+    print("Config file not found.")
+    exit()
 tooltips=config.getboolean("tooltips", "tooltips")
 if tooltips:
     delayBeforeTooltip = config.getfloat("tooltips", "delayBeforeTooltip")
