@@ -14,7 +14,9 @@ try:
 except FileNotFoundError:
     print("Config file not found.")
     exit()
-tooltips=config.getboolean("tooltips", "tooltips")
+
+tooltips = config.getboolean("tooltips", "tooltips")
+
 if tooltips:
     delayBeforeTooltip = config.getfloat("tooltips", "delayBeforeTooltip")
     tooltipTimeout = int(config.getfloat("tooltips", "tooltipTimeout") * 1000)
@@ -28,11 +30,19 @@ chars = dict()
 for char in config["lowercase"]:
     chars[char] = len(config["lowercase"][char].split(","))
 
+# Check user input
+upperToLower = list(config["uppercase"])
+for index in range(len(upperToLower)):
+    upperToLower[index] = upperToLower[index].lower()
+
+if list(config["lowercase"]) != upperToLower:
+    raise ValueError("One or more characters don't have an uppercase/lowercase version.")
+
+# Set Repeat and Slow Keys in Ease of Access Center to slow down keyboard repeat rates
+# to allow for more time for the second keypress
+
 file.write("#NoEnv\n")
 file.write("SendMode Input\n\n")
-
-# Set Repeat and Slow Keys in Ease of Access Center to slow down keyboard repeat rates 
-# to allow for more time for the second keypress
 
 # print lists of character variations and tooltips
 
@@ -52,7 +62,7 @@ for char in config["lowercase"]:
             tooltip += "   "
             tooltip += str(index)
     file.write(char + "_lower_tooltip := \"" + tooltip + "\"\n")
-            
+
 
 # print uppercase
 
