@@ -15,7 +15,13 @@ except FileNotFoundError:
     print("Config file not found.")
     exit()
 
+disableTooltipsInSpecifiedWindows = list()
+
 tooltips = config.getboolean("tooltips", "tooltips")
+if "disableScriptIn" in config["general"]:
+    disableTooltipsInSpecifiedWindows = config["tooltips"]["disableTooltipsIn"].split(",")
+    for index in range(len(disableTooltipsInSpecifiedWindows)):
+        disableTooltipsInSpecifiedWindows[index] = disableTooltipsInSpecifiedWindows[index].strip()
 
 if tooltips:
     delayBeforeTooltip = config.getfloat("tooltips", "delayBeforeTooltip")
@@ -42,7 +48,10 @@ if list(config["lowercase"]) != upperToLower:
 # to allow for more time for the second keypress
 
 file.write("#NoEnv\n")
-file.write("SendMode Input\n\n")
+file.write("SendMode Input\n")
+if disableTooltipsInSpecifiedWindows != []:
+    file.write("SetTitleMatchMode, 2\n")
+file.write("\n")
 
 # print lists of character variations and tooltips
 
@@ -63,7 +72,6 @@ for char in config["lowercase"]:
                 tooltip += "   "
                 tooltip += str(index)
         file.write(char + "_lower_tooltip := \"" + tooltip + "\"\n")
-
 
 # print uppercase
 
@@ -90,8 +98,13 @@ file.write("\n")
 for char in chars:
     # this writes the tooltip displayer segment
     if tooltips:
-        file.write("""~*{0}::
-KeyWait, {0}, T{1}
+        file.write("~*{0}::\n".format(char))
+        if disableTooltipsInSpecifiedWindows != []:
+            file.write("if not (WinActive(\"{0}\")".format(disableTooltipsInSpecifiedWindows[0]))
+            for index in range(1, len(disableTooltipsInSpecifiedWindows)):
+                file.write("or WinActive(\"{0}\")".format(disableTooltipsInSpecifiedWindows[index]))
+            file.write(") {\n")
+        file.write("""KeyWait, {0}, T{1}
     if ErrorLevel
         if (GetKeyState(\"Shift\", \"P\")){{
             ToolTip, % {0}_upper_tooltip, %A_CaretX%, %A_CaretY%
@@ -99,10 +112,10 @@ KeyWait, {0}, T{1}
             ToolTip, % {0}_lower_tooltip, %A_CaretX%, %A_CaretY%
             }}
 SetTimer, RemoveToolTip, {2}
-return
-
 """.format(char, delayBeforeTooltip, tooltipTimeout))
-
+    if disableTooltipsInSpecifiedWindows != []:
+        file.write("}\n")
+    file.write("return\n\n")
     for n in range(1, chars[char] + 1):
         file.write("""~{0} & {1}::
 Send, {{BackSpace}}
@@ -114,6 +127,7 @@ Send, % {0}_lower[{1}]
         if tooltips:
             file.write("\nToolTip")
         file.write("\nreturn\n\n")
+
 if tooltips:
     file.write("""RemoveToolTip:
 SetTimer, RemoveToolTip, Off

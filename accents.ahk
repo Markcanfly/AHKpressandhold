@@ -1,5 +1,6 @@
 ﻿#NoEnv
 SendMode Input
+SetTitleMatchMode, 2
 
 e_lower := ["è", "é", "ê", "ë", "ē", "ė", "ę"]
 e_lower_tooltip := "è   é   ê   ë   ē   ė   ę`n1   2   3   4   5   6   7"
@@ -47,6 +48,7 @@ n_upper := ["Ñ", "Ń"]
 n_upper_tooltip := "Ñ   Ń`n1   2"
 
 ~*e::
+if not (WinActive("Darwin Project")or WinActive("Overwatch")or WinActive("Notepad")) {
 KeyWait, e, T0.9
     if ErrorLevel
         if (GetKeyState("Shift", "P")){
@@ -55,6 +57,7 @@ KeyWait, e, T0.9
             ToolTip, % e_lower_tooltip, %A_CaretX%, %A_CaretY%
             }
 SetTimer, RemoveToolTip, 2500
+}
 return
 
 ~e & 1::
@@ -128,6 +131,7 @@ ToolTip
 return
 
 ~*y::
+if not (WinActive("Darwin Project")or WinActive("Overwatch")or WinActive("Notepad")) {
 KeyWait, y, T0.9
     if ErrorLevel
         if (GetKeyState("Shift", "P")){
@@ -136,6 +140,7 @@ KeyWait, y, T0.9
             ToolTip, % y_lower_tooltip, %A_CaretX%, %A_CaretY%
             }
 SetTimer, RemoveToolTip, 2500
+}
 return
 
 ~y & 1::
@@ -149,6 +154,7 @@ ToolTip
 return
 
 ~*u::
+if not (WinActive("Darwin Project")or WinActive("Overwatch")or WinActive("Notepad")) {
 KeyWait, u, T0.9
     if ErrorLevel
         if (GetKeyState("Shift", "P")){
@@ -157,6 +163,7 @@ KeyWait, u, T0.9
             ToolTip, % u_lower_tooltip, %A_CaretX%, %A_CaretY%
             }
 SetTimer, RemoveToolTip, 2500
+}
 return
 
 ~u & 1::
@@ -210,6 +217,7 @@ ToolTip
 return
 
 ~*i::
+if not (WinActive("Darwin Project")or WinActive("Overwatch")or WinActive("Notepad")) {
 KeyWait, i, T0.9
     if ErrorLevel
         if (GetKeyState("Shift", "P")){
@@ -218,6 +226,7 @@ KeyWait, i, T0.9
             ToolTip, % i_lower_tooltip, %A_CaretX%, %A_CaretY%
             }
 SetTimer, RemoveToolTip, 2500
+}
 return
 
 ~i & 1::
@@ -281,6 +290,7 @@ ToolTip
 return
 
 ~*o::
+if not (WinActive("Darwin Project")or WinActive("Overwatch")or WinActive("Notepad")) {
 KeyWait, o, T0.9
     if ErrorLevel
         if (GetKeyState("Shift", "P")){
@@ -289,6 +299,7 @@ KeyWait, o, T0.9
             ToolTip, % o_lower_tooltip, %A_CaretX%, %A_CaretY%
             }
 SetTimer, RemoveToolTip, 2500
+}
 return
 
 ~o & 1::
@@ -372,6 +383,7 @@ ToolTip
 return
 
 ~*a::
+if not (WinActive("Darwin Project")or WinActive("Overwatch")or WinActive("Notepad")) {
 KeyWait, a, T0.9
     if ErrorLevel
         if (GetKeyState("Shift", "P")){
@@ -380,6 +392,7 @@ KeyWait, a, T0.9
             ToolTip, % a_lower_tooltip, %A_CaretX%, %A_CaretY%
             }
 SetTimer, RemoveToolTip, 2500
+}
 return
 
 ~a & 1::
@@ -463,6 +476,7 @@ ToolTip
 return
 
 ~*s::
+if not (WinActive("Darwin Project")or WinActive("Overwatch")or WinActive("Notepad")) {
 KeyWait, s, T0.9
     if ErrorLevel
         if (GetKeyState("Shift", "P")){
@@ -471,6 +485,7 @@ KeyWait, s, T0.9
             ToolTip, % s_lower_tooltip, %A_CaretX%, %A_CaretY%
             }
 SetTimer, RemoveToolTip, 2500
+}
 return
 
 ~s & 1::
@@ -504,6 +519,7 @@ ToolTip
 return
 
 ~*l::
+if not (WinActive("Darwin Project")or WinActive("Overwatch")or WinActive("Notepad")) {
 KeyWait, l, T0.9
     if ErrorLevel
         if (GetKeyState("Shift", "P")){
@@ -512,6 +528,7 @@ KeyWait, l, T0.9
             ToolTip, % l_lower_tooltip, %A_CaretX%, %A_CaretY%
             }
 SetTimer, RemoveToolTip, 2500
+}
 return
 
 ~l & 1::
@@ -525,6 +542,7 @@ ToolTip
 return
 
 ~*z::
+if not (WinActive("Darwin Project")or WinActive("Overwatch")or WinActive("Notepad")) {
 KeyWait, z, T0.9
     if ErrorLevel
         if (GetKeyState("Shift", "P")){
@@ -533,6 +551,7 @@ KeyWait, z, T0.9
             ToolTip, % z_lower_tooltip, %A_CaretX%, %A_CaretY%
             }
 SetTimer, RemoveToolTip, 2500
+}
 return
 
 ~z & 1::
@@ -566,6 +585,7 @@ ToolTip
 return
 
 ~*c::
+if not (WinActive("Darwin Project")or WinActive("Overwatch")or WinActive("Notepad")) {
 KeyWait, c, T0.9
     if ErrorLevel
         if (GetKeyState("Shift", "P")){
@@ -574,6 +594,7 @@ KeyWait, c, T0.9
             ToolTip, % c_lower_tooltip, %A_CaretX%, %A_CaretY%
             }
 SetTimer, RemoveToolTip, 2500
+}
 return
 
 ~c & 1::
@@ -607,6 +628,7 @@ ToolTip
 return
 
 ~*n::
+if not (WinActive("Darwin Project")or WinActive("Overwatch")or WinActive("Notepad")) {
 KeyWait, n, T0.9
     if ErrorLevel
         if (GetKeyState("Shift", "P")){
@@ -615,6 +637,7 @@ KeyWait, n, T0.9
             ToolTip, % n_lower_tooltip, %A_CaretX%, %A_CaretY%
             }
 SetTimer, RemoveToolTip, 2500
+}
 return
 
 ~n & 1::
