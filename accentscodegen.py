@@ -159,4 +159,6 @@ SetTimer, RemoveToolTip, Off
 ToolTip
 return""")
 
+file.write("\n")
+
 file.close()
