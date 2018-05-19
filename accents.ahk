@@ -47,8 +47,16 @@ c_upper_tooltip := "Ç   Ć   Č`n1   2   3"
 n_upper := ["Ñ", "Ń"]
 n_upper_tooltip := "Ñ   Ń`n1   2"
 
+shouldTooltipsBeEnabledHere() {
+if not (WinActive("Darwin Project") or WinActive("Overwatch") or WinActive("League")) {
+return true
+} else {
+return false
+}
+}
+
 ~*e::
-if not (WinActive("Darwin Project") or WinActive("Overwatch")) {
+if shouldTooltipsBeEnabledHere() {
 KeyWait, e, T0.9
     if ErrorLevel
         if (GetKeyState("Shift", "P")){
@@ -131,7 +139,7 @@ ToolTip
 return
 
 ~*y::
-if not (WinActive("Darwin Project") or WinActive("Overwatch")) {
+if shouldTooltipsBeEnabledHere() {
 KeyWait, y, T0.9
     if ErrorLevel
         if (GetKeyState("Shift", "P")){
@@ -154,7 +162,7 @@ ToolTip
 return
 
 ~*u::
-if not (WinActive("Darwin Project") or WinActive("Overwatch")) {
+if shouldTooltipsBeEnabledHere() {
 KeyWait, u, T0.9
     if ErrorLevel
         if (GetKeyState("Shift", "P")){
@@ -217,7 +225,7 @@ ToolTip
 return
 
 ~*i::
-if not (WinActive("Darwin Project") or WinActive("Overwatch")) {
+if shouldTooltipsBeEnabledHere() {
 KeyWait, i, T0.9
     if ErrorLevel
         if (GetKeyState("Shift", "P")){
@@ -290,7 +298,7 @@ ToolTip
 return
 
 ~*o::
-if not (WinActive("Darwin Project") or WinActive("Overwatch")) {
+if shouldTooltipsBeEnabledHere() {
 KeyWait, o, T0.9
     if ErrorLevel
         if (GetKeyState("Shift", "P")){
@@ -383,7 +391,7 @@ ToolTip
 return
 
 ~*a::
-if not (WinActive("Darwin Project") or WinActive("Overwatch")) {
+if shouldTooltipsBeEnabledHere() {
 KeyWait, a, T0.9
     if ErrorLevel
         if (GetKeyState("Shift", "P")){
@@ -476,7 +484,7 @@ ToolTip
 return
 
 ~*s::
-if not (WinActive("Darwin Project") or WinActive("Overwatch")) {
+if shouldTooltipsBeEnabledHere() {
 KeyWait, s, T0.9
     if ErrorLevel
         if (GetKeyState("Shift", "P")){
@@ -519,7 +527,7 @@ ToolTip
 return
 
 ~*l::
-if not (WinActive("Darwin Project") or WinActive("Overwatch")) {
+if shouldTooltipsBeEnabledHere() {
 KeyWait, l, T0.9
     if ErrorLevel
         if (GetKeyState("Shift", "P")){
@@ -542,7 +550,7 @@ ToolTip
 return
 
 ~*z::
-if not (WinActive("Darwin Project") or WinActive("Overwatch")) {
+if shouldTooltipsBeEnabledHere() {
 KeyWait, z, T0.9
     if ErrorLevel
         if (GetKeyState("Shift", "P")){
@@ -585,7 +593,7 @@ ToolTip
 return
 
 ~*c::
-if not (WinActive("Darwin Project") or WinActive("Overwatch")) {
+if shouldTooltipsBeEnabledHere() {
 KeyWait, c, T0.9
     if ErrorLevel
         if (GetKeyState("Shift", "P")){
@@ -628,7 +636,7 @@ ToolTip
 return
 
 ~*n::
-if not (WinActive("Darwin Project") or WinActive("Overwatch")) {
+if shouldTooltipsBeEnabledHere() {
 KeyWait, n, T0.9
     if ErrorLevel
         if (GetKeyState("Shift", "P")){

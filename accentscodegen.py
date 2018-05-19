@@ -98,6 +98,20 @@ for char in config["uppercase"]:
 
 file.write("\n")
 
+# print a function that checks if one of the windows specified in "disableTooltipsIn" is open
+if disableTooltipsInSpecifiedWindows != []:
+    file.write("shouldTooltipsBeEnabledHere() {\n")
+    file.write("if not (WinActive(\"{0}\")".format(disableTooltipsInSpecifiedWindows[0]))
+    for index in range(1, len(disableTooltipsInSpecifiedWindows)):
+        file.write(" or WinActive(\"{0}\")".format(disableTooltipsInSpecifiedWindows[index]))
+    file.write(") {\n")
+    file.write("return true\n")
+    file.write("} else {\n")
+    file.write("return false\n")
+    file.write("}\n")
+    file.write("}\n\n")
+
+
 # print code necessary for the key combinations
 
 for char in chars:
@@ -105,10 +119,8 @@ for char in chars:
     if tooltips:
         file.write("~*{0}::\n".format(char))
         if disableTooltipsInSpecifiedWindows != []:
-            file.write("if not (WinActive(\"{0}\")".format(disableTooltipsInSpecifiedWindows[0]))
-            for index in range(1, len(disableTooltipsInSpecifiedWindows)):
-                file.write(" or WinActive(\"{0}\")".format(disableTooltipsInSpecifiedWindows[index]))
-            file.write(") {\n")
+            file.write("if shouldTooltipsBeEnabledHere()")
+            file.write(" {\n")
         file.write("""KeyWait, {0}, T{1}
     if ErrorLevel
         if (GetKeyState(\"Shift\", \"P\")){{
