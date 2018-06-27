@@ -48,7 +48,7 @@ n_upper := ["Ñ", "Ń"]
 n_upper_tooltip := "Ñ   Ń`n1   2"
 
 shouldTooltipsBeEnabledHere() {
-if eWinActive("Darwin Project") or WinActive("Overwatch") or WinActive("Rocket League") or WinActive("Just Cause") or WinActive("Keep Talking and Nobody Explodes") or WinActive("Left 4 Dead") or WinActive("Life is Strange") or WinActive("Not Time To Explain") or WinActive("Portal") or WinActive("SpeedRunners") or WinActive("STAR WARS") or WinActive("Terraria") or WinActive("Town of Salem") {
+if WinActive("Darwin Project") or WinActive("Overwatch") or WinActive("Rocket League") or WinActive("Just Cause") or WinActive("Keep Talking and Nobody Explodes") or WinActive("Left 4 Dead") or WinActive("Life is Strange") or WinActive("Not Time To Explain") or WinActive("Portal") or WinActive("SpeedRunners") or WinActive("STAR WARS") or WinActive("Terraria") or WinActive("Town of Salem") {
 return false
 } else {
 return true
