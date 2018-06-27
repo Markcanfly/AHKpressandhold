@@ -101,13 +101,13 @@ file.write("\n")
 # print a function that checks if one of the windows specified in "disableTooltipsIn" is open
 if disableTooltipsInSpecifiedWindows != []:
     file.write("shouldTooltipsBeEnabledHere() {\n")
-    file.write("if not (WinActive(\"{0}\")".format(disableTooltipsInSpecifiedWindows[0]))
+    file.write("if WinActive(\"{0}\")".format(disableTooltipsInSpecifiedWindows[0]))
     for index in range(1, len(disableTooltipsInSpecifiedWindows)):
         file.write(" or WinActive(\"{0}\")".format(disableTooltipsInSpecifiedWindows[index]))
-    file.write(") {\n")
-    file.write("return true\n")
-    file.write("} else {\n")
+    file.write(" {\n")
     file.write("return false\n")
+    file.write("} else {\n")
+    file.write("return true\n")
     file.write("}\n")
     file.write("}\n\n")
 

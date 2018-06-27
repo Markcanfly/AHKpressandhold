@@ -48,10 +48,10 @@ n_upper := ["Ñ", "Ń"]
 n_upper_tooltip := "Ñ   Ń`n1   2"
 
 shouldTooltipsBeEnabledHere() {
-if not (WinActive("Darwin Project") or WinActive("Overwatch")) {
-return true
-} else {
+if WinActive("Darwin Project") or WinActive("Overwatch") {
 return false
+} else {
+return true
 }
 }
 
