@@ -1,5 +1,5 @@
-# macosaccents
-An AutoHotkey script made to mimic the macOS accent menu
+# macOSaccents
+An AutoHotkey script made to mimic the macOS accent menu on Windows
 
 *The script itself only requires AutoHotkey to be installed, but Python is needed to easily update the script.*
 
@@ -20,5 +20,7 @@ Basic variations taken from the US layout (international)
 |**z**|  ž  |  ź  |  ż  |     |     |     |     |     |
 
 To change the basic layout or the properties of the tooltips, change the included config.ini, then run accentscodegen.py (written in Python3), which writes the generated code to the .ahk file. 
+
+[Helpful tutorial on how to set it as a startup script](https://www.autohotkey.com/docs/FAQ.htm#Startup)
 
 Set "Repeat and Slow Keys" in Ease of Access Center to slow down keyboard repeat rates to allow for more time before windows starts detecting another keypress. Make sure that that time is longer than the one you've set for your tooltips, otherwise they will only appear after the key you wanted has already been typed twice.
