@@ -11,7 +11,7 @@ config = configparser.ConfigParser()
 
 # parse config file, or if there's no config file, terminate the program
 try:
-    config.read("config.ini", encoding="utf-8")
+    config.read("config.ini", encoding="utf-8-sig")
 except FileNotFoundError:
     print("Config file not found.")
     exit()
