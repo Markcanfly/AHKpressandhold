@@ -48,9 +48,6 @@ upperToLower = list(config["uppercase"])
 for index in range(len(upperToLower)):
     upperToLower[index] = upperToLower[index].lower()
 
-if list(config["lowercase"]) != upperToLower:
-    raise ValueError("One or more characters don't have an uppercase/lowercase version.")
-
 file.write("#NoEnv\n")
 file.write("SendMode Input\n") 
 if disableTooltipsInSpecifiedWindows != []:
