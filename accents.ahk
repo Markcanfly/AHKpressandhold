@@ -1,72 +1,28 @@
 ﻿#NoEnv
 SendMode Input
-SetTitleMatchMode, 2
 
 e_lower := ["è", "é", "ê", "ë", "ē", "ė", "ę"]
-e_lower_tooltip := "è   é   ê   ë   ē   ė   ę`n1   2   3   4   5   6   7"
 y_lower := ["ÿ"]
-y_lower_tooltip := "ÿ`n1"
 u_lower := ["û", "ü", "ù", "ú", "ū"]
-u_lower_tooltip := "û   ü   ù   ú   ū`n1   2   3   4   5"
 i_lower := ["î", "ï", "í", "ī", "į", "ì"]
-i_lower_tooltip := "î   ï   í   ī   į   ì`n1   2   3   4   5   6"
 o_lower := ["ô", "ö", "ò", "ó", "œ", "ø", "ō", "õ"]
-o_lower_tooltip := "ô   ö   ò   ó   œ   ø   ō   õ`n1   2   3   4   5   6   7   8"
 a_lower := ["à", "á", "â", "ä", "æ", "ã", "å", "ā"]
-a_lower_tooltip := "à   á   â   ä   æ   ã   å   ā`n1   2   3   4   5   6   7   8"
 s_lower := ["ß", "ś", "š"]
-s_lower_tooltip := "ß   ś   š`n1   2   3"
 l_lower := ["ł"]
-l_lower_tooltip := "ł`n1"
 z_lower := ["ž", "ź", "ż"]
-z_lower_tooltip := "ž   ź   ż`n1   2   3"
 c_lower := ["ç", "ć", "č"]
-c_lower_tooltip := "ç   ć   č`n1   2   3"
 n_lower := ["ñ", "ń"]
-n_lower_tooltip := "ñ   ń`n1   2"
 e_upper := ["È", "É", "Ê", "Ë", "Ē", "Ė", "Ę"]
-e_upper_tooltip := "È   É   Ê   Ë   Ē   Ė   Ę`n1   2   3   4   5   6   7"
 y_upper := ["Ÿ"]
-y_upper_tooltip := "Ÿ`n1"
 u_upper := ["Û", "Ü", "Ù", "Ú", "Ū"]
-u_upper_tooltip := "Û   Ü   Ù   Ú   Ū`n1   2   3   4   5"
 i_upper := ["Î", "Ï", "Í", "Ī", "Į", "Ì"]
-i_upper_tooltip := "Î   Ï   Í   Ī   Į   Ì`n1   2   3   4   5   6"
 o_upper := ["Ô", "Ö", "Ò", "Ó", "Œ", "Ø", "Ō", "Õ"]
-o_upper_tooltip := "Ô   Ö   Ò   Ó   Œ   Ø   Ō   Õ`n1   2   3   4   5   6   7   8"
 a_upper := ["À", "Á", "Â", "Ä", "Æ", "Ã", "Å", "Ā"]
-a_upper_tooltip := "À   Á   Â   Ä   Æ   Ã   Å   Ā`n1   2   3   4   5   6   7   8"
 s_upper := ["ß", "Ś", "Š"]
-s_upper_tooltip := "ß   Ś   Š`n1   2   3"
 l_upper := ["Ł"]
-l_upper_tooltip := "Ł`n1"
 z_upper := ["Ž", "Ź", "Ż"]
-z_upper_tooltip := "Ž   Ź   Ż`n1   2   3"
 c_upper := ["Ç", "Ć", "Č"]
-c_upper_tooltip := "Ç   Ć   Č`n1   2   3"
 n_upper := ["Ñ", "Ń"]
-n_upper_tooltip := "Ñ   Ń`n1   2"
-
-shouldTooltipsBeEnabledHere() {
-if WinActive("Darwin Project") or WinActive("Overwatch") or WinActive("Rocket League") or WinActive("Just Cause") or WinActive("Keep Talking and Nobody Explodes") or WinActive("Left 4 Dead") or WinActive("Life is Strange") or WinActive("Not Time To Explain") or WinActive("Portal") or WinActive("SpeedRunners") or WinActive("STAR WARS") or WinActive("Terraria") or WinActive("Town of Salem") {
-return false
-} else {
-return true
-}
-}
-
-~*e::
-if shouldTooltipsBeEnabledHere() {
-KeyWait, e, T0.9
-    if ErrorLevel
-        if (GetKeyState("Shift", "P")){
-            ToolTip, % e_upper_tooltip, %A_CaretX%, %A_CaretY%
-        } else {
-            ToolTip, % e_lower_tooltip, %A_CaretX%, %A_CaretY%
-            }
-SetTimer, RemoveToolTip, 2500
-}
-return
 
 ~e & 1::
 Send, {BackSpace}
@@ -75,7 +31,6 @@ Send, % e_upper[1]
 } else {
 Send, % e_lower[1]
 }
-ToolTip
 return
 
 ~e & 2::
@@ -85,7 +40,6 @@ Send, % e_upper[2]
 } else {
 Send, % e_lower[2]
 }
-ToolTip
 return
 
 ~e & 3::
@@ -95,7 +49,6 @@ Send, % e_upper[3]
 } else {
 Send, % e_lower[3]
 }
-ToolTip
 return
 
 ~e & 4::
@@ -105,7 +58,6 @@ Send, % e_upper[4]
 } else {
 Send, % e_lower[4]
 }
-ToolTip
 return
 
 ~e & 5::
@@ -115,7 +67,6 @@ Send, % e_upper[5]
 } else {
 Send, % e_lower[5]
 }
-ToolTip
 return
 
 ~e & 6::
@@ -125,7 +76,6 @@ Send, % e_upper[6]
 } else {
 Send, % e_lower[6]
 }
-ToolTip
 return
 
 ~e & 7::
@@ -134,20 +84,6 @@ if (GetKeyState("Shift", "P")) {
 Send, % e_upper[7]
 } else {
 Send, % e_lower[7]
-}
-ToolTip
-return
-
-~*y::
-if shouldTooltipsBeEnabledHere() {
-KeyWait, y, T0.9
-    if ErrorLevel
-        if (GetKeyState("Shift", "P")){
-            ToolTip, % y_upper_tooltip, %A_CaretX%, %A_CaretY%
-        } else {
-            ToolTip, % y_lower_tooltip, %A_CaretX%, %A_CaretY%
-            }
-SetTimer, RemoveToolTip, 2500
 }
 return
 
@@ -158,20 +94,6 @@ Send, % y_upper[1]
 } else {
 Send, % y_lower[1]
 }
-ToolTip
-return
-
-~*u::
-if shouldTooltipsBeEnabledHere() {
-KeyWait, u, T0.9
-    if ErrorLevel
-        if (GetKeyState("Shift", "P")){
-            ToolTip, % u_upper_tooltip, %A_CaretX%, %A_CaretY%
-        } else {
-            ToolTip, % u_lower_tooltip, %A_CaretX%, %A_CaretY%
-            }
-SetTimer, RemoveToolTip, 2500
-}
 return
 
 ~u & 1::
@@ -181,7 +103,6 @@ Send, % u_upper[1]
 } else {
 Send, % u_lower[1]
 }
-ToolTip
 return
 
 ~u & 2::
@@ -191,7 +112,6 @@ Send, % u_upper[2]
 } else {
 Send, % u_lower[2]
 }
-ToolTip
 return
 
 ~u & 3::
@@ -201,7 +121,6 @@ Send, % u_upper[3]
 } else {
 Send, % u_lower[3]
 }
-ToolTip
 return
 
 ~u & 4::
@@ -211,7 +130,6 @@ Send, % u_upper[4]
 } else {
 Send, % u_lower[4]
 }
-ToolTip
 return
 
 ~u & 5::
@@ -220,20 +138,6 @@ if (GetKeyState("Shift", "P")) {
 Send, % u_upper[5]
 } else {
 Send, % u_lower[5]
-}
-ToolTip
-return
-
-~*i::
-if shouldTooltipsBeEnabledHere() {
-KeyWait, i, T0.9
-    if ErrorLevel
-        if (GetKeyState("Shift", "P")){
-            ToolTip, % i_upper_tooltip, %A_CaretX%, %A_CaretY%
-        } else {
-            ToolTip, % i_lower_tooltip, %A_CaretX%, %A_CaretY%
-            }
-SetTimer, RemoveToolTip, 2500
 }
 return
 
@@ -244,7 +148,6 @@ Send, % i_upper[1]
 } else {
 Send, % i_lower[1]
 }
-ToolTip
 return
 
 ~i & 2::
@@ -254,7 +157,6 @@ Send, % i_upper[2]
 } else {
 Send, % i_lower[2]
 }
-ToolTip
 return
 
 ~i & 3::
@@ -264,7 +166,6 @@ Send, % i_upper[3]
 } else {
 Send, % i_lower[3]
 }
-ToolTip
 return
 
 ~i & 4::
@@ -274,7 +175,6 @@ Send, % i_upper[4]
 } else {
 Send, % i_lower[4]
 }
-ToolTip
 return
 
 ~i & 5::
@@ -284,7 +184,6 @@ Send, % i_upper[5]
 } else {
 Send, % i_lower[5]
 }
-ToolTip
 return
 
 ~i & 6::
@@ -293,20 +192,6 @@ if (GetKeyState("Shift", "P")) {
 Send, % i_upper[6]
 } else {
 Send, % i_lower[6]
-}
-ToolTip
-return
-
-~*o::
-if shouldTooltipsBeEnabledHere() {
-KeyWait, o, T0.9
-    if ErrorLevel
-        if (GetKeyState("Shift", "P")){
-            ToolTip, % o_upper_tooltip, %A_CaretX%, %A_CaretY%
-        } else {
-            ToolTip, % o_lower_tooltip, %A_CaretX%, %A_CaretY%
-            }
-SetTimer, RemoveToolTip, 2500
 }
 return
 
@@ -317,7 +202,6 @@ Send, % o_upper[1]
 } else {
 Send, % o_lower[1]
 }
-ToolTip
 return
 
 ~o & 2::
@@ -327,7 +211,6 @@ Send, % o_upper[2]
 } else {
 Send, % o_lower[2]
 }
-ToolTip
 return
 
 ~o & 3::
@@ -337,7 +220,6 @@ Send, % o_upper[3]
 } else {
 Send, % o_lower[3]
 }
-ToolTip
 return
 
 ~o & 4::
@@ -347,7 +229,6 @@ Send, % o_upper[4]
 } else {
 Send, % o_lower[4]
 }
-ToolTip
 return
 
 ~o & 5::
@@ -357,7 +238,6 @@ Send, % o_upper[5]
 } else {
 Send, % o_lower[5]
 }
-ToolTip
 return
 
 ~o & 6::
@@ -367,7 +247,6 @@ Send, % o_upper[6]
 } else {
 Send, % o_lower[6]
 }
-ToolTip
 return
 
 ~o & 7::
@@ -377,7 +256,6 @@ Send, % o_upper[7]
 } else {
 Send, % o_lower[7]
 }
-ToolTip
 return
 
 ~o & 8::
@@ -386,20 +264,6 @@ if (GetKeyState("Shift", "P")) {
 Send, % o_upper[8]
 } else {
 Send, % o_lower[8]
-}
-ToolTip
-return
-
-~*a::
-if shouldTooltipsBeEnabledHere() {
-KeyWait, a, T0.9
-    if ErrorLevel
-        if (GetKeyState("Shift", "P")){
-            ToolTip, % a_upper_tooltip, %A_CaretX%, %A_CaretY%
-        } else {
-            ToolTip, % a_lower_tooltip, %A_CaretX%, %A_CaretY%
-            }
-SetTimer, RemoveToolTip, 2500
 }
 return
 
@@ -410,7 +274,6 @@ Send, % a_upper[1]
 } else {
 Send, % a_lower[1]
 }
-ToolTip
 return
 
 ~a & 2::
@@ -420,7 +283,6 @@ Send, % a_upper[2]
 } else {
 Send, % a_lower[2]
 }
-ToolTip
 return
 
 ~a & 3::
@@ -430,7 +292,6 @@ Send, % a_upper[3]
 } else {
 Send, % a_lower[3]
 }
-ToolTip
 return
 
 ~a & 4::
@@ -440,7 +301,6 @@ Send, % a_upper[4]
 } else {
 Send, % a_lower[4]
 }
-ToolTip
 return
 
 ~a & 5::
@@ -450,7 +310,6 @@ Send, % a_upper[5]
 } else {
 Send, % a_lower[5]
 }
-ToolTip
 return
 
 ~a & 6::
@@ -460,7 +319,6 @@ Send, % a_upper[6]
 } else {
 Send, % a_lower[6]
 }
-ToolTip
 return
 
 ~a & 7::
@@ -470,7 +328,6 @@ Send, % a_upper[7]
 } else {
 Send, % a_lower[7]
 }
-ToolTip
 return
 
 ~a & 8::
@@ -479,20 +336,6 @@ if (GetKeyState("Shift", "P")) {
 Send, % a_upper[8]
 } else {
 Send, % a_lower[8]
-}
-ToolTip
-return
-
-~*s::
-if shouldTooltipsBeEnabledHere() {
-KeyWait, s, T0.9
-    if ErrorLevel
-        if (GetKeyState("Shift", "P")){
-            ToolTip, % s_upper_tooltip, %A_CaretX%, %A_CaretY%
-        } else {
-            ToolTip, % s_lower_tooltip, %A_CaretX%, %A_CaretY%
-            }
-SetTimer, RemoveToolTip, 2500
 }
 return
 
@@ -503,7 +346,6 @@ Send, % s_upper[1]
 } else {
 Send, % s_lower[1]
 }
-ToolTip
 return
 
 ~s & 2::
@@ -513,7 +355,6 @@ Send, % s_upper[2]
 } else {
 Send, % s_lower[2]
 }
-ToolTip
 return
 
 ~s & 3::
@@ -522,20 +363,6 @@ if (GetKeyState("Shift", "P")) {
 Send, % s_upper[3]
 } else {
 Send, % s_lower[3]
-}
-ToolTip
-return
-
-~*l::
-if shouldTooltipsBeEnabledHere() {
-KeyWait, l, T0.9
-    if ErrorLevel
-        if (GetKeyState("Shift", "P")){
-            ToolTip, % l_upper_tooltip, %A_CaretX%, %A_CaretY%
-        } else {
-            ToolTip, % l_lower_tooltip, %A_CaretX%, %A_CaretY%
-            }
-SetTimer, RemoveToolTip, 2500
 }
 return
 
@@ -546,20 +373,6 @@ Send, % l_upper[1]
 } else {
 Send, % l_lower[1]
 }
-ToolTip
-return
-
-~*z::
-if shouldTooltipsBeEnabledHere() {
-KeyWait, z, T0.9
-    if ErrorLevel
-        if (GetKeyState("Shift", "P")){
-            ToolTip, % z_upper_tooltip, %A_CaretX%, %A_CaretY%
-        } else {
-            ToolTip, % z_lower_tooltip, %A_CaretX%, %A_CaretY%
-            }
-SetTimer, RemoveToolTip, 2500
-}
 return
 
 ~z & 1::
@@ -569,7 +382,6 @@ Send, % z_upper[1]
 } else {
 Send, % z_lower[1]
 }
-ToolTip
 return
 
 ~z & 2::
@@ -579,7 +391,6 @@ Send, % z_upper[2]
 } else {
 Send, % z_lower[2]
 }
-ToolTip
 return
 
 ~z & 3::
@@ -588,20 +399,6 @@ if (GetKeyState("Shift", "P")) {
 Send, % z_upper[3]
 } else {
 Send, % z_lower[3]
-}
-ToolTip
-return
-
-~*c::
-if shouldTooltipsBeEnabledHere() {
-KeyWait, c, T0.9
-    if ErrorLevel
-        if (GetKeyState("Shift", "P")){
-            ToolTip, % c_upper_tooltip, %A_CaretX%, %A_CaretY%
-        } else {
-            ToolTip, % c_lower_tooltip, %A_CaretX%, %A_CaretY%
-            }
-SetTimer, RemoveToolTip, 2500
 }
 return
 
@@ -612,7 +409,6 @@ Send, % c_upper[1]
 } else {
 Send, % c_lower[1]
 }
-ToolTip
 return
 
 ~c & 2::
@@ -622,7 +418,6 @@ Send, % c_upper[2]
 } else {
 Send, % c_lower[2]
 }
-ToolTip
 return
 
 ~c & 3::
@@ -631,20 +426,6 @@ if (GetKeyState("Shift", "P")) {
 Send, % c_upper[3]
 } else {
 Send, % c_lower[3]
-}
-ToolTip
-return
-
-~*n::
-if shouldTooltipsBeEnabledHere() {
-KeyWait, n, T0.9
-    if ErrorLevel
-        if (GetKeyState("Shift", "P")){
-            ToolTip, % n_upper_tooltip, %A_CaretX%, %A_CaretY%
-        } else {
-            ToolTip, % n_lower_tooltip, %A_CaretX%, %A_CaretY%
-            }
-SetTimer, RemoveToolTip, 2500
 }
 return
 
@@ -655,7 +436,6 @@ Send, % n_upper[1]
 } else {
 Send, % n_lower[1]
 }
-ToolTip
 return
 
 ~n & 2::
@@ -665,10 +445,6 @@ Send, % n_upper[2]
 } else {
 Send, % n_lower[2]
 }
-ToolTip
 return
 
-RemoveToolTip:
-SetTimer, RemoveToolTip, Off
-ToolTip
-return
+
