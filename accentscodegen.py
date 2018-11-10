@@ -127,9 +127,9 @@ for char in chars:
             }}
 SetTimer, RemoveToolTip, {2}
 """.format(char, delayBeforeTooltip, tooltipTimeout))
-    if disableTooltipsInSpecifiedWindows != []:
-        file.write("}\n")
-    file.write("return\n\n")
+        if disableTooltipsInSpecifiedWindows != []:
+            file.write("}\n")
+        file.write("return\n\n")
 
     # Print the necessary code for the script to grab the character from the array specified above 
     # and Send it as a keypress when the correct combination is pressed.
