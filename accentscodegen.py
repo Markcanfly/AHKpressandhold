@@ -4,7 +4,6 @@ config = configparser.ConfigParser()
 # Open AutoHotkey file in the required UTF-8 encoding + BOM
 file = open('accents.ahk', mode="w", encoding="utf-8-sig")
 
-# TODO: add ability to select which programs should the script be enabled and disabled in
 
 # instantiate
 config = configparser.ConfigParser()
@@ -16,10 +15,23 @@ except FileNotFoundError:
     print("Config file not found.")
     exit()
 
+# Check the required data in the config 
+
+try:
+    # Check if the required sections exist
+    sections = ("tooltips", "lowercase", "uppercase")
+    for section in sections:
+        if not config.has_section(section):
+            raise ValueError('Missing section: ' + section)
+
+except Exception as error:
+    print('Error:' + repr(error))
+
+
 # Create an empty list for the names of the windows in which the tooltips should be disabled, if any
 disableTooltipsInSpecifiedWindows = list()
 
-tooltips = config.getboolean("tooltips", "tooltips") # Get if user wants tooltips to appear
+userWantsTooltips = config.getboolean("tooltips", "tooltips", fallback=False) # Get if user wants tooltips to appear
 
 # If the option "disableTooltipsIn" is available
 if "disableTooltipsIn" in config["tooltips"]:
@@ -30,11 +42,10 @@ if "disableTooltipsIn" in config["tooltips"]:
             # Remove leading and trailing whitespace from the window titles
             disableTooltipsInSpecifiedWindows[index] = disableTooltipsInSpecifiedWindows[index].strip()
 
-if tooltips:
+if userWantsTooltips:
     delayBeforeTooltip = config.getfloat("tooltips", "delayBeforeTooltip")
     tooltipTimeout = int(config.getfloat("tooltips", "tooltipTimeout") * 1000)
 
-# todo: check each user input
 
 # set number of versions for each character
 
@@ -62,8 +73,10 @@ file.write("\n")
 
 for char in config["lowercase"]:
     charList = config["lowercase"][char].replace(" ", "").split(",")
+    
     file.write(char + "_lower := " + str(charList).replace("\'","\"") + "\n")
-    if tooltips:
+    
+    if userWantsTooltips:
         tooltip = charList[0]
         if len(charList) > 1:
             for index in range(1, len(charList)):
@@ -81,7 +94,7 @@ for char in config["lowercase"]:
 for char in config["uppercase"]:
     charList = config["uppercase"][char].replace(" ", "").split(",")
     file.write(char + "_upper := " + str(charList).replace("\'","\"") + "\n")
-    if tooltips:
+    if userWantsTooltips:
         tooltip = charList[0]
         if len(charList) > 1:
             for index in range(1, len(charList)):
@@ -114,7 +127,7 @@ if disableTooltipsInSpecifiedWindows != []:
 
 for char in chars:
     # this writes the tooltip displayer segment
-    if tooltips:
+    if userWantsTooltips:
         file.write("~*{0}::\n".format(char))
         if disableTooltipsInSpecifiedWindows != []:
             file.write("if shouldTooltipsBeEnabledHere()")
@@ -143,7 +156,7 @@ Send, % {0}_upper[{1}]
 }} else {{
 Send, % {0}_lower[{1}]
 }}""".format(char,n))
-        if tooltips:
+        if userWantsTooltips:
             # Clear the tooltip after pressing the number.
             file.write("\nToolTip")
         file.write("\nreturn\n\n")
@@ -151,7 +164,7 @@ Send, % {0}_lower[{1}]
 # This is a piece of code that gets executed a specified amount of time later than every Tooltip call, to clear the tooltip
 # for example if the user doesn't actually use the combination.
 
-if tooltips:
+if userWantsTooltips:
     file.write("""RemoveToolTip:
 SetTimer, RemoveToolTip, Off
 ToolTip
