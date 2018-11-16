@@ -53,6 +53,7 @@ file.write("SendMode Input\n")
 if disableTooltipsInSpecifiedWindows != []:
     # Set title match mode so if the active window's title contains the string we're testing for, it returns its unique code.
     file.write("SetTitleMatchMode, 2\n")
+file.write("Menu, Tray, Tip, macOSaccents\n")
 file.write("\n")
 
 # print lists of character variations and tooltips
