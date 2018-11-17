@@ -18,6 +18,7 @@ from string import ascii_uppercase
 # 
 # You can specify the content of the [tooltips] section by
 # editing or creating a file in the script directory with the name 'tooltips.txt'
+# You can also leave the file empty to omit the tooltips section or delete it to use the default.
 #
 
 def getTooltipsSection():
