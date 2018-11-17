@@ -58,6 +58,9 @@ def main(sourceIni="config.ini", fileName = 'accents', fileNameSuffix = None):
         if userWantsTooltips:
             delayBeforeTooltip = config.getfloat("tooltips", "delayBeforeTooltip")
             tooltipTimeout = int(config.getfloat("tooltips", "tooltipTimeout") * 1000)
+    else:
+        userWantsTooltips = False
+        disableTooltipsInSpecifiedWindows = []
 
 
     # set number of versions for each character
