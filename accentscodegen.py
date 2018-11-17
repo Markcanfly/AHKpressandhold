@@ -189,3 +189,7 @@ def main(sourceIni="config.ini", fileName = 'accents', fileNameSuffix = None):
     file.write("\n")
 
     file.close()
+
+
+if __name__ == "__main__":
+    main()
