@@ -31,7 +31,7 @@ def main(sourceIni="config.ini", fileName = 'accents', fileNameSuffix = None):
 
     try:
         # Check if the required sections exist
-        sections = ("tooltips", "lowercase", "uppercase")
+        sections = ("lowercase", "uppercase")
         for section in sections:
             if not config.has_section(section):
                 raise ValueError("Missing section: " + section)
@@ -43,20 +43,21 @@ def main(sourceIni="config.ini", fileName = 'accents', fileNameSuffix = None):
     # Create an empty list for the names of the windows in which the tooltips should be disabled, if any
     disableTooltipsInSpecifiedWindows = list()
 
-    userWantsTooltips = config.getboolean("tooltips", "tooltips", fallback=False) # Get if user wants tooltips to appear
+    if config.has_section('tooltips'):
+        userWantsTooltips = config.getboolean("tooltips", "tooltips", fallback=False) # Get if user wants tooltips to appear
 
-    # If the option "disableTooltipsIn" is available
-    if "disableTooltipsIn" in config["tooltips"]:
-        if config["tooltips"]["disableTooltipsIn"] != "":
-            # Make a list from the comma-separated values.
-            disableTooltipsInSpecifiedWindows = config["tooltips"]["disableTooltipsIn"].split(",")
-            for index in range(len(disableTooltipsInSpecifiedWindows)):
-                # Remove leading and trailing whitespace from the window titles
-                disableTooltipsInSpecifiedWindows[index] = disableTooltipsInSpecifiedWindows[index].strip()
+        # If the option "disableTooltipsIn" is available
+        if "disableTooltipsIn" in config["tooltips"]:
+            if config["tooltips"]["disableTooltipsIn"] != "":
+                # Make a list from the comma-separated values.
+                disableTooltipsInSpecifiedWindows = config["tooltips"]["disableTooltipsIn"].split(",")
+                for index in range(len(disableTooltipsInSpecifiedWindows)):
+                    # Remove leading and trailing whitespace from the window titles
+                    disableTooltipsInSpecifiedWindows[index] = disableTooltipsInSpecifiedWindows[index].strip()
 
-    if userWantsTooltips:
-        delayBeforeTooltip = config.getfloat("tooltips", "delayBeforeTooltip")
-        tooltipTimeout = int(config.getfloat("tooltips", "tooltipTimeout") * 1000)
+        if userWantsTooltips:
+            delayBeforeTooltip = config.getfloat("tooltips", "delayBeforeTooltip")
+            tooltipTimeout = int(config.getfloat("tooltips", "tooltipTimeout") * 1000)
 
 
     # set number of versions for each character
