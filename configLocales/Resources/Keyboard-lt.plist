@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-A</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ą A À Á Â Ä Æ Ã Å Ā</string>
+		<key>Strings</key>
+		<string>Ą A À Á Â Ä Æ Ã Å Ā</string>
+	</dict>
+	<key>Roman-Accent-C</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>Č C Ç Ć</string>
+		<key>Strings</key>
+		<string>Č C Ç Ć</string>
+	</dict>
+	<key>Roman-Accent-E</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ė Ę E È É Ê Ë Ē</string>
+		<key>Strings</key>
+		<string>Ė Ę E È É Ê Ë Ē</string>
+	</dict>
+	<key>Roman-Accent-I</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>Į I Î Ï Ì Í Ī</string>
+		<key>Strings</key>
+		<string>Į I Î Ï Ì Í Ī</string>
+	</dict>
+	<key>Roman-Accent-S</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Š S Ś</string>
+		<key>Strings</key>
+		<string>Š S Ś</string>
+	</dict>
+	<key>Roman-Accent-U</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>Ų Ū U Û Ü Ù Ú</string>
+		<key>Strings</key>
+		<string>Ų Ū U Û Ü Ù Ú</string>
+	</dict>
+	<key>Roman-Accent-Z</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ž Z Ź Ż</string>
+		<key>Strings</key>
+		<string>Ž Z Ź Ż</string>
+	</dict>
+	<key>Roman-Accent-a</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ą a à á â ä æ ã å ā</string>
+		<key>Strings</key>
+		<string>ą a à á â ä æ ã å ā</string>
+	</dict>
+	<key>Roman-Accent-c</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>č c ç ć</string>
+		<key>Strings</key>
+		<string>č c ç ć</string>
+	</dict>
+	<key>Roman-Accent-e</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ė ę e è é ê ë ē</string>
+		<key>Strings</key>
+		<string>ė ę e è é ê ë ē</string>
+	</dict>
+	<key>Roman-Accent-i</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>į i î ï ì í ī</string>
+		<key>Strings</key>
+		<string>į i î ï ì í ī</string>
+	</dict>
+	<key>Roman-Accent-s</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>š s ß ś</string>
+		<key>Strings</key>
+		<string>š s ß ś</string>
+	</dict>
+	<key>Roman-Accent-u</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ų ū u û ü ù ú</string>
+		<key>Strings</key>
+		<string>ų ū u û ü ù ú</string>
+	</dict>
+	<key>Roman-Accent-z</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ž z ź ż</string>
+		<key>Strings</key>
+		<string>ž z ź ż</string>
+	</dict>
+	<key>UI-ABC</key>
+	<string>ABC</string>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>$</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>£</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>¥</string>
+	<key>UI-Bold</key>
+	<string>bold</string>
+	<key>UI-Cancel</key>
+	<string>Atsisakyti</string>
+	<key>UI-Confirm</key>
+	<string>confirm</string>
+	<key>UI-Copy</key>
+	<string>copy</string>
+	<key>UI-Cut</key>
+	<string>cut</string>
+	<key>UI-Done</key>
+	<string>Done</string>
+	<key>UI-EmergencyCall</key>
+	<string>  Pagalbos  
+ skambutis </string>
+	<key>UI-Go</key>
+	<string>Pirmyn</string>
+	<key>UI-Italic</key>
+	<string>italic</string>
+	<key>UI-Join</key>
+	<string>Prisijungti</string>
+	<key>UI-LanguageIndicator</key>
+	<string>Lietuvių</string>
+	<key>UI-Next</key>
+	<string>Kitas</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Paste</key>
+	<string>paste</string>
+	<key>UI-Pause</key>
+	<string>Pristabdyti</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>€</string>
+	<key>UI-Redo</key>
+	<string>Atstatyti</string>
+	<key>UI-Return</key>
+	<string>Vykdyti</string>
+	<key>UI-Route</key>
+	<string>Maršrutas</string>
+	<key>UI-Search</key>
+	<string>Paieška</string>
+	<key>UI-Select-First-Candidate</key>
+	<string>next</string>
+	<key>UI-Select-Next-Candidate</key>
+	<string>next</string>
+	<key>UI-Send</key>
+	<string>Siųsti</string>
+	<key>UI-Space</key>
+	<string>Tarpas</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.lt .com .org .edu .net .eu</string>
+		<key>Strings</key>
+		<string>.lt .com .org .edu .net .eu</string>
+	</dict>
+	<key>UI-Underline</key>
+	<string>underline</string>
+	<key>UI-Undo</key>
+	<string>Atšaukti</string>
+	<key>UI-Wait</key>
+	<string>Laukti</string>
+</dict>
+</plist>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-"</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>” “ „ « » "</string>
+		<key>Strings</key>
+		<string>” “ „ » « "</string>
+	</dict>
+	<key>Roman-Accent-,</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>? ,</string>
+		<key>Strings</key>
+		<string>? ,</string>
+	</dict>
+	<key>Roman-Accent--</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>־ -</string>
+		<key>Strings</key>
+		<string>־ -</string>
+	</dict>
+	<key>Roman-Accent-ג</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ג׳ ג</string>
+		<key>Strings</key>
+		<string>ג׳ ג</string>
+	</dict>
+	<key>Roman-Accent-ז</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ז׳ ז</string>
+		<key>Strings</key>
+		<string>ז׳ ז</string>
+	</dict>
+	<key>Roman-Accent-ח</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ח׳ ח</string>
+		<key>Strings</key>
+		<string>ח׳ ח</string>
+	</dict>
+	<key>Roman-Accent-י</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ײַ י</string>
+		<key>Strings</key>
+		<string>ײַ י</string>
+	</dict>
+	<key>Roman-Accent-ץ</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ץ׳ ץ</string>
+		<key>Strings</key>
+		<string>ץ׳ ץ</string>
+	</dict>
+	<key>Roman-Accent-צ</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>צ׳ צ</string>
+		<key>Strings</key>
+		<string>צ׳ צ</string>
+	</dict>
+	<key>Roman-Accent-ת</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ת׳ ת</string>
+		<key>Strings</key>
+		<string>ת׳ ת</string>
+	</dict>
+	<key>Roman-Accent-׳</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>׳ ' ’ ‘</string>
+		<key>Strings</key>
+		<string>׳ ' ’ ‘</string>
+	</dict>
+	<key>Roman-Accent-״</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>" “ ” „ » « ״</string>
+		<key>Strings</key>
+		<string>" “ ” „ « » ״</string>
+	</dict>
+	<key>UI-ABC</key>
+	<string>אבג</string>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>$</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>€</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>£</string>
+	<key>UI-Bold</key>
+	<string>עבה</string>
+	<key>UI-Cancel</key>
+	<string>ביטול</string>
+	<key>UI-Confirm</key>
+	<string>אישור</string>
+	<key>UI-Copy</key>
+	<string>העתק</string>
+	<key>UI-Currency-₪</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>₪ $ € £ ¥ ₽</string>
+		<key>Strings</key>
+		<string>₪ $ € £ ¥ ₽</string>
+	</dict>
+	<key>UI-Cut</key>
+	<string>גזור</string>
+	<key>UI-Done</key>
+	<string>סיום</string>
+	<key>UI-EmergencyCall</key>
+	<string>שיחת חירום</string>
+	<key>UI-Go</key>
+	<string>עבור</string>
+	<key>UI-Italic</key>
+	<string>נטוי</string>
+	<key>UI-Join</key>
+	<string>הצטרף</string>
+	<key>UI-LanguageIndicator</key>
+	<string>עברית</string>
+	<key>UI-Next</key>
+	<string>הבא</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Paste</key>
+	<string>הדבק</string>
+	<key>UI-Pause</key>
+	<string>השהה</string>
+	<key>UI-Prediction</key>
+	<string>החלק/י למטה בכדי לסגור</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>₪</string>
+	<key>UI-Redo</key>
+	<string>שחזר</string>
+	<key>UI-Return</key>
+	<string>⏎</string>
+	<key>UI-Route</key>
+	<string>נתב</string>
+	<key>UI-Search</key>
+	<string>חיפוש</string>
+	<key>UI-Select-First-Candidate</key>
+	<string>הבא</string>
+	<key>UI-Select-Next-Candidate</key>
+	<string>הבא</string>
+	<key>UI-Send</key>
+	<string>שלח</string>
+	<key>UI-Space</key>
+	<string>רווח</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.com .co.il .il .org .edu</string>
+		<key>Strings</key>
+		<string>.com .co.il .il .org .edu</string>
+	</dict>
+	<key>UI-Underline</key>
+	<string>קו תחתון</string>
+	<key>UI-Undo</key>
+	<string>בטל</string>
+	<key>UI-Wait</key>
+	<string>המתן</string>
+</dict>
+</plist>

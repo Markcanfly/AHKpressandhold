@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-0</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>௦ 0</string>
+		<key>Strings</key>
+		<string>௦ 0</string>
+	</dict>
+	<key>Roman-Accent-1</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>௧ 1</string>
+		<key>Strings</key>
+		<string>௧ 1</string>
+	</dict>
+	<key>Roman-Accent-2</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>௨ 2</string>
+		<key>Strings</key>
+		<string>௨ 2</string>
+	</dict>
+	<key>Roman-Accent-3</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>௩ 3</string>
+		<key>Strings</key>
+		<string>௩ 3</string>
+	</dict>
+	<key>Roman-Accent-4</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>௪ 4</string>
+		<key>Strings</key>
+		<string>௪ 4</string>
+	</dict>
+	<key>Roman-Accent-5</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>௫ 5</string>
+		<key>Strings</key>
+		<string>௫ 5</string>
+	</dict>
+	<key>Roman-Accent-6</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>௬ 6</string>
+		<key>Strings</key>
+		<string>௬ 6</string>
+	</dict>
+	<key>Roman-Accent-7</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>௭ 7</string>
+		<key>Strings</key>
+		<string>௭ 7</string>
+	</dict>
+	<key>Roman-Accent-8</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>௮ 8</string>
+		<key>Strings</key>
+		<string>௮ 8</string>
+	</dict>
+	<key>Roman-Accent-9</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>௯ 9</string>
+		<key>Strings</key>
+		<string>௯ 9</string>
+	</dict>
+	<key>Roman-Accent-அ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ஹ அ</string>
+		<key>Strings</key>
+		<string>ஹ அ</string>
+	</dict>
+	<key>Roman-Accent-க</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>க்ஷ க</string>
+		<key>Strings</key>
+		<string>க்ஷ க</string>
+	</dict>
+	<key>Roman-Accent-ச</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ஸ ஷ ஜ ஶ்ரீ ச</string>
+		<key>Strings</key>
+		<string>ஸ ஷ ஜ ஶ்ரீ ச</string>
+	</dict>
+	<key>Roman-Accent-்</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ஃ ்</string>
+		<key>Strings</key>
+		<string>ஃ ்</string>
+	</dict>
+	<key>UI-ABC</key>
+	<string>க</string>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>$</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>€</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>¥</string>
+	<key>UI-Bold</key>
+	<string>தடித்த</string>
+	<key>UI-Cancel</key>
+	<string>ரத்து</string>
+	<key>UI-Confirm</key>
+	<string>உறுதிசெய்</string>
+	<key>UI-Copy</key>
+	<string>நகலெடு</string>
+	<key>UI-Currency-$</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>₹ $ € £ ¥ ₩ ₽</string>
+		<key>Strings</key>
+		<string>₹ $ € £ ¥ ₩ ₽</string>
+	</dict>
+	<key>UI-Currency-£</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>₹ £ € $ ¥ ₩ ₽</string>
+		<key>Strings</key>
+		<string>₹ £ € $ ¥ ₩ ₽</string>
+	</dict>
+	<key>UI-Cut</key>
+	<string>வெட்டு</string>
+	<key>UI-Done</key>
+	<string>ஆயிற்று</string>
+	<key>UI-EmergencyCall</key>
+	<string>அவசரஅழைப்பு</string>
+	<key>UI-Go</key>
+	<string>செல்</string>
+	<key>UI-Italic</key>
+	<string>சாய்ந்த</string>
+	<key>UI-Join</key>
+	<string>இணைப்பு</string>
+	<key>UI-LanguageIndicator</key>
+	<string>தமிழ்</string>
+	<key>UI-Next</key>
+	<string>அடுத்து</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Paste</key>
+	<string>ஒட்டு</string>
+	<key>UI-Pause</key>
+	<string>நிற்க</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>₹</string>
+	<key>UI-Redo</key>
+	<string>மீண்டும்செய்</string>
+	<key>UI-Return</key>
+	<string>இடு</string>
+	<key>UI-Route</key>
+	<string>வழியமை</string>
+	<key>UI-Search</key>
+	<string>தேடு</string>
+	<key>UI-Select-First-Candidate</key>
+	<string>அடுத்தநபர்</string>
+	<key>UI-Select-Next-Candidate</key>
+	<string>அடுத்தநபர்</string>
+	<key>UI-Send</key>
+	<string>அனுப்பு</string>
+	<key>UI-Space</key>
+	<string>வெளி</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.com .org .edu .co</string>
+		<key>Strings</key>
+		<string>.com .org .edu .co</string>
+	</dict>
+	<key>UI-Underline</key>
+	<string>அடிக்கோடு</string>
+	<key>UI-Undo</key>
+	<string>மீள்</string>
+	<key>UI-Wait</key>
+	<string>காத்திரு</string>
+</dict>
+</plist>

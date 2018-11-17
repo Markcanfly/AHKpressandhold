@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-D</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ð D</string>
+		<key>Strings</key>
+		<string>Ð D</string>
+	</dict>
+	<key>Roman-Accent-T</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Þ T</string>
+		<key>Strings</key>
+		<string>Þ T</string>
+	</dict>
+	<key>Roman-Accent-d</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ð d</string>
+		<key>Strings</key>
+		<string>ð d</string>
+	</dict>
+	<key>Roman-Accent-t</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>þ t</string>
+		<key>Strings</key>
+		<string>þ t</string>
+	</dict>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>£</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>$</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>¥</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>€</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.com .ie .org .edu</string>
+		<key>Strings</key>
+		<string>.com .ie .org .edu</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-0</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>零 0 ０ ⓪</string>
+		<key>Strings</key>
+		<string>零 0 ０ ⓪</string>
+	</dict>
+	<key>Roman-Accent-1</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>一 壹 1 １ ① ⑴ ⒈ ❶ ㊀ ㈠</string>
+		<key>Strings</key>
+		<string>一 壹 1 １ ① ⑴ ⒈ ❶ ㊀ ㈠</string>
+	</dict>
+	<key>Roman-Accent-2</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>二 貳 2 ２ ② ⑵ ⒉ ❷ ㊁ ㈡</string>
+		<key>Strings</key>
+		<string>二 貳 2 ２ ② ⑵ ⒉ ❷ ㊁ ㈡</string>
+	</dict>
+	<key>Roman-Accent-3</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>三 叁 3 ３ ③ ⑶ ⒊ ❸ ㊂ ㈢</string>
+		<key>Strings</key>
+		<string>三 叁 3 ３ ③ ⑶ ⒊ ❸ ㊂ ㈢</string>
+	</dict>
+	<key>Roman-Accent-4</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>四 肆 4 ４ ④ ⑷ ⒋ ❹ ㊃ ㈣</string>
+		<key>Strings</key>
+		<string>四 肆 4 ４ ④ ⑷ ⒋ ❹ ㊃ ㈣</string>
+	</dict>
+	<key>Roman-Accent-5</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>五 伍 5 ５ ⑤ ⑸ ⒌ ❺ ㊄ ㈤</string>
+		<key>Strings</key>
+		<string>五 伍 5 ５ ⑤ ⑸ ⒌ ❺ ㊄ ㈤</string>
+	</dict>
+	<key>Roman-Accent-6</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>六 陸 6 ６ ⑥ ⑹ ⒍ ❻ ㊅ ㈥</string>
+		<key>Strings</key>
+		<string>六 陸 6 ６ ⑥ ⑹ ⒍ ❻ ㊅ ㈥</string>
+	</dict>
+	<key>Roman-Accent-7</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>七 柒 7 ７ ⑦ ⑺ ⒎ ❼ ㊆ ㈦</string>
+		<key>Strings</key>
+		<string>七 柒 7 ７ ⑦ ⑺ ⒎ ❼ ㊆ ㈦</string>
+	</dict>
+	<key>Roman-Accent-8</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>八 捌 8 ８ ⑧ ⑻ ⒏ ❽ ㊇ ㈧</string>
+		<key>Strings</key>
+		<string>八 捌 8 ８ ⑧ ⑻ ⒏ ❽ ㊇ ㈧</string>
+	</dict>
+	<key>Roman-Accent-9</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>九 玖 9 ９ ⑨ ⑼ ⒐ ❾ ㊈ ㈨</string>
+		<key>Strings</key>
+		<string>九 玖 9 ９ ⑨ ⑼ ⒐ ❾ ㊈ ㈨</string>
+	</dict>
+	<key>Roman-Accent-。</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>⋯⋯ ⋯  .</string>
+		<key>Strings</key>
+		<string>⋯⋯ ⋯ 。 .</string>
+	</dict>
+	<key>Roman-Accent-。？</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>」 』</string>
+		<key>Strings</key>
+		<string>」 』</string>
+	</dict>
+	<key>Roman-Accent-＂</key>
+	<dict>
+		<key>Direction</key>
+		<string>strictly-left</string>
+		<key>Keycaps</key>
+		<string>“ ” " ＂ „</string>
+		<key>Strings</key>
+		<string>“ ” " ＂ „</string>
+	</dict>
+	<key>Roman-Accent-，！</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>「 『</string>
+		<key>Strings</key>
+		<string>「 『</string>
+	</dict>
+	<key>Roman-Accent-，</key>
+	<dict>
+		<key>Direction</key>
+		<string>straight</string>
+		<key>Keycaps</key>
+		<string> ,</string>
+		<key>Strings</key>
+		<string>， ,</string>
+	</dict>
+	<key>Roman-Accent-、/•|\</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string> | \  •</string>
+		<key>Strings</key>
+		<string>、 | \  •</string>
+	</dict>
+	<key>Roman-Accent-、/•|\-Symbol-Alternative-Width-Toggle-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string> | \  •</string>
+		<key>Strings</key>
+		<string>、 ｜ ＼  •</string>
+	</dict>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>¥</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>€</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>£</string>
+	<key>UI-Bold</key>
+	<string>粗體</string>
+	<key>UI-Cancel</key>
+	<string>取消</string>
+	<key>UI-Confirm</key>
+	<string>確認</string>
+	<key>UI-Confirm-First-Candidate</key>
+	<string>選定</string>
+	<key>UI-Copy</key>
+	<string>複製</string>
+	<key>UI-Cut</key>
+	<string>剪下</string>
+	<key>UI-Done</key>
+	<string>完成</string>
+	<key>UI-EmergencyCall</key>
+	<string>緊急電話</string>
+	<key>UI-Fullwidth</key>
+	<string>全</string>
+	<key>UI-Go</key>
+	<string>前往</string>
+	<key>UI-Halfwidth</key>
+	<string>半</string>
+	<key>UI-Italic</key>
+	<string>斜體</string>
+	<key>UI-Join</key>
+	<string>加入</string>
+	<key>UI-LanguageIndicator</key>
+	<string>繁體中文</string>
+	<key>UI-Next</key>
+	<string>下一個</string>
+	<key>UI-NextPage</key>
+	<string>下一頁</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Paste</key>
+	<string>貼上</string>
+	<key>UI-Pause</key>
+	<string>暫停</string>
+	<key>UI-PinyinDisambiguation</key>
+	<string>選拼音</string>
+	<key>UI-PinyinPlaneSwitch</key>
+	<string>拼音</string>
+	<key>UI-Prediction</key>
+	<string>向下滑動來關閉</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>$</string>
+	<key>UI-Redo</key>
+	<string>重作</string>
+	<key>UI-Return</key>
+	<string>換行</string>
+	<key>UI-Route</key>
+	<string>路線</string>
+	<key>UI-Search</key>
+	<string>搜尋</string>
+	<key>UI-Select-First-Candidate</key>
+	<string>選字</string>
+	<key>UI-Select-Next-Candidate</key>
+	<string>下一個</string>
+	<key>UI-Select-Previous-Candidate</key>
+	<string>上一個</string>
+	<key>UI-Send</key>
+	<string>傳送</string>
+	<key>UI-Sort-Common</key>
+	<string>詞頻</string>
+	<key>UI-Sort-Stroke</key>
+	<string>筆畫</string>
+	<key>UI-Sort-Zhuyin</key>
+	<string>注音</string>
+	<key>UI-Space</key>
+	<string>空格</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.com .tw .hk .net .中國 .台灣 .香港</string>
+		<key>Strings</key>
+		<string>.com .tw .hk .net .中國 .台灣 .香港</string>
+	</dict>
+	<key>UI-Underline</key>
+	<string>底線</string>
+	<key>UI-Undo</key>
+	<string>還原</string>
+	<key>UI-Wait</key>
+	<string>等候</string>
+	<key>UI-WubihuaStrokePlaneSwitch</key>
+	<string>筆畫</string>
+	<key>UI-zh_Hant-Cangjie</key>
+	<string>繁體倉頡</string>
+	<key>UI-zh_Hant-HWR</key>
+	<string>繁體手寫</string>
+	<key>UI-zh_Hant-Pinyin</key>
+	<string>繁體拼音</string>
+	<key>UI-zh_Hant-Sucheng</key>
+	<string>繁體速成</string>
+	<key>UI-zh_Hant-Wubihua</key>
+	<string>繁體筆畫</string>
+	<key>UI-zh_Hant-Zhuyin</key>
+	<string>繁體注音</string>
+</dict>
+</plist>

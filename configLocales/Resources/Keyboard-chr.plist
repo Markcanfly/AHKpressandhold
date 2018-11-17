@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-Ꭶ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ꭸ Ꭹ Ꭺ Ꭻ Ꭼ Ꭶ</string>
+		<key>Strings</key>
+		<string>Ꭸ Ꭹ Ꭺ Ꭻ Ꭼ Ꭶ</string>
+	</dict>
+	<key>Roman-Accent-Ꭽ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ꭾ Ꭿ Ꮀ Ꮁ Ꮂ Ꭽ</string>
+		<key>Strings</key>
+		<string>Ꭾ Ꭿ Ꮀ Ꮁ Ꮂ Ꭽ</string>
+	</dict>
+	<key>Roman-Accent-Ꮃ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ꮄ Ꮅ Ꮆ Ꮇ Ꮈ Ꮃ</string>
+		<key>Strings</key>
+		<string>Ꮄ Ꮅ Ꮆ Ꮇ Ꮈ Ꮃ</string>
+	</dict>
+	<key>Roman-Accent-Ꮉ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ꮊ Ꮋ Ꮌ Ꮍ Ꮉ</string>
+		<key>Strings</key>
+		<string>Ꮊ Ꮋ Ꮌ Ꮍ Ꮉ</string>
+	</dict>
+	<key>Roman-Accent-Ꮎ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ꮑ Ꮒ Ꮓ Ꮔ Ꮕ Ꮎ</string>
+		<key>Strings</key>
+		<string>Ꮑ Ꮒ Ꮓ Ꮔ Ꮕ Ꮎ</string>
+	</dict>
+	<key>Roman-Accent-Ꮖ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ꮗ Ꮘ Ꮙ Ꮚ Ꮛ Ꮖ</string>
+		<key>Strings</key>
+		<string>Ꮗ Ꮘ Ꮙ Ꮚ Ꮛ Ꮖ</string>
+	</dict>
+	<key>Roman-Accent-Ꮜ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ꮞ Ꮟ Ꮠ Ꮡ Ꮢ Ꮜ</string>
+		<key>Strings</key>
+		<string>Ꮞ Ꮟ Ꮠ Ꮡ Ꮢ Ꮜ</string>
+	</dict>
+	<key>Roman-Accent-Ꮣ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ꮥ Ꮧ Ꮩ Ꮪ Ꮫ Ꮣ</string>
+		<key>Strings</key>
+		<string>Ꮥ Ꮧ Ꮩ Ꮪ Ꮫ Ꮣ</string>
+	</dict>
+	<key>Roman-Accent-Ꮤ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ꮦ Ꮨ Ꮤ</string>
+		<key>Strings</key>
+		<string>Ꮦ Ꮨ Ꮤ</string>
+	</dict>
+	<key>Roman-Accent-Ꮭ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ꮮ Ꮯ Ꮰ Ꮱ Ꮲ Ꮭ</string>
+		<key>Strings</key>
+		<string>Ꮮ Ꮯ Ꮰ Ꮱ Ꮲ Ꮭ</string>
+	</dict>
+	<key>Roman-Accent-Ꮳ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ꮴ Ꮵ Ꮶ Ꮷ Ꮸ Ꮳ</string>
+		<key>Strings</key>
+		<string>Ꮴ Ꮵ Ꮶ Ꮷ Ꮸ Ꮳ</string>
+	</dict>
+	<key>Roman-Accent-Ꮹ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ꮺ Ꮻ Ꮼ Ꮽ Ꮾ Ꮹ</string>
+		<key>Strings</key>
+		<string>Ꮺ Ꮻ Ꮼ Ꮽ Ꮾ Ꮹ</string>
+	</dict>
+	<key>Roman-Accent-Ꮿ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ᏸ Ᏹ Ᏺ Ᏻ Ᏼ Ꮿ</string>
+		<key>Strings</key>
+		<string>Ᏸ Ᏹ Ᏺ Ᏻ Ᏼ Ꮿ</string>
+	</dict>
+	<key>UI-ABC</key>
+	<string>ᎠᎡᎢ</string>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>€</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>£</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>¥</string>
+	<key>UI-Bold</key>
+	<string>ᎤᏓᏴᎳᏘ</string>
+	<key>UI-Cancel</key>
+	<string>ᎠᏎᏒᏗ</string>
+	<key>UI-Confirm</key>
+	<string>ᎪᎯᏯᏙᏗ</string>
+	<key>UI-Copy</key>
+	<string>ᏗᏟᎶᏍᏔᏅᎯ</string>
+	<key>UI-Cut</key>
+	<string>ᎯᎦᎳ</string>
+	<key>UI-Done</key>
+	<string>ᎠᏍᏆᏛ</string>
+	<key>UI-EmergencyCall</key>
+	<string>ᎤᏚᎸᏗ
+ᎠᎵᏃᎮᏗ</string>
+	<key>UI-Go</key>
+	<string>ᏪᎾ</string>
+	<key>UI-Italic</key>
+	<string>ᏧᏞᏴᏍᏗ</string>
+	<key>UI-Join</key>
+	<string>ᎠᏖᎳᏗᏍᏗ</string>
+	<key>UI-LanguageIndicator</key>
+	<string>ᏣᎳᎩ</string>
+	<key>UI-Next</key>
+	<string>ᏐᎢ</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Paste</key>
+	<string>ᏘᎦᏣᎸᎥᎦ</string>
+	<key>UI-Pause</key>
+	<string>ᏞᎦ ᎭᎴᏫᏍᏙᏓ</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>$</string>
+	<key>UI-Redo</key>
+	<string>ᏯᏛᏁᎵᏐᏗ</string>
+	<key>UI-Return</key>
+	<string>ᎥᎦᎷᎩ</string>
+	<key>UI-Route</key>
+	<string>ᏫᏚᏳᎪᏛᎢ</string>
+	<key>UI-Search</key>
+	<string>ᎠᏯᏍᏗ</string>
+	<key>UI-Send</key>
+	<string>ᏫᏗᎦᏅᏗ</string>
+	<key>UI-Space</key>
+	<string>ᎦᎳᏅᏓᏗᏍᎩ</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.com .net .edu .org .us</string>
+		<key>Strings</key>
+		<string>.com .net .edu .org .us</string>
+	</dict>
+	<key>UI-Underline</key>
+	<string>ᎭᏫᏂᏗᏜ ᎠᏍᏓᏅᏂ</string>
+	<key>UI-Undo</key>
+	<string>ᏱᎬᎾᏕᏍᏗ</string>
+	<key>UI-Wait</key>
+	<string>ᎯᎦᏘᏓ</string>
+</dict>
+</plist>

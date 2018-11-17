@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-.,?!</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>. ? !  ,</string>
+		<key>Strings</key>
+		<string>. ? !  ,</string>
+	</dict>
+	<key>Roman-Accent-0/~…•</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>0 … •  ~</string>
+		<key>Strings</key>
+		<string>0 … •  ~</string>
+	</dict>
+	<key>Roman-Accent-1/(-)</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>1 - ) 1 (</string>
+		<key>Strings</key>
+		<string>1 - ) 1 (</string>
+	</dict>
+	<key>Roman-Accent-2/₩$¥</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>2 $ ¥ 2 ₩</string>
+		<key>Strings</key>
+		<string>2 $ ¥ 2 ₩</string>
+	</dict>
+	<key>Roman-Accent-3/^%#</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>3 % # 3 ^</string>
+		<key>Strings</key>
+		<string>3 % # 3 ^</string>
+	</dict>
+	<key>Roman-Accent-4/{*}</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>4 * } 4 {</string>
+		<key>Strings</key>
+		<string>4 * } 4 {</string>
+	</dict>
+	<key>Roman-Accent-5/+×÷</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>5 × ÷ 5 +</string>
+		<key>Strings</key>
+		<string>5 × ÷ 5 +</string>
+	</dict>
+	<key>Roman-Accent-6/&lt;=&gt;</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>6 = &gt; 6 &lt;</string>
+		<key>Strings</key>
+		<string>6 = &gt; 6 &lt;</string>
+	</dict>
+	<key>Roman-Accent-7/[:]</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>7 : ] 7 [</string>
+		<key>Strings</key>
+		<string>7 : ] 7 [</string>
+	</dict>
+	<key>Roman-Accent-8/”’;</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>8 ’ ; 8 ”</string>
+		<key>Strings</key>
+		<string>8 ' ; 8 "</string>
+	</dict>
+	<key>Roman-Accent-9//\|</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>9 \ | 9 /</string>
+		<key>Strings</key>
+		<string>9 \ | 9 /</string>
+	</dict>
+	<key>Roman-Accent-@#/&amp;_</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>@ / &amp; _ #</string>
+		<key>Strings</key>
+		<string>@ / &amp; _ #</string>
+	</dict>
+	<key>Roman-Accent-ABC</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>A C   B</string>
+		<key>Strings</key>
+		<string>A C   B</string>
+	</dict>
+	<key>Roman-Accent-DEF</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>D F   E</string>
+		<key>Strings</key>
+		<string>D F   E</string>
+	</dict>
+	<key>Roman-Accent-GHI</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>G I   H</string>
+		<key>Strings</key>
+		<string>G I   H</string>
+	</dict>
+	<key>Roman-Accent-JKL</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>J L   K</string>
+		<key>Strings</key>
+		<string>J L   K</string>
+	</dict>
+	<key>Roman-Accent-MNO</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>M O   N</string>
+		<key>Strings</key>
+		<string>M O   N</string>
+	</dict>
+	<key>Roman-Accent-PQRS</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>P R S  Q</string>
+		<key>Strings</key>
+		<string>P R S  Q</string>
+	</dict>
+	<key>Roman-Accent-TUV</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>T V   U</string>
+		<key>Strings</key>
+		<string>T V   U</string>
+	</dict>
+	<key>Roman-Accent-WXYZ</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>W Y Z  X</string>
+		<key>Strings</key>
+		<string>W Y Z  X</string>
+	</dict>
+	<key>Roman-Accent-abc</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>a c   b</string>
+		<key>Strings</key>
+		<string>a c   b</string>
+	</dict>
+	<key>Roman-Accent-def</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>d f   e</string>
+		<key>Strings</key>
+		<string>d f   e</string>
+	</dict>
+	<key>Roman-Accent-ghi</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>g i   h</string>
+		<key>Strings</key>
+		<string>g i   h</string>
+	</dict>
+	<key>Roman-Accent-jkl</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>j l   k</string>
+		<key>Strings</key>
+		<string>j l   k</string>
+	</dict>
+	<key>Roman-Accent-mno</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>m o   n</string>
+		<key>Strings</key>
+		<string>m o   n</string>
+	</dict>
+	<key>Roman-Accent-pqrs</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>p r s  q</string>
+		<key>Strings</key>
+		<string>p r s  q</string>
+	</dict>
+	<key>Roman-Accent-tuv</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>t v   u</string>
+		<key>Strings</key>
+		<string>t v   u</string>
+	</dict>
+	<key>Roman-Accent-wxyz</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>w y z  x</string>
+		<key>Strings</key>
+		<string>w y z  x</string>
+	</dict>
+	<key>Roman-Accent-ㄱ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ㄲ ㄱ</string>
+		<key>Strings</key>
+		<string>ㄲ ㄱ</string>
+	</dict>
+	<key>Roman-Accent-ㄱㅋ-Alphabet-Capital-Letter-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>4  ㅋ ㄲ ㄱ</string>
+		<key>Strings</key>
+		<string>4  ㅋ ㄲ ㄱ</string>
+	</dict>
+	<key>Roman-Accent-ㄱㅋ-Alphabet-Korean10Key-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>4  ㅋ ㄲ ㄱ</string>
+		<key>Strings</key>
+		<string>4  ㅋ ㄲ ㄱ</string>
+	</dict>
+	<key>Roman-Accent-ㄱㅋ-Korean10Key-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>4  ㅋ ㄲ ㄱ</string>
+		<key>Strings</key>
+		<string>4  ㅋ ㄲ ㄱ</string>
+	</dict>
+	<key>Roman-Accent-ㄱㅋ-SymbolNumber-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>4  ㅋ ㄲ ㄱ</string>
+		<key>Strings</key>
+		<string>4  ㅋ ㄲ ㄱ</string>
+	</dict>
+	<key>Roman-Accent-ㄴㄹ-Alphabet-Capital-Letter-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>5  ㄹ  ㄴ</string>
+		<key>Strings</key>
+		<string>5  ㄹ  ㄴ</string>
+	</dict>
+	<key>Roman-Accent-ㄴㄹ-Alphabet-Korean10Key-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>5  ㄹ  ㄴ</string>
+		<key>Strings</key>
+		<string>5  ㄹ  ㄴ</string>
+	</dict>
+	<key>Roman-Accent-ㄴㄹ-Korean10Key-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>5  ㄹ  ㄴ</string>
+		<key>Strings</key>
+		<string>5  ㄹ  ㄴ</string>
+	</dict>
+	<key>Roman-Accent-ㄴㄹ-SymbolNumber-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>5  ㄹ  ㄴ</string>
+		<key>Strings</key>
+		<string>5  ㄹ  ㄴ</string>
+	</dict>
+	<key>Roman-Accent-ㄷ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ㄸ ㄷ</string>
+		<key>Strings</key>
+		<string>ㄸ ㄷ</string>
+	</dict>
+	<key>Roman-Accent-ㄷㅌ-Alphabet-Capital-Letter-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>6  ㅌ ㄸ ㄷ</string>
+		<key>Strings</key>
+		<string>6  ㅌ ㄸ ㄷ</string>
+	</dict>
+	<key>Roman-Accent-ㄷㅌ-Alphabet-Korean10Key-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>6  ㅌ ㄸ ㄷ</string>
+		<key>Strings</key>
+		<string>6  ㅌ ㄸ ㄷ</string>
+	</dict>
+	<key>Roman-Accent-ㄷㅌ-Korean10Key-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>6  ㅌ ㄸ ㄷ</string>
+		<key>Strings</key>
+		<string>6  ㅌ ㄸ ㄷ</string>
+	</dict>
+	<key>Roman-Accent-ㄷㅌ-SymbolNumber-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>6  ㅌ ㄸ ㄷ</string>
+		<key>Strings</key>
+		<string>6  ㅌ ㄸ ㄷ</string>
+	</dict>
+	<key>Roman-Accent-ㅂ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ㅃ ㅂ</string>
+		<key>Strings</key>
+		<string>ㅃ ㅂ</string>
+	</dict>
+	<key>Roman-Accent-ㅂㅍ-Alphabet-Capital-Letter-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>7  ㅍ ㅃ ㅂ</string>
+		<key>Strings</key>
+		<string>7  ㅍ ㅃ ㅂ</string>
+	</dict>
+	<key>Roman-Accent-ㅂㅍ-Alphabet-Korean10Key-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>7  ㅍ ㅃ ㅂ</string>
+		<key>Strings</key>
+		<string>7  ㅍ ㅃ ㅂ</string>
+	</dict>
+	<key>Roman-Accent-ㅂㅍ-Korean10Key-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>7  ㅍ ㅃ ㅂ</string>
+		<key>Strings</key>
+		<string>7  ㅍ ㅃ ㅂ</string>
+	</dict>
+	<key>Roman-Accent-ㅂㅍ-SymbolNumber-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>7  ㅍ ㅃ ㅂ</string>
+		<key>Strings</key>
+		<string>7  ㅍ ㅃ ㅂ</string>
+	</dict>
+	<key>Roman-Accent-ㅅ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ㅆ ㅅ</string>
+		<key>Strings</key>
+		<string>ㅆ ㅅ</string>
+	</dict>
+	<key>Roman-Accent-ㅅㅎ-Alphabet-Capital-Letter-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>8  ㅎ ㅆ ㅅ</string>
+		<key>Strings</key>
+		<string>8  ㅎ ㅆ ㅅ</string>
+	</dict>
+	<key>Roman-Accent-ㅅㅎ-Alphabet-Korean10Key-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>8  ㅎ ㅆ ㅅ</string>
+		<key>Strings</key>
+		<string>8  ㅎ ㅆ ㅅ</string>
+	</dict>
+	<key>Roman-Accent-ㅅㅎ-Korean10Key-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>8  ㅎ ㅆ ㅅ</string>
+		<key>Strings</key>
+		<string>8  ㅎ ㅆ ㅅ</string>
+	</dict>
+	<key>Roman-Accent-ㅅㅎ-SymbolNumber-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>8  ㅎ ㅆ ㅅ</string>
+		<key>Strings</key>
+		<string>8  ㅎ ㅆ ㅅ</string>
+	</dict>
+	<key>Roman-Accent-ㅇㅁ-Alphabet-Capital-Letter-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>0  ㅁ  ㅇ</string>
+		<key>Strings</key>
+		<string>0  ㅁ  ㅇ</string>
+	</dict>
+	<key>Roman-Accent-ㅇㅁ-Alphabet-Korean10Key-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>0  ㅁ  ㅇ</string>
+		<key>Strings</key>
+		<string>0  ㅁ  ㅇ</string>
+	</dict>
+	<key>Roman-Accent-ㅇㅁ-Korean10Key-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>0  ㅁ  ㅇ</string>
+		<key>Strings</key>
+		<string>0  ㅁ  ㅇ</string>
+	</dict>
+	<key>Roman-Accent-ㅇㅁ-SymbolNumber-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>0  ㅁ  ㅇ</string>
+		<key>Strings</key>
+		<string>0  ㅁ  ㅇ</string>
+	</dict>
+	<key>Roman-Accent-ㅈ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ㅉ ㅈ</string>
+		<key>Strings</key>
+		<string>ㅉ ㅈ</string>
+	</dict>
+	<key>Roman-Accent-ㅈㅊ-Alphabet-Capital-Letter-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>9  ㅊ ㅉ ㅈ</string>
+		<key>Strings</key>
+		<string>9  ㅊ ㅉ ㅈ</string>
+	</dict>
+	<key>Roman-Accent-ㅈㅊ-Alphabet-Korean10Key-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>9  ㅊ ㅉ ㅈ</string>
+		<key>Strings</key>
+		<string>9  ㅊ ㅉ ㅈ</string>
+	</dict>
+	<key>Roman-Accent-ㅈㅊ-Korean10Key-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>9  ㅊ ㅉ ㅈ</string>
+		<key>Strings</key>
+		<string>9  ㅊ ㅉ ㅈ</string>
+	</dict>
+	<key>Roman-Accent-ㅈㅊ-SymbolNumber-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>9  ㅊ ㅉ ㅈ</string>
+		<key>Strings</key>
+		<string>9  ㅊ ㅉ ㅈ</string>
+	</dict>
+	<key>Roman-Accent-ㅐ</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ㅒ ㅐ</string>
+		<key>Strings</key>
+		<string>ㅒ ㅐ</string>
+	</dict>
+	<key>Roman-Accent-ㅔ</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ㅖ ㅔ</string>
+		<key>Strings</key>
+		<string>ㅖ ㅔ</string>
+	</dict>
+	<key>Roman-Accent-ㅡ-Alphabet-Capital-Letter-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>3 ㅗ ㅛ ㅜ ㅠ</string>
+		<key>Strings</key>
+		<string>3 ㅗ ㅛ ㅜ ㅠ</string>
+	</dict>
+	<key>Roman-Accent-ㅡ-Alphabet-Korean10Key-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>3 ㅗ ㅛ ㅜ ㅠ</string>
+		<key>Strings</key>
+		<string>3 ㅗ ㅛ ㅜ ㅠ</string>
+	</dict>
+	<key>Roman-Accent-ㅡ-Korean10Key-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>3 ㅗ ㅛ ㅜ ㅠ</string>
+		<key>Strings</key>
+		<string>3 ㅗ ㅛ ㅜ ㅠ</string>
+	</dict>
+	<key>Roman-Accent-ㅡ-SymbolNumber-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>3 ㅗ ㅛ ㅜ ㅠ</string>
+		<key>Strings</key>
+		<string>3 ㅗ ㅛ ㅜ ㅠ</string>
+	</dict>
+	<key>Roman-Accent-ㅣ-Alphabet-Capital-Letter-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>1 ㅕ ㅏ ㅑ ㅓ</string>
+		<key>Strings</key>
+		<string>1 ㅕ ㅏ ㅑ ㅓ</string>
+	</dict>
+	<key>Roman-Accent-ㅣ-Alphabet-Korean10Key-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>1 ㅕ ㅏ ㅑ ㅓ</string>
+		<key>Strings</key>
+		<string>1 ㅕ ㅏ ㅑ ㅓ</string>
+	</dict>
+	<key>Roman-Accent-ㅣ-Korean10Key-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>1 ㅕ ㅏ ㅑ ㅓ</string>
+		<key>Strings</key>
+		<string>1 ㅕ ㅏ ㅑ ㅓ</string>
+	</dict>
+	<key>Roman-Accent-ㅣ-SymbolNumber-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>1 ㅕ ㅏ ㅑ ㅓ</string>
+		<key>Strings</key>
+		<string>1 ㅕ ㅏ ㅑ ㅓ</string>
+	</dict>
+	<key>Roman-Accent-ㆍ-Alphabet-Capital-Letter-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>2 ㅗ ㅏ ㅜ ㅓ</string>
+		<key>Strings</key>
+		<string>2 ㅗ ㅏ ㅜ ㅓ</string>
+	</dict>
+	<key>Roman-Accent-ㆍ-Alphabet-Korean10Key-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>2 ㅗ ㅏ ㅜ ㅓ</string>
+		<key>Strings</key>
+		<string>2 ㅗ ㅏ ㅜ ㅓ</string>
+	</dict>
+	<key>Roman-Accent-ㆍ-Korean10Key-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>2 ㅗ ㅏ ㅜ ㅓ</string>
+		<key>Strings</key>
+		<string>2 ㅗ ㅏ ㅜ ㅓ</string>
+	</dict>
+	<key>Roman-Accent-ㆍ-SymbolNumber-Plane</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>2 ㅗ ㅏ ㅜ ㅓ</string>
+		<key>Strings</key>
+		<string>2 ㅗ ㅏ ㅜ ㅓ</string>
+	</dict>
+	<key>UI-ABC</key>
+	<string>한글</string>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>$</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>£</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>¥</string>
+	<key>UI-Bold</key>
+	<string>볼드체</string>
+	<key>UI-Cancel</key>
+	<string>취소</string>
+	<key>UI-Copy</key>
+	<string>복사하기</string>
+	<key>UI-Cut</key>
+	<string>오려두기</string>
+	<key>UI-Done</key>
+	<string>완료</string>
+	<key>UI-EmergencyCall</key>
+	<string>긴급통화</string>
+	<key>UI-Go</key>
+	<string>이동</string>
+	<key>UI-Italic</key>
+	<string>이탤릭체</string>
+	<key>UI-Join</key>
+	<string>연결</string>
+	<key>UI-LanguageIndicator</key>
+	<string>한국어</string>
+	<key>UI-Next</key>
+	<string>다음</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Paste</key>
+	<string>붙이기</string>
+	<key>UI-Pause</key>
+	<string>일시 정지</string>
+	<key>UI-Prediction</key>
+	<string>닫으려면 쓸어내리기</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>₩</string>
+	<key>UI-Redo</key>
+	<string>실행 복귀</string>
+	<key>UI-Return</key>
+	<string>다음문장</string>
+	<key>UI-Route</key>
+	<string>경로</string>
+	<key>UI-Search</key>
+	<string>검색</string>
+	<key>UI-Send</key>
+	<string>전송</string>
+	<key>UI-Space</key>
+	<string>간격</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.com .co.kr .kr .ac.kr</string>
+		<key>Strings</key>
+		<string>.com .co.kr .kr .ac.kr</string>
+	</dict>
+	<key>UI-Underline</key>
+	<string>밑줄체</string>
+	<key>UI-Undo</key>
+	<string>실행 취소</string>
+	<key>UI-Wait</key>
+	<string>대기</string>
+</dict>
+</plist>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>$</string>
+	<key>Roman-Accent-Ö</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>É Ö</string>
+		<key>Strings</key>
+		<string>É Ö</string>
+	</dict>
+	<key>Roman-Accent-ö</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>é ö</string>
+		<key>Strings</key>
+		<string>é ö</string>
+	</dict>
+	<key>Roman-Accent-Ü</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>È Ü</string>
+		<key>Strings</key>
+		<string>È Ü</string>
+	</dict>
+	<key>Roman-Accent-ü</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>è ü</string>
+		<key>Strings</key>
+		<string>è ü</string>
+	</dict>
+	<key>Roman-Accent-Ä</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>À Ä</string>
+		<key>Strings</key>
+		<string>À Ä</string>
+	</dict>
+	<key>Roman-Accent-ä</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>à ä</string>
+		<key>Strings</key>
+		<string>à ä</string>
+	</dict>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>£</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>¥</string>
+	<key>UI-LanguageIndicator</key>
+	<string>Français (Suisse)</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>€</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.com .ch .org .edu</string>
+		<key>Strings</key>
+		<string>.com .ch .org .edu</string>
+	</dict>
+</dict>
+</plist>

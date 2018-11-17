@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-あ</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>あ う え お い</string>
+		<key>Strings</key>
+		<string>あ う え お い</string>
+	</dict>
+	<key>Roman-Accent-か</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>か く け こ き</string>
+		<key>Strings</key>
+		<string>か く け こ き</string>
+	</dict>
+	<key>Roman-Accent-さ</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>さ す せ そ し</string>
+		<key>Strings</key>
+		<string>さ す せ そ し</string>
+	</dict>
+	<key>Roman-Accent-た</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>た つ て と ち</string>
+		<key>Strings</key>
+		<string>た つ て と ち</string>
+	</dict>
+	<key>Roman-Accent-な</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>な ぬ ね の に</string>
+		<key>Strings</key>
+		<string>な ぬ ね の に</string>
+	</dict>
+	<key>Roman-Accent-は</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>は ふ へ ほ ひ</string>
+		<key>Strings</key>
+		<string>は ふ へ ほ ひ</string>
+	</dict>
+	<key>Roman-Accent-ま</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>ま む め も み</string>
+		<key>Strings</key>
+		<string>ま む め も み</string>
+	</dict>
+	<key>Roman-Accent-や</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>や ゆ 」 よ 「</string>
+		<key>Strings</key>
+		<string>や ゆ 」 よ 「</string>
+	</dict>
+	<key>Roman-Accent-ら</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>ら る れ ろ り</string>
+		<key>Strings</key>
+		<string>ら る れ ろ り</string>
+	</dict>
+	<key>Roman-Accent-わー</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>わ ん ー  を</string>
+		<key>Strings</key>
+		<string>わ ん ー  を</string>
+	</dict>
+	<key>Roman-Accent-、。？！</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>、 ？ ！  。</string>
+		<key>Strings</key>
+		<string>、 ？ ！  。</string>
+	</dict>
+	<key>Roman-Accent-@#/&amp;_</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>@ / &amp; _ #</string>
+		<key>Strings</key>
+		<string>@ / &amp; _ #</string>
+	</dict>
+	<key>Roman-Accent-ABC</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>A C   B</string>
+		<key>Strings</key>
+		<string>a c   b</string>
+	</dict>
+	<key>Roman-Accent-DEF</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>D F   E</string>
+		<key>Strings</key>
+		<string>d f   e</string>
+	</dict>
+	<key>Roman-Accent-GHI</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>G I   H</string>
+		<key>Strings</key>
+		<string>g i   h</string>
+	</dict>
+	<key>Roman-Accent-JKL</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>J L   K</string>
+		<key>Strings</key>
+		<string>j l   k</string>
+	</dict>
+	<key>Roman-Accent-MNO</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>M O   N</string>
+		<key>Strings</key>
+		<string>m o   n</string>
+	</dict>
+	<key>Roman-Accent-PQRS</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>P R S  Q</string>
+		<key>Strings</key>
+		<string>p r s  q</string>
+	</dict>
+	<key>Roman-Accent-TUV</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>T V   U</string>
+		<key>Strings</key>
+		<string>t v   u</string>
+	</dict>
+	<key>Roman-Accent-WXYZ</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>W Y Z  X</string>
+		<key>Strings</key>
+		<string>w y z  x</string>
+	</dict>
+	<key>Roman-Accent-’”()</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>’ ( )  "</string>
+		<key>Strings</key>
+		<string>' ( )  "</string>
+	</dict>
+	<key>Roman-Accent-.,?!</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>. ? !  ,</string>
+		<key>Strings</key>
+		<string>. ? !  ,</string>
+	</dict>
+	<key>Roman-Accent-1/☆♪→</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>1 ♪ →  ☆</string>
+		<key>Strings</key>
+		<string>1 ♪ →  ☆</string>
+	</dict>
+	<key>Roman-Accent-2/¥$€</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>2 $ €  ¥</string>
+		<key>Strings</key>
+		<string>2 $ €  ¥</string>
+	</dict>
+	<key>Roman-Accent-3/%°#</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>3 ° #  %</string>
+		<key>Strings</key>
+		<string>3 ° #  %</string>
+	</dict>
+	<key>Roman-Accent-4/○＊・</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>4 ＊ ・  ○</string>
+		<key>Strings</key>
+		<string>4 ＊ ・  ○</string>
+	</dict>
+	<key>Roman-Accent-5/+×÷</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>5 × ÷  +</string>
+		<key>Strings</key>
+		<string>5 × ÷  +</string>
+	</dict>
+	<key>Roman-Accent-6/&lt;=></key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>6 = >  &lt;</string>
+		<key>Strings</key>
+		<string>6 = >  &lt;</string>
+	</dict>
+	<key>Roman-Accent-7/「」:</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>7 」 :  「</string>
+		<key>Strings</key>
+		<string>7 」 :  「</string>
+	</dict>
+	<key>Roman-Accent-8/〒々〆</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>8 々 〆  〒</string>
+		<key>Strings</key>
+		<string>8 々 〆  〒</string>
+	</dict>
+	<key>Roman-Accent-9/^|\</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>9 | \  ^</string>
+		<key>Strings</key>
+		<string>9 | \  ^</string>
+	</dict>
+	<key>Roman-Accent-0/〜…</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>0 …   〜</string>
+		<key>Strings</key>
+		<string>0 …   〜</string>
+	</dict>
+	<key>Roman-Accent-/()[]</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>( [ ]  )</string>
+		<key>Strings</key>
+		<string>( [ ]  )</string>
+	</dict>
+	<key>Roman-Accent-/.,-/</key>
+	<dict>
+		<key>Direction</key>
+		<string>flick</string>
+		<key>Keycaps</key>
+		<string>. - /  ,</string>
+		<key>Strings</key>
+		<string>. - /  ,</string>
+	</dict>
+	<key>UI-ABC</key>
+	<string>あいう</string>
+</dict>
+</plist>

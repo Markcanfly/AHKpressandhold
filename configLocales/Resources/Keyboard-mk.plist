@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UI-ABC</key>
+	<string>АБВ</string>
+	<key>UI-Bold</key>
+	<string>Задебелено</string>
+	<key>UI-Cancel</key>
+	<string>Откажи</string>
+	<key>UI-Confirm</key>
+	<string>Потврди</string>
+	<key>UI-Copy</key>
+	<string>Копирај</string>
+	<key>UI-Cut</key>
+	<string>Отсечи</string>
+	<key>UI-Done</key>
+	<string>Сторено</string>
+	<key>UI-EmergencyCall</key>
+	<string>Итен
+повик</string>
+	<key>UI-Go</key>
+	<string>Оди</string>
+	<key>UI-Italic</key>
+	<string>Курзив</string>
+	<key>UI-Join</key>
+	<string>Приклучи се</string>
+	<key>UI-LanguageIndicator</key>
+	<string>Македонски</string>
+	<key>UI-Next</key>
+	<string>Следно</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Paste</key>
+	<string>Залепи</string>
+	<key>UI-Pause</key>
+	<string>Пауза</string>
+	<key>UI-Redo</key>
+	<string>Повтори</string>
+	<key>UI-Return</key>
+	<string>Врати</string>
+	<key>UI-Route</key>
+	<string>Рута</string>
+	<key>UI-Search</key>
+	<string>Пребарај</string>
+	<key>UI-Select-First-Candidate</key>
+	<string>Следно</string>
+	<key>UI-Select-Next-Candidate</key>
+	<string>Следно</string>
+	<key>UI-Send</key>
+	<string>Испрати</string>
+	<key>UI-Space</key>
+	<string>Празно место</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.com .mk .org .edu .net</string>
+		<key>Strings</key>
+		<string>.com .mk .org .edu .net</string>
+	</dict>
+	<key>UI-Underline</key>
+	<string>Подвлечи</string>
+	<key>UI-Undo</key>
+	<string>Врати</string>
+	<key>UI-Wait</key>
+	<string>Чекање</string>
+</dict>
+</plist>

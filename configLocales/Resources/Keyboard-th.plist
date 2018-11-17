@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-0</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>๐ 0</string>
+		<key>Strings</key>
+		<string>๐ 0</string>
+	</dict>
+	<key>Roman-Accent-1</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>๑ 1</string>
+		<key>Strings</key>
+		<string>๑ 1</string>
+	</dict>
+	<key>Roman-Accent-2</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>๒ 2</string>
+		<key>Strings</key>
+		<string>๒ 2</string>
+	</dict>
+	<key>Roman-Accent-3</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>๓ 3</string>
+		<key>Strings</key>
+		<string>๓ 3</string>
+	</dict>
+	<key>Roman-Accent-4</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>๔ 4</string>
+		<key>Strings</key>
+		<string>๔ 4</string>
+	</dict>
+	<key>Roman-Accent-5</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>๕ 5</string>
+		<key>Strings</key>
+		<string>๕ 5</string>
+	</dict>
+	<key>Roman-Accent-6</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>๖ 6</string>
+		<key>Strings</key>
+		<string>๖ 6</string>
+	</dict>
+	<key>Roman-Accent-7</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>๗ 7</string>
+		<key>Strings</key>
+		<string>๗ 7</string>
+	</dict>
+	<key>Roman-Accent-8</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>๘ 8</string>
+		<key>Strings</key>
+		<string>๘ 8</string>
+	</dict>
+	<key>Roman-Accent-9</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>๙ 9</string>
+		<key>Strings</key>
+		<string>๙ 9</string>
+	</dict>
+	<key>Roman-Accent-ข</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ฃ ข</string>
+		<key>Strings</key>
+		<string>ฃ ข</string>
+	</dict>
+	<key>Roman-Accent-ค</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ฅ ค</string>
+		<key>Strings</key>
+		<string>ฅ ค</string>
+	</dict>
+	<key>Roman-Accent-ฯ</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>๏ ฯ</string>
+		<key>Strings</key>
+		<string>๏ ฯ</string>
+	</dict>
+	<key>Roman-Accent-า</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ำ ๅ า</string>
+		<key>Strings</key>
+		<string>ำ ๅ า</string>
+	</dict>
+	<key>Roman-Accent-่</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>้ ั ิ ี ์ ื ํ ็ ึ ๊ ๋ ุ ู ฺ ่</string>
+		<key>Strings</key>
+		<string>้ ั ิ ี ์ ื ํ ็ ึ ๊ ๋ ุ ู ฺ ่</string>
+	</dict>
+	<key>UI-ABC</key>
+	<string>กขค</string>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>$</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>€</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>¥</string>
+	<key>UI-Bold</key>
+	<string>ตัวหนา</string>
+	<key>UI-Cancel</key>
+	<string>ยกเลิก</string>
+	<key>UI-Confirm</key>
+	<string>รับคำเสนอ</string>
+	<key>UI-Copy</key>
+	<string>คัดลอก</string>
+	<key>UI-Currency-$</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>฿ $ € £ ¥ ₩ ₽</string>
+		<key>Strings</key>
+		<string>฿ $ € £ ¥ ₩ ₽</string>
+	</dict>
+	<key>UI-Currency-£</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>฿ £ € $ ¥ ₩ ₽</string>
+		<key>Strings</key>
+		<string>฿ £ € $ ¥ ₩ ₽</string>
+	</dict>
+	<key>UI-Cut</key>
+	<string>ตัด</string>
+	<key>UI-Done</key>
+	<string>เสร็จ</string>
+	<key>UI-EmergencyCall</key>
+	<string>โทรฉุกเฉิน</string>
+	<key>UI-Go</key>
+	<string>ไป</string>
+	<key>UI-Italic</key>
+	<string>ตัวเอียง</string>
+	<key>UI-Join</key>
+	<string>เชื่อม</string>
+	<key>UI-LanguageIndicator</key>
+	<string>ภาษาไทย</string>
+	<key>UI-Next</key>
+	<string>ถัดไป</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Paste</key>
+	<string>วาง</string>
+	<key>UI-Pause</key>
+	<string>พักชั่วครู่</string>
+	<key>UI-Prediction</key>
+	<string>ปัดลงเพื่อปิด</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>฿</string>
+	<key>UI-Redo</key>
+	<string>ทำอีกครั้ง</string>
+	<key>UI-Return</key>
+	<string>รีเทิร์น</string>
+	<key>UI-Route</key>
+	<string>เส้นทาง</string>
+	<key>UI-Search</key>
+	<string>ค้นหา</string>
+	<key>UI-Select-First-Candidate</key>
+	<string>ตัวเลือกถัดไป</string>
+	<key>UI-Select-Next-Candidate</key>
+	<string>ตัวเลือกถัดไป</string>
+	<key>UI-Send</key>
+	<string>ส่ง</string>
+	<key>UI-Space</key>
+	<string>วรรค</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.com .th .org .edu .co .co.th</string>
+		<key>Strings</key>
+		<string>.com .th .org .edu .co .co.th</string>
+	</dict>
+	<key>UI-Underline</key>
+	<string>ขีดเส้นใต้</string>
+	<key>UI-Undo</key>
+	<string>ยกเลิก</string>
+	<key>UI-Wait</key>
+	<string>หยุดรอ</string>
+</dict>
+</plist>

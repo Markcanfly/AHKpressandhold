@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-A</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Á A</string>
+		<key>Strings</key>
+		<string>Á A</string>
+	</dict>
+	<key>Roman-Accent-E</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>É E È Ê Ë Ę</string>
+		<key>Strings</key>
+		<string>É E È Ê Ë Ę</string>
+	</dict>
+	<key>Roman-Accent-O</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>Œ O Ô Ò Ó Õ Ō</string>
+		<key>Strings</key>
+		<string>Œ O Ô Ò Ó Õ Ō</string>
+	</dict>
+	<key>Roman-Accent-U</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ü U Û Ù Ú Ū</string>
+		<key>Strings</key>
+		<string>Ü U Û Ù Ú Ū</string>
+	</dict>
+	<key>Roman-Accent-a</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>á a</string>
+		<key>Strings</key>
+		<string>á a</string>
+	</dict>
+	<key>Roman-Accent-e</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>é e è ê ë ę</string>
+		<key>Strings</key>
+		<string>é e è ê ë ę</string>
+	</dict>
+	<key>Roman-Accent-o</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>œ o ô ò ó õ ō</string>
+		<key>Strings</key>
+		<string>œ o ô ò ó õ ō</string>
+	</dict>
+	<key>Roman-Accent-s</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ß s ś š</string>
+		<key>Strings</key>
+		<string>ß s ś š</string>
+	</dict>
+	<key>Roman-Accent-u</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ü u û ù ú ū</string>
+		<key>Strings</key>
+		<string>ü u û ù ú ū</string>
+	</dict>
+	<key>Roman-Accent-Ä</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Æ Ä</string>
+		<key>Strings</key>
+		<string>Æ Ä</string>
+	</dict>
+	<key>Roman-Accent-Ö</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>Ø Ö</string>
+		<key>Strings</key>
+		<string>Ø Ö</string>
+	</dict>
+	<key>Roman-Accent-ä</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>æ ä</string>
+		<key>Strings</key>
+		<string>æ ä</string>
+	</dict>
+	<key>Roman-Accent-ö</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ø ö</string>
+		<key>Strings</key>
+		<string>ø ö</string>
+	</dict>
+	<key>UI-ABC</key>
+	<string>ABC</string>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>€</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>$</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>£</string>
+	<key>UI-Bold</key>
+	<string>Fet</string>
+	<key>UI-Cancel</key>
+	<string>Avbryt</string>
+	<key>UI-Copy</key>
+	<string>Kopiera</string>
+	<key>UI-Cut</key>
+	<string>Klipp ut</string>
+	<key>UI-Done</key>
+	<string>Klar</string>
+	<key>UI-EmergencyCall</key>
+	<string>Nödsamtal</string>
+	<key>UI-Go</key>
+	<string>OK</string>
+	<key>UI-Italic</key>
+	<string>Kursiv</string>
+	<key>UI-Join</key>
+	<string>Anslut</string>
+	<key>UI-LanguageIndicator</key>
+	<string>Svenska</string>
+	<key>UI-Next</key>
+	<string>Nästa</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Paste</key>
+	<string>Klistra in</string>
+	<key>UI-Pause</key>
+	<string>pausa</string>
+	<key>UI-Prediction</key>
+	<string>Svep nedåt för att stänga</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>kr</string>
+	<key>UI-Redo</key>
+	<string>gör om</string>
+	<key>UI-Return</key>
+	<string>retur</string>
+	<key>UI-Route</key>
+	<string>Hitta</string>
+	<key>UI-Search</key>
+	<string>Sök</string>
+	<key>UI-Send</key>
+	<string>Skicka</string>
+	<key>UI-Space</key>
+	<string>mellanslag</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.se .com .nu .org</string>
+		<key>Strings</key>
+		<string>.se .com .nu .org</string>
+	</dict>
+	<key>UI-Underline</key>
+	<string>Understruken</string>
+	<key>UI-Undo</key>
+	<string>ångra</string>
+	<key>UI-Wait</key>
+	<string>vänta</string>
+</dict>
+</plist>

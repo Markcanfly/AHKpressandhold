@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UI-ABC</key>
+	<string>ABC</string>
+	<key>UI-Bold</key>
+	<string>tebal</string>
+	<key>UI-Cancel</key>
+	<string>Batal</string>
+	<key>UI-Confirm</key>
+	<string>Sahkan</string>
+	<key>UI-Copy</key>
+	<string>salin</string>
+	<key>UI-Cut</key>
+	<string>potong</string>
+	<key>UI-Done</key>
+	<string>Selesai</string>
+	<key>UI-EmergencyCall</key>
+	<string>Kecemasan</string>
+	<key>UI-Go</key>
+	<string>Pergi</string>
+	<key>UI-Italic</key>
+	<string>italik</string>
+	<key>UI-Join</key>
+	<string>Sambung</string>
+	<key>UI-LanguageIndicator</key>
+	<string>Bahasa Melayu</string>
+	<key>UI-Next</key>
+	<string>Seterusnya</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Paste</key>
+	<string>tampal</string>
+	<key>UI-Pause</key>
+	<string>Jeda</string>
+	<key>UI-Prediction</key>
+	<string>Leret ke bawah untuk menutup</string>
+	<key>UI-Redo</key>
+	<string>Pembetulan</string>
+	<key>UI-Return</key>
+	<string>Kembali</string>
+	<key>UI-Route</key>
+	<string>Laluan</string>
+	<key>UI-Search</key>
+	<string>Cari</string>
+	<key>UI-Select-First-Candidate</key>
+	<string>Seterusnya</string>
+	<key>UI-Select-Next-Candidate</key>
+	<string>Seterusnya</string>
+	<key>UI-Send</key>
+	<string>Kirim</string>
+	<key>UI-Space</key>
+	<string>Space</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.com .id .my .org .edu .net</string>
+		<key>Strings</key>
+		<string>.com .id .my .org .edu .net</string>
+	</dict>
+	<key>UI-Underline</key>
+	<string>garis bawah</string>
+	<key>UI-Undo</key>
+	<string>Batalkan</string>
+	<key>UI-Wait</key>
+	<string>Tunggu</string>
+</dict>
+</plist>

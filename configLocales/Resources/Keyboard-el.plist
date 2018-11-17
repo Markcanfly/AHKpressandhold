@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-"</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>» « ” “ „ "</string>
+		<key>Strings</key>
+		<string>» « ” “ „ "</string>
+	</dict>
+	<key>Roman-Accent-Α</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ά Α</string>
+		<key>Strings</key>
+		<string>Ά Α</string>
+	</dict>
+	<key>Roman-Accent-Ε</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Έ Ε</string>
+		<key>Strings</key>
+		<string>Έ Ε</string>
+	</dict>
+	<key>Roman-Accent-Η</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ή Η</string>
+		<key>Strings</key>
+		<string>Ή Η</string>
+	</dict>
+	<key>Roman-Accent-Ι</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ί Ϊ Ι</string>
+		<key>Strings</key>
+		<string>Ί Ϊ Ι</string>
+	</dict>
+	<key>Roman-Accent-Ο</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ό Ο</string>
+		<key>Strings</key>
+		<string>Ό Ο</string>
+	</dict>
+	<key>Roman-Accent-Υ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ύ Ϋ Υ</string>
+		<key>Strings</key>
+		<string>Ύ Ϋ Υ</string>
+	</dict>
+	<key>Roman-Accent-Ω</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ώ Ω</string>
+		<key>Strings</key>
+		<string>Ώ Ω</string>
+	</dict>
+	<key>Roman-Accent-α</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ά α</string>
+		<key>Strings</key>
+		<string>ά α</string>
+	</dict>
+	<key>Roman-Accent-ε</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>έ ε</string>
+		<key>Strings</key>
+		<string>έ ε</string>
+	</dict>
+	<key>Roman-Accent-η</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ή η</string>
+		<key>Strings</key>
+		<string>ή η</string>
+	</dict>
+	<key>Roman-Accent-ι</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ί ϊ ΐ ι</string>
+		<key>Strings</key>
+		<string>ί ϊ ΐ ι</string>
+	</dict>
+	<key>Roman-Accent-ο</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ό ο</string>
+		<key>Strings</key>
+		<string>ό ο</string>
+	</dict>
+	<key>Roman-Accent-σ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>σ ς</string>
+		<key>Strings</key>
+		<string>σ ς</string>
+	</dict>
+	<key>Roman-Accent-υ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ύ ϋ ΰ υ</string>
+		<key>Strings</key>
+		<string>ύ ϋ ΰ υ</string>
+	</dict>
+	<key>Roman-Accent-ω</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ώ ω</string>
+		<key>Strings</key>
+		<string>ώ ω</string>
+	</dict>
+	<key>UI-ABC</key>
+	<string>ΑΒΓ</string>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>$</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>£</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>¥</string>
+	<key>UI-Bold</key>
+	<string>έντονα</string>
+	<key>UI-Cancel</key>
+	<string>Ακύρωση</string>
+	<key>UI-Confirm</key>
+	<string>ΟΚ</string>
+	<key>UI-Copy</key>
+	<string>αντιγραφή</string>
+	<key>UI-Cut</key>
+	<string>αποκοπή</string>
+	<key>UI-Done</key>
+	<string>Τέλος</string>
+	<key>UI-EmergencyCall</key>
+	<string>Επείγον</string>
+	<key>UI-Go</key>
+	<string>Μετάβαση</string>
+	<key>UI-Italic</key>
+	<string>πλάγια</string>
+	<key>UI-Join</key>
+	<string>Είσοδος</string>
+	<key>UI-LanguageIndicator</key>
+	<string>Ελληνικά</string>
+	<key>UI-Next</key>
+	<string>Επόμενο</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Paste</key>
+	<string>επικόλληση</string>
+	<key>UI-Pause</key>
+	<string>παύση</string>
+	<key>UI-Prediction</key>
+	<string>Σαρώστε κάτω για κλείσιμο</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>€</string>
+	<key>UI-Redo</key>
+	<string>Επανάληψη</string>
+	<key>UI-Return</key>
+	<string>⏎</string>
+	<key>UI-Route</key>
+	<string>Διαδρομή</string>
+	<key>UI-Search</key>
+	<string>Εύρεση</string>
+	<key>UI-Select-First-Candidate</key>
+	<string>Επόμενο</string>
+	<key>UI-Select-Next-Candidate</key>
+	<string>Επόμενο</string>
+	<key>UI-Send</key>
+	<string>Αποστολή</string>
+	<key>UI-Space</key>
+	<string>διάστημα</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.com .gr .org .edu .eu</string>
+		<key>Strings</key>
+		<string>.com .gr .org .edu .eu</string>
+	</dict>
+	<key>UI-Underline</key>
+	<string>υπογράμμιση</string>
+	<key>UI-Undo</key>
+	<string>Αναίρεση</string>
+	<key>UI-Wait</key>
+	<string>αναμονή</string>
+</dict>
+</plist>

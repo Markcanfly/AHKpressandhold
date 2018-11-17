@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UI-ABC</key>
+	<string>AБВ</string>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>$</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>£</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>¥</string>
+	<key>UI-Bold</key>
+	<string>Подебљано</string>
+	<key>UI-Cancel</key>
+	<string>Откажи</string>
+	<key>UI-Confirm</key>
+	<string>потвди</string>
+	<key>UI-Copy</key>
+	<string>Копирај</string>
+	<key>UI-Cut</key>
+	<string>Исеци</string>
+	<key>UI-Done</key>
+	<string>урађено</string>
+	<key>UI-EmergencyCall</key>
+	<string>Хитан позив</string>
+	<key>UI-Go</key>
+	<string>Крени</string>
+	<key>UI-Italic</key>
+	<string>Курзив</string>
+	<key>UI-Join</key>
+	<string>Прикључи се</string>
+	<key>UI-LanguageIndicator</key>
+	<string>Српски</string>
+	<key>UI-Next</key>
+	<string>Следећи</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Paste</key>
+	<string>Налепи</string>
+	<key>UI-Pause</key>
+	<string>пауза</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>€</string>
+	<key>UI-Redo</key>
+	<string>понови</string>
+	<key>UI-Return</key>
+	<string>врати</string>
+	<key>UI-Route</key>
+	<string>Пут</string>
+	<key>UI-Search</key>
+	<string>Претражи</string>
+	<key>UI-Select-First-Candidate</key>
+	<string>следећи</string>
+	<key>UI-Select-Next-Candidate</key>
+	<string>следећи</string>
+	<key>UI-Send</key>
+	<string>Пошаљи</string>
+	<key>UI-Space</key>
+	<string>размак</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.com .rs .срб .net .edu .org</string>
+		<key>Strings</key>
+		<string>.com .rs .срб .net .edu .org</string>
+	</dict>
+	<key>UI-Underline</key>
+	<string>Подвучено</string>
+	<key>UI-Undo</key>
+	<string>поништи</string>
+	<key>UI-Wait</key>
+	<string>чекање</string>
+</dict>
+</plist>

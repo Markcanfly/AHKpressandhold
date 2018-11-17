@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-"</key>
+	<dict>
+		<key>Direction</key>
+		<string>strictly-left</string>
+		<key>Keycaps</key>
+		<string>„ ” » « “ "</string>
+		<key>Strings</key>
+		<string>„ ” » « “ "</string>
+	</dict>
+	<key>Roman-Accent-A</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ă Â A À Á Ä Æ Ã Å Ā</string>
+		<key>Strings</key>
+		<string>Ă Â A À Á Ä Æ Ã Å Ā</string>
+	</dict>
+	<key>Roman-Accent-I</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>Î I Ï Ì Í Į Ī</string>
+		<key>Strings</key>
+		<string>Î I Ï Ì Í Į Ī</string>
+	</dict>
+	<key>Roman-Accent-S</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ș S Ś Š</string>
+		<key>Strings</key>
+		<string>Ș S Ś Š</string>
+	</dict>
+	<key>Roman-Accent-T</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ț T</string>
+		<key>Strings</key>
+		<string>Ț T</string>
+	</dict>
+	<key>Roman-Accent-a</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ă â a à á ä æ ã å ā</string>
+		<key>Strings</key>
+		<string>ă â a à á ä æ ã å ā</string>
+	</dict>
+	<key>Roman-Accent-i</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>î i ï ì í į ī</string>
+		<key>Strings</key>
+		<string>î i ï ì í į ī</string>
+	</dict>
+	<key>Roman-Accent-s</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ș s ß ś š</string>
+		<key>Strings</key>
+		<string>ș s ß ś š</string>
+	</dict>
+	<key>Roman-Accent-t</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ț t</string>
+		<key>Strings</key>
+		<string>ț t</string>
+	</dict>
+	<key>UI-ABC</key>
+	<string>ABC</string>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>$</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>£</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>¥</string>
+	<key>UI-Bold</key>
+	<string>aldin</string>
+	<key>UI-Cancel</key>
+	<string>Anulați</string>
+	<key>UI-Confirm</key>
+	<string>Confirmați</string>
+	<key>UI-Copy</key>
+	<string>copiați</string>
+	<key>UI-Cut</key>
+	<string>tăiați</string>
+	<key>UI-Done</key>
+	<string>OK</string>
+	<key>UI-EmergencyCall</key>
+	<string>Urgențe</string>
+	<key>UI-Go</key>
+	<string>Acces</string>
+	<key>UI-Italic</key>
+	<string>cursiv</string>
+	<key>UI-Join</key>
+	<string>Conectare</string>
+	<key>UI-LanguageIndicator</key>
+	<string>Română</string>
+	<key>UI-Next</key>
+	<string>Următor</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Paste</key>
+	<string>lipiți</string>
+	<key>UI-Pause</key>
+	<string>pauză</string>
+	<key>UI-Prediction</key>
+	<string>Glisați în jos pentru a închide</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>€</string>
+	<key>UI-Redo</key>
+	<string>Reconfirmați</string>
+	<key>UI-Return</key>
+	<string>Return</string>
+	<key>UI-Route</key>
+	<string>Rută</string>
+	<key>UI-Search</key>
+	<string>Căutare</string>
+	<key>UI-Select-First-Candidate</key>
+	<string>Următor</string>
+	<key>UI-Select-Next-Candidate</key>
+	<string>Următor</string>
+	<key>UI-Send</key>
+	<string>Trimiteți</string>
+	<key>UI-Space</key>
+	<string>Spațiu</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.com .ro .org .edu .net .eu</string>
+		<key>Strings</key>
+		<string>.com .ro .org .edu .net .eu</string>
+	</dict>
+	<key>UI-Underline</key>
+	<string>subliniat</string>
+	<key>UI-Undo</key>
+	<string>Infirmați</string>
+	<key>UI-Wait</key>
+	<string>așteptare</string>
+</dict>
+</plist>

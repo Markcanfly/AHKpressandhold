@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-।</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>॥ । …</string>
+		<key>Strings</key>
+		<string>॥ । …</string>
+	</dict>
+	<key>Roman-Accent-।?</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>"</string>
+		<key>Strings</key>
+		<string>"</string>
+	</dict>
+	<key>Roman-Accent-ং</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ঁ ং</string>
+		<key>Strings</key>
+		<string>ঁ ং</string>
+	</dict>
+	<key>Roman-Accent-ঋ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ঋ ৠ</string>
+		<key>Strings</key>
+		<string>ঋ ৠ</string>
+	</dict>
+	<key>Roman-Accent-ক</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>খ ক</string>
+		<key>Strings</key>
+		<string>খ ক</string>
+	</dict>
+	<key>Roman-Accent-গ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ঘ গ</string>
+		<key>Strings</key>
+		<string>ঘ গ</string>
+	</dict>
+	<key>Roman-Accent-চ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ছ চ</string>
+		<key>Strings</key>
+		<string>ছ চ</string>
+	</dict>
+	<key>Roman-Accent-জ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ঝ জ</string>
+		<key>Strings</key>
+		<string>ঝ জ</string>
+	</dict>
+	<key>Roman-Accent-ট</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ঠ ট</string>
+		<key>Strings</key>
+		<string>ঠ ট</string>
+	</dict>
+	<key>Roman-Accent-ড</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ঢ ড ড়</string>
+		<key>Strings</key>
+		<string>ঢ ড ড়</string>
+	</dict>
+	<key>Roman-Accent-ঢ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ঢ় ঢ</string>
+		<key>Strings</key>
+		<string>ঢ় ঢ</string>
+	</dict>
+	<key>Roman-Accent-ত</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>থ ত ৎ</string>
+		<key>Strings</key>
+		<string>থ ত ৎ</string>
+	</dict>
+	<key>Roman-Accent-দ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ধ দ</string>
+		<key>Strings</key>
+		<string>ধ দ</string>
+	</dict>
+	<key>Roman-Accent-ন</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ণ ন ঞ ঙ</string>
+		<key>Strings</key>
+		<string>ণ ন ঞ ঙ</string>
+	</dict>
+	<key>Roman-Accent-প</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ফ প</string>
+		<key>Strings</key>
+		<string>ফ প</string>
+	</dict>
+	<key>Roman-Accent-ব</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ভ ব ৰ ৱ</string>
+		<key>Strings</key>
+		<string>ভ ব ৰ ৱ</string>
+	</dict>
+	<key>Roman-Accent-য</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>য় য</string>
+		<key>Strings</key>
+		<string>য় য</string>
+	</dict>
+	<key>Roman-Accent-র</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ৃ র র্ ্র</string>
+		<key>Strings</key>
+		<string>ৃ র র্ ্র</string>
+	</dict>
+	<key>Roman-Accent-ল</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ল ঌ ৡ ৢ ৣ</string>
+		<key>Strings</key>
+		<string>ল ঌ ৡ ৢ ৣ</string>
+	</dict>
+	<key>Roman-Accent-স</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>স শ ষ</string>
+		<key>Strings</key>
+		<string>স শ ষ</string>
+	</dict>
+	<key>Roman-Accent-হ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ঃ হ</string>
+		<key>Strings</key>
+		<string>ঃ হ</string>
+	</dict>
+	<key>Roman-Accent-়</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>় ঽ ৺</string>
+		<key>Strings</key>
+		<string>় ঽ ৺</string>
+	</dict>
+	<key>Roman-Accent-া</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>আ া</string>
+		<key>Strings</key>
+		<string>আ া</string>
+	</dict>
+	<key>Roman-Accent-ি</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ই ি</string>
+		<key>Strings</key>
+		<string>ই ি</string>
+	</dict>
+	<key>Roman-Accent-ী</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ঈ ী</string>
+		<key>Strings</key>
+		<string>ঈ ী</string>
+	</dict>
+	<key>Roman-Accent-ু</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>উ ু</string>
+		<key>Strings</key>
+		<string>উ ু</string>
+	</dict>
+	<key>Roman-Accent-ূ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ঊ ূ</string>
+		<key>Strings</key>
+		<string>ঊ ূ</string>
+	</dict>
+	<key>Roman-Accent-ৃ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ৃ ৄ</string>
+		<key>Strings</key>
+		<string>ৃ ৄ</string>
+	</dict>
+	<key>Roman-Accent-ে</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>এ ে</string>
+		<key>Strings</key>
+		<string>এ ে</string>
+	</dict>
+	<key>Roman-Accent-ৈ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ঐ ৈ</string>
+		<key>Strings</key>
+		<string>ঐ ৈ</string>
+	</dict>
+	<key>Roman-Accent-ো</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ও ো</string>
+		<key>Strings</key>
+		<string>ও ো</string>
+	</dict>
+	<key>Roman-Accent-ৌ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ঔ ৌ</string>
+		<key>Strings</key>
+		<string>ঔ ৌ</string>
+	</dict>
+	<key>Roman-Accent-্</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>অ ্</string>
+		<key>Strings</key>
+		<string>অ ্</string>
+	</dict>
+	<key>Roman-Accent-০</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>0 ০</string>
+		<key>Strings</key>
+		<string>0 ০</string>
+	</dict>
+	<key>Roman-Accent-১</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>1 ১</string>
+		<key>Strings</key>
+		<string>1 ১</string>
+	</dict>
+	<key>Roman-Accent-২</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>2 ২</string>
+		<key>Strings</key>
+		<string>2 ২</string>
+	</dict>
+	<key>Roman-Accent-৩</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>3 ৩</string>
+		<key>Strings</key>
+		<string>3 ৩</string>
+	</dict>
+	<key>Roman-Accent-৪</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>4 ৪</string>
+		<key>Strings</key>
+		<string>4 ৪</string>
+	</dict>
+	<key>Roman-Accent-৫</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>5 ৫</string>
+		<key>Strings</key>
+		<string>5 ৫</string>
+	</dict>
+	<key>Roman-Accent-৬</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>6 ৬</string>
+		<key>Strings</key>
+		<string>6 ৬</string>
+	</dict>
+	<key>Roman-Accent-৭</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>7 ৭</string>
+		<key>Strings</key>
+		<string>7 ৭</string>
+	</dict>
+	<key>Roman-Accent-৮</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>8 ৮</string>
+		<key>Strings</key>
+		<string>8 ৮</string>
+	</dict>
+	<key>Roman-Accent-৯</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>9 ৯</string>
+		<key>Strings</key>
+		<string>9 ৯</string>
+	</dict>
+	<key>UI-ABC</key>
+	<string>ক</string>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>₹</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>$</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>৲</string>
+	<key>UI-Bold</key>
+	<string>বোল্ড </string>
+	<key>UI-Cancel</key>
+	<string>রদ</string>
+	<key>UI-Confirm</key>
+	<string>নিশ্চিত</string>
+	<key>UI-Copy</key>
+	<string>কপি  </string>
+	<key>UI-Currency-৳</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>৳ ৲ ৴ ৵ ৶ ৷ ৸ ৹</string>
+		<key>Strings</key>
+		<string>৳ ৲ ৴ ৵ ৶ ৷ ৸ ৹</string>
+	</dict>
+	<key>UI-Currency-₹</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>₹ ৳ ৲</string>
+		<key>Strings</key>
+		<string>₹ ৳ ৲</string>
+	</dict>
+	<key>UI-Cut</key>
+	<string>কাট </string>
+	<key>UI-Done</key>
+	<string>পূর্ণ</string>
+	<key>UI-EmergencyCall</key>
+	<string>জরুরী কল</string>
+	<key>UI-Go</key>
+	<string>যান</string>
+	<key>UI-Italic</key>
+	<string>ইটালিক</string>
+	<key>UI-Join</key>
+	<string>যুক্ত</string>
+	<key>UI-LanguageIndicator</key>
+	<string>বাংলা</string>
+	<key>UI-Next</key>
+	<string>পরবর্তী</string>
+	<key>UI-Numbers</key>
+	<string>১২৩</string>
+	<key>UI-NumbersSymbols</key>
+	<string>!?১২৩</string>
+	<key>UI-NumbersSymbols-১২৩</key>
+	<string>!?১২৩</string>
+	<key>UI-NumbersSymbols-123</key>
+	<string>!?123</string>
+	<key>UI-Paste</key>
+	<string>পেস্ট   </string>
+	<key>UI-Pause</key>
+	<string>বিরাম</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>৳</string>
+	<key>UI-Redo</key>
+	<string>পুনরাবৃতি</string>
+	<key>UI-Return</key>
+	<string>নতুন লাইন</string>
+	<key>UI-Route</key>
+	<string>রাস্তা নির্দেশ</string>
+	<key>UI-Search</key>
+	<string>খোজ করুন</string>
+	<key>UI-Select-First-Candidate</key>
+	<string>পরবর্তী</string>
+	<key>UI-Select-Next-Candidate</key>
+	<string>পরবর্তী</string>
+	<key>UI-Send</key>
+	<string>পাঠান</string>
+	<key>UI-Space</key>
+	<string>স্পেস</string>
+	<key>UI-Underline</key>
+	<string>আন্ডারলাইন</string>
+	<key>UI-Undo</key>
+	<string>বাতিল করুন</string>
+	<key>UI-Wait</key>
+	<string>প্রতীক্ষা</string>
+</dict>
+</plist>

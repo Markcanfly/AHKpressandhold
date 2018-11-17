@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-A</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Â A À Á Ä Æ Å Ã</string>
+		<key>Strings</key>
+		<string>Â A À Á Ä Æ Å Ã</string>
+	</dict>
+	<key>Roman-Accent-E</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ê E È É Ë</string>
+		<key>Strings</key>
+		<string>Ê E È É Ë</string>
+	</dict>
+	<key>Roman-Accent-I</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>Î I Ï Ì Í</string>
+		<key>Strings</key>
+		<string>Î I Ï Ì Í</string>
+	</dict>
+	<key>Roman-Accent-O</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>Ô O Ò Ó Ö Œ Ø</string>
+		<key>Strings</key>
+		<string>Ô O Ò Ó Ö Œ Ø</string>
+	</dict>
+	<key>Roman-Accent-U</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>Û U Ù Ú Ü</string>
+		<key>Strings</key>
+		<string>Û U Ù Ú Ü</string>
+	</dict>
+	<key>Roman-Accent-W</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ŵ W Ẁ Ẃ Ẅ</string>
+		<key>Strings</key>
+		<string>Ŵ W Ẁ Ẃ Ẅ</string>
+	</dict>
+	<key>Roman-Accent-Y</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>Ŷ Y Ỳ Ý Ÿ</string>
+		<key>Strings</key>
+		<string>Ŷ Y Ỳ Ý Ÿ</string>
+	</dict>
+	<key>Roman-Accent-a</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>â a à á ä æ å ã</string>
+		<key>Strings</key>
+		<string>â a à á ä æ å ã</string>
+	</dict>
+	<key>Roman-Accent-e</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ê e è é ë</string>
+		<key>Strings</key>
+		<string>ê e è é ë</string>
+	</dict>
+	<key>Roman-Accent-i</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>î i ï ì í</string>
+		<key>Strings</key>
+		<string>î i ï ì í</string>
+	</dict>
+	<key>Roman-Accent-o</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ô o ò ó ö œ ø</string>
+		<key>Strings</key>
+		<string>ô o ò ó ö œ ø</string>
+	</dict>
+	<key>Roman-Accent-u</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>û u ù ú ü</string>
+		<key>Strings</key>
+		<string>û u ù ú ü</string>
+	</dict>
+	<key>Roman-Accent-w</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ŵ w ẁ ẃ ẅ</string>
+		<key>Strings</key>
+		<string>ŵ w ẁ ẃ ẅ</string>
+	</dict>
+	<key>Roman-Accent-y</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ŷ y ỳ ý ÿ</string>
+		<key>Strings</key>
+		<string>ŷ y ỳ ý ÿ</string>
+	</dict>
+	<key>UI-ABC</key>
+	<string>ABC</string>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>€</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>$</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>¥</string>
+	<key>UI-Bold</key>
+	<string>Trwm</string>
+	<key>UI-Cancel</key>
+	<string>Canslo</string>
+	<key>UI-Confirm</key>
+	<string>cadarnhau</string>
+	<key>UI-Copy</key>
+	<string>Copïo</string>
+	<key>UI-Cut</key>
+	<string>Torri</string>
+	<key>UI-Done</key>
+	<string>Wedi gwneud</string>
+	<key>UI-EmergencyCall</key>
+	<string>Galwad
+Argyfwng</string>
+	<key>UI-Go</key>
+	<string>Mynd</string>
+	<key>UI-Italic</key>
+	<string>Italig</string>
+	<key>UI-Join</key>
+	<string>Ymuno</string>
+	<key>UI-LanguageIndicator</key>
+	<string>Cymraeg</string>
+	<key>UI-Next</key>
+	<string>Nesaf</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Paste</key>
+	<string>Gludo</string>
+	<key>UI-Pause</key>
+	<string>saib</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>£</string>
+	<key>UI-Redo</key>
+	<string>ailwneud</string>
+	<key>UI-Return</key>
+	<string>dychwelyd</string>
+	<key>UI-Route</key>
+	<string>Llwybr</string>
+	<key>UI-Search</key>
+	<string>Chwilio</string>
+	<key>UI-Select-First-Candidate</key>
+	<string>nesaf</string>
+	<key>UI-Select-Next-Candidate</key>
+	<string>nesaf</string>
+	<key>UI-Send</key>
+	<string>Anfon</string>
+	<key>UI-Space</key>
+	<string>gofod</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.com .co.uk .ie .org .edu .eu</string>
+		<key>Strings</key>
+		<string>.com .co.uk .ie .org .edu .eu</string>
+	</dict>
+	<key>UI-Underline</key>
+	<string>Tanlinellu</string>
+	<key>UI-Undo</key>
+	<string>dad-wneud</string>
+	<key>UI-Wait</key>
+	<string>aros</string>
+</dict>
+</plist>

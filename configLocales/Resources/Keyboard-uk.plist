@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-Є</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>Э Є</string>
+		<key>Strings</key>
+		<string>Э Є</string>
+	</dict>
+	<key>Roman-Accent-І</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ї І</string>
+		<key>Strings</key>
+		<string>Ї І</string>
+	</dict>
+	<key>Roman-Accent-Г</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>Ґ Г</string>
+		<key>Strings</key>
+		<string>Ґ Г</string>
+	</dict>
+	<key>Roman-Accent-Е</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ё Е</string>
+		<key>Strings</key>
+		<string>Ё Е</string>
+	</dict>
+	<key>Roman-Accent-И</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ы И</string>
+		<key>Strings</key>
+		<string>Ы И</string>
+	</dict>
+	<key>Roman-Accent-Ь</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ъ Ь</string>
+		<key>Strings</key>
+		<string>Ъ Ь</string>
+	</dict>
+	<key>Roman-Accent-г</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ґ г</string>
+		<key>Strings</key>
+		<string>ґ г</string>
+	</dict>
+	<key>Roman-Accent-е</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ё е</string>
+		<key>Strings</key>
+		<string>ё е</string>
+	</dict>
+	<key>Roman-Accent-и</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ы и</string>
+		<key>Strings</key>
+		<string>ы и</string>
+	</dict>
+	<key>Roman-Accent-ь</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ъ ь</string>
+		<key>Strings</key>
+		<string>ъ ь</string>
+	</dict>
+	<key>Roman-Accent-є</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>э є</string>
+		<key>Strings</key>
+		<string>э є</string>
+	</dict>
+	<key>Roman-Accent-і</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ї і</string>
+		<key>Strings</key>
+		<string>ї і</string>
+	</dict>
+	<key>Roman-Accent-#</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string># №</string>
+		<key>Strings</key>
+		<string># №</string>
+	</dict>
+	<key>UI-ABC</key>
+	<string>АБВ</string>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>€</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>$</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>£</string>
+	<key>UI-Bold</key>
+	<string>жирний</string>
+	<key>UI-Cancel</key>
+	<string>Скасувати</string>
+	<key>UI-Copy</key>
+	<string>копіювати</string>
+	<key>UI-Currency-₴</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>₴ $ € £ ¥ ₩ ₽</string>
+		<key>Strings</key>
+		<string>₴ $ € £ ¥ ₩ ₽</string>
+	</dict>
+	<key>UI-Cut</key>
+	<string>вирізати</string>
+	<key>UI-Done</key>
+	<string>Готово</string>
+	<key>UI-EmergencyCall</key>
+	<string>  Екстрений  
+  виклик  </string>
+	<key>UI-Go</key>
+	<string>Перейти</string>
+	<key>UI-Italic</key>
+	<string>курсив</string>
+	<key>UI-Join</key>
+	<string>Увійти</string>
+	<key>UI-LanguageIndicator</key>
+	<string>Українська</string>
+	<key>UI-Next</key>
+	<string>Далі</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Paste</key>
+	<string>вставити</string>
+	<key>UI-Pause</key>
+	<string>пауза</string>
+	<key>UI-Prediction</key>
+	<string>Посуньте вниз, щоб закрити</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>₴</string>
+	<key>UI-Redo</key>
+	<string>Повторити</string>
+	<key>UI-Return</key>
+	<string>⏎</string>
+	<key>UI-Route</key>
+	<string>Маршрут</string>
+	<key>UI-Search</key>
+	<string>Пошук</string>
+	<key>UI-Send</key>
+	<string>Надіслати</string>
+	<key>UI-Space</key>
+	<string>Пробіл</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.com .ua .org .edu</string>
+		<key>Strings</key>
+		<string>.com .ua .org .edu</string>
+	</dict>
+	<key>UI-Underline</key>
+	<string>підкреслити</string>
+	<key>UI-Undo</key>
+	<string>Відмінити</string>
+	<key>UI-Wait</key>
+	<string>чекати</string>
+</dict>
+</plist>

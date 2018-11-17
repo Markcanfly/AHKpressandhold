@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-I</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>I Î Í</string>
+		<key>Strings</key>
+		<string>I Î Í</string>
+	</dict>
+	<key>Roman-Accent-i</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>i î í</string>
+		<key>Strings</key>
+		<string>i î í</string>
+	</dict>
+	<key>Roman-Accent-Ä</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>À Ä</string>
+		<key>Strings</key>
+		<string>À Ä</string>
+	</dict>
+	<key>Roman-Accent-Ö</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>É Ö</string>
+		<key>Strings</key>
+		<string>É Ö</string>
+	</dict>
+	<key>Roman-Accent-Ü</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>È Ü</string>
+		<key>Strings</key>
+		<string>È Ü</string>
+	</dict>
+	<key>Roman-Accent-ä</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>à ä</string>
+		<key>Strings</key>
+		<string>à ä</string>
+	</dict>
+	<key>Roman-Accent-ö</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>é ö</string>
+		<key>Strings</key>
+		<string>é ö</string>
+	</dict>
+	<key>Roman-Accent-ü</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>è ü</string>
+		<key>Strings</key>
+		<string>è ü</string>
+	</dict>
+	<key>UI-ABC</key>
+	<string>ABC</string>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>$</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>£</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>¥</string>
+	<key>UI-Bold</key>
+	<string>Fett</string>
+	<key>UI-Cancel</key>
+	<string>Abbrechen</string>
+	<key>UI-Copy</key>
+	<string>Kopieren</string>
+	<key>UI-Cut</key>
+	<string>Ausschneiden</string>
+	<key>UI-Done</key>
+	<string>Fertig</string>
+	<key>UI-EmergencyCall</key>
+	<string>Notruf</string>
+	<key>UI-Go</key>
+	<string>Öffnen</string>
+	<key>UI-Italic</key>
+	<string>Kursiv</string>
+	<key>UI-Join</key>
+	<string>Verbinden</string>
+	<key>UI-LanguageIndicator</key>
+	<string>Deutsch (Schweiz)</string>
+	<key>UI-Next</key>
+	<string>Weiter</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Paste</key>
+	<string>Einfügen</string>
+	<key>UI-Pause</key>
+	<string>Anhalten</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>€</string>
+	<key>UI-Redo</key>
+	<string>Wiederholen</string>
+	<key>UI-Return</key>
+	<string>Return</string>
+	<key>UI-Route</key>
+	<string>Route</string>
+	<key>UI-Search</key>
+	<string>Suchen</string>
+	<key>UI-Send</key>
+	<string>Senden</string>
+	<key>UI-Space</key>
+	<string>Leerzeichen</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.com .ch .org .edu .eu</string>
+		<key>Strings</key>
+		<string>.com .ch .org .edu .eu</string>
+	</dict>
+	<key>UI-Underline</key>
+	<string>Unterstrichen</string>
+	<key>UI-Undo</key>
+	<string>Widerrufen</string>
+</dict>
+</plist>

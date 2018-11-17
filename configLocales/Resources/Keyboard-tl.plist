@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-A</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Á A ª À Ä Â Ã</string>
+		<key>Strings</key>
+		<string>Á A ª À Ä Â Ã</string>
+	</dict>
+	<key>Roman-Accent-C</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>C Ç Ć</string>
+		<key>Strings</key>
+		<string>C Ç Ć</string>
+	</dict>
+	<key>Roman-Accent-E</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>É E È Ë Ê</string>
+		<key>Strings</key>
+		<string>É E È Ë Ê</string>
+	</dict>
+	<key>Roman-Accent-I</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>Í I Ï Ì</string>
+		<key>Strings</key>
+		<string>Í I Ï Ì</string>
+	</dict>
+	<key>Roman-Accent-N</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>N Ñ Ń</string>
+		<key>Strings</key>
+		<string>N Ñ Ń</string>
+	</dict>
+	<key>Roman-Accent-O</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>Ó O º Ò Ö Ô Õ</string>
+		<key>Strings</key>
+		<string>Ó O º Ò Ö Ô Õ</string>
+	</dict>
+	<key>Roman-Accent-U</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>Ú Ü U Ù</string>
+		<key>Strings</key>
+		<string>Ú Ü U Ù</string>
+	</dict>
+	<key>Roman-Accent-a</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>á a ª à ä â ã</string>
+		<key>Strings</key>
+		<string>á a ª à ä â ã</string>
+	</dict>
+	<key>Roman-Accent-c</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>c ç ć</string>
+		<key>Strings</key>
+		<string>c ç ć</string>
+	</dict>
+	<key>Roman-Accent-e</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>é e è ë ê</string>
+		<key>Strings</key>
+		<string>é e è ë ê</string>
+	</dict>
+	<key>Roman-Accent-g</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>g g̃</string>
+		<key>Strings</key>
+		<string>g g̃</string>
+	</dict>
+	<key>Roman-Accent-i</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>í i ï ì</string>
+		<key>Strings</key>
+		<string>í i ï ì</string>
+	</dict>
+	<key>Roman-Accent-n</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>n ñ ń</string>
+		<key>Strings</key>
+		<string>n ñ ń</string>
+	</dict>
+	<key>Roman-Accent-o</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ó o º ò ö ô õ</string>
+		<key>Strings</key>
+		<string>ó o º ò ö ô õ</string>
+	</dict>
+	<key>Roman-Accent-u</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ú ü u ù</string>
+		<key>Strings</key>
+		<string>ú ü u ù</string>
+	</dict>
+	<key>UI-ABC</key>
+	<string>ABC</string>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>$</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>£</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>¥</string>
+	<key>UI-Bold</key>
+	<string>Bold</string>
+	<key>UI-Cancel</key>
+	<string>kanselahin</string>
+	<key>UI-Confirm</key>
+	<string>kumpirmahin</string>
+	<key>UI-Copy</key>
+	<string>Kopyahin</string>
+	<key>UI-Cut</key>
+	<string>Maggupit</string>
+	<key>UI-Done</key>
+	<string>tapos na</string>
+	<key>UI-EmergencyCall</key>
+	<string>emergency
+na tawag</string>
+	<key>UI-Go</key>
+	<string>pumunta</string>
+	<key>UI-Italic</key>
+	<string>Italiko</string>
+	<key>UI-Join</key>
+	<string>sumali</string>
+	<key>UI-LanguageIndicator</key>
+	<string>Tagalog</string>
+	<key>UI-Next</key>
+	<string>susunod</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Paste</key>
+	<string>Magdikit</string>
+	<key>UI-Pause</key>
+	<string>pause</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>₱</string>
+	<key>UI-Redo</key>
+	<string>uliting gawin</string>
+	<key>UI-Return</key>
+	<string>susunod</string>
+	<key>UI-Route</key>
+	<string>I-rota</string>
+	<key>UI-Search</key>
+	<string>hanapin</string>
+	<key>UI-Select-First-Candidate</key>
+	<string>susunod</string>
+	<key>UI-Select-Next-Candidate</key>
+	<string>susunod</string>
+	<key>UI-Send</key>
+	<string>ipadala</string>
+	<key>UI-Space</key>
+	<string>space</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.com .ph .org .edu</string>
+		<key>Strings</key>
+		<string>.com .ph .org .edu</string>
+	</dict>
+	<key>UI-Underline</key>
+	<string>Salungguhit</string>
+	<key>UI-Undo</key>
+	<string>ibalik sa dati</string>
+	<key>UI-Wait</key>
+	<string>maghintay</string>
+</dict>
+</plist>

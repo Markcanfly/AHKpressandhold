@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-A</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Á A À Â Ä Æ Ã Å Ā</string>
+		<key>Strings</key>
+		<string>Á A À Â Ä Æ Ã Å Ā</string>
+	</dict>
+	<key>Roman-Accent-E</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>É E È Ê Ë Ę Ė Ē</string>
+		<key>Strings</key>
+		<string>É E È Ê Ë Ę Ė Ē</string>
+	</dict>
+	<key>Roman-Accent-I</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>Í I Î Ï Ì Į Ī</string>
+		<key>Strings</key>
+		<string>Í I Î Ï Ì Į Ī</string>
+	</dict>
+	<key>Roman-Accent-O</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>Ó Ö Ő O Ô Ò Õ Œ Ø Ō</string>
+		<key>Strings</key>
+		<string>Ó Ö Ő O Ô Ò Õ Œ Ø Ō</string>
+	</dict>
+	<key>Roman-Accent-U</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>Ú Ü Ű U Û Ù Ū</string>
+		<key>Strings</key>
+		<string>Ú Ü Ű U Û Ù Ū</string>
+	</dict>
+	<key>Roman-Accent-a</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>á a à â ä æ ã å ā</string>
+		<key>Strings</key>
+		<string>á a à â ä æ ã å ā</string>
+	</dict>
+	<key>Roman-Accent-e</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>é e è ê ë ę ė ē</string>
+		<key>Strings</key>
+		<string>é e è ê ë ę ė ē</string>
+	</dict>
+	<key>Roman-Accent-i</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>í i î ï ì į ī</string>
+		<key>Strings</key>
+		<string>í i î ï ì į ī</string>
+	</dict>
+	<key>Roman-Accent-o</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ó ö ő o ô ò õ œ ø ō</string>
+		<key>Strings</key>
+		<string>ó ö ő o ô ò õ œ ø ō</string>
+	</dict>
+	<key>Roman-Accent-u</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ú ü ű u û ù ū</string>
+		<key>Strings</key>
+		<string>ú ü ű u û ù ū</string>
+	</dict>
+	<key>UI-ABC</key>
+	<string>ABC</string>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>$</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>£</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>¥</string>
+	<key>UI-Bold</key>
+	<string>félkövér</string>
+	<key>UI-Cancel</key>
+	<string>Mégsem</string>
+	<key>UI-Confirm</key>
+	<string>confirm</string>
+	<key>UI-Copy</key>
+	<string>másolás</string>
+	<key>UI-Cut</key>
+	<string>kivágás</string>
+	<key>UI-Done</key>
+	<string>Kész</string>
+	<key>UI-EmergencyCall</key>
+	<string>Vészhívás</string>
+	<key>UI-Go</key>
+	<string>Ugrás</string>
+	<key>UI-Italic</key>
+	<string>dőlt</string>
+	<key>UI-Join</key>
+	<string>Csatlakozás</string>
+	<key>UI-LanguageIndicator</key>
+	<string>Magyar</string>
+	<key>UI-Next</key>
+	<string>Következő</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Paste</key>
+	<string>beillesztés</string>
+	<key>UI-Pause</key>
+	<string>szünet</string>
+	<key>UI-Prediction</key>
+	<string>Legyintsen lefelé a bezáráshoz</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>€</string>
+	<key>UI-Redo</key>
+	<string>Ismétlés</string>
+	<key>UI-Return</key>
+	<string>Return</string>
+	<key>UI-Route</key>
+	<string>Útvonal</string>
+	<key>UI-Search</key>
+	<string>Keresés</string>
+	<key>UI-Select-First-Candidate</key>
+	<string>next</string>
+	<key>UI-Select-Next-Candidate</key>
+	<string>next</string>
+	<key>UI-Send</key>
+	<string>Küldd</string>
+	<key>UI-Space</key>
+	<string>Szóköz</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.com .hu .org .edu .net .eu</string>
+		<key>Strings</key>
+		<string>.com .hu .org .edu .net .eu</string>
+	</dict>
+	<key>UI-Underline</key>
+	<string>aláhúzott</string>
+	<key>UI-Undo</key>
+	<string>Visszavonás</string>
+	<key>UI-Wait</key>
+	<string>várakozás</string>
+</dict>
+</plist>

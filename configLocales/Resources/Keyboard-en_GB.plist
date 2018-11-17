@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-W</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ŵ W</string>
+		<key>Strings</key>
+		<string>Ŵ W</string>
+	</dict>
+	<key>Roman-Accent-Y</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ŷ Y</string>
+		<key>Strings</key>
+		<string>Ŷ Y</string>
+	</dict>
+	<key>Roman-Accent-w</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ŵ w</string>
+		<key>Strings</key>
+		<string>ŵ w</string>
+	</dict>
+	<key>Roman-Accent-y</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ŷ y</string>
+		<key>Strings</key>
+		<string>ŷ y</string>
+	</dict>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>€</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>$</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>¥</string>
+	<key>UI-Currency-£</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>$ ¢</string>
+		<key>Strings</key>
+		<string>$ ¢</string>
+	</dict>
+	<key>UI-LanguageIndicator</key>
+	<string>English (UK)</string>
+	<key>UI-Pause</key>
+	<string>pause</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>£</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.co.uk .com .ie .org .edu .eu .uk</string>
+		<key>Strings</key>
+		<string>.co.uk .com .ie .org .edu .eu .uk</string>
+	</dict>
+</dict>
+</plist>

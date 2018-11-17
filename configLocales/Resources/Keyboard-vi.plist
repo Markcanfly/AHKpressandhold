@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-A</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>À Ả Ã Á Ạ Ă Ằ Ẳ Ẵ Ắ Ặ Â Ầ Ẩ Ẫ Ấ Ậ A</string>
+		<key>Strings</key>
+		<string>À Ả Ã Á Ạ Ă Ằ Ẳ Ẵ Ắ Ặ Â Ầ Ẩ Ẫ Ấ Ậ A</string>
+	</dict>
+	<key>Roman-Accent-D</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Đ D</string>
+		<key>Strings</key>
+		<string>Đ D</string>
+	</dict>
+	<key>Roman-Accent-E</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>È Ẻ Ẽ É Ẹ Ê Ề Ể Ễ Ế Ệ E</string>
+		<key>Strings</key>
+		<string>È Ẻ Ẽ É Ẹ Ê Ề Ể Ễ Ế Ệ E</string>
+	</dict>
+	<key>Roman-Accent-I</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>Ì Ỉ Ĩ Í Ị I</string>
+		<key>Strings</key>
+		<string>Ì Ỉ Ĩ Í Ị I</string>
+	</dict>
+	<key>Roman-Accent-O</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>Ò Ỏ Õ Ó Ọ Ô Ồ Ổ Ỗ Ố Ộ Ơ Ờ Ở Ỡ Ớ Ợ O</string>
+		<key>Strings</key>
+		<string>Ò Ỏ Õ Ó Ọ Ô Ồ Ổ Ỗ Ố Ộ Ơ Ờ Ở Ỡ Ớ Ợ O</string>
+	</dict>
+	<key>Roman-Accent-U</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>Ù Ủ Ũ Ú Ụ Ư Ừ Ử Ữ Ứ Ự U</string>
+		<key>Strings</key>
+		<string>Ù Ủ Ũ Ú Ụ Ư Ừ Ử Ữ Ứ Ự U</string>
+	</dict>
+	<key>Roman-Accent-Y</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>Ỳ Ỷ Ỹ Ý Ỵ Y</string>
+		<key>Strings</key>
+		<string>Ỳ Ỷ Ỹ Ý Ỵ Y</string>
+	</dict>
+	<key>Roman-Accent-a</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>à ả ã á ạ ă ằ ẳ ẵ ắ ặ â ầ ẩ ẫ ấ ậ a</string>
+		<key>Strings</key>
+		<string>à ả ã á ạ ă ằ ẳ ẵ ắ ặ â ầ ẩ ẫ ấ ậ a</string>
+	</dict>
+	<key>Roman-Accent-d</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>đ d</string>
+		<key>Strings</key>
+		<string>đ d</string>
+	</dict>
+	<key>Roman-Accent-e</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>è ẻ ẽ é ẹ ê ề ể ễ ế ệ e</string>
+		<key>Strings</key>
+		<string>è ẻ ẽ é ẹ ê ề ể ễ ế ệ e</string>
+	</dict>
+	<key>Roman-Accent-i</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ì ỉ ĩ í ị i</string>
+		<key>Strings</key>
+		<string>ì ỉ ĩ í ị i</string>
+	</dict>
+	<key>Roman-Accent-o</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ò ỏ õ ó ọ ô ồ ổ ỗ ố ộ ơ ờ ở ỡ ớ ợ o</string>
+		<key>Strings</key>
+		<string>ò ỏ õ ó ọ ô ồ ổ ỗ ố ộ ơ ờ ở ỡ ớ ợ o</string>
+	</dict>
+	<key>Roman-Accent-u</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ù ủ ũ ú ụ ư ừ ử ữ ứ ự u</string>
+		<key>Strings</key>
+		<string>ù ủ ũ ú ụ ư ừ ử ữ ứ ự u</string>
+	</dict>
+	<key>Roman-Accent-y</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ỳ ỷ ỹ ý ỵ y</string>
+		<key>Strings</key>
+		<string>ỳ ỷ ỹ ý ỵ y</string>
+	</dict>
+	<key>UI-ABC</key>
+	<string>ABC</string>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>$</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>¥</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>€</string>
+	<key>UI-Bold</key>
+	<string>in đậm</string>
+	<key>UI-Cancel</key>
+	<string>Hủy</string>
+	<key>UI-Confirm</key>
+	<string>Xác nhận</string>
+	<key>UI-Copy</key>
+	<string>sao chép</string>
+	<key>UI-Currency-₫</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>₫ $ € £ ¥ ₩ ₽</string>
+		<key>Strings</key>
+		<string>₫ $ € £ ¥ ₩ ₽</string>
+	</dict>
+	<key>UI-Cut</key>
+	<string>cắt</string>
+	<key>UI-Done</key>
+	<string>Xong</string>
+	<key>UI-EmergencyCall</key>
+	<string>Cuộc gọi Khẩn</string>
+	<key>UI-Go</key>
+	<string>Đi</string>
+	<key>UI-Italic</key>
+	<string>in nghiêng</string>
+	<key>UI-Join</key>
+	<string>Kết nối</string>
+	<key>UI-LanguageIndicator</key>
+	<string>Tiếng Việt</string>
+	<key>UI-Next</key>
+	<string>Tiếp</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Paste</key>
+	<string>dán</string>
+	<key>UI-Pause</key>
+	<string>Dừng</string>
+	<key>UI-Prediction</key>
+	<string>Vuốt xuống để đóng</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>₫</string>
+	<key>UI-Redo</key>
+	<string>Làm lại</string>
+	<key>UI-Return</key>
+	<string>Nhập</string>
+	<key>UI-Route</key>
+	<string>Đ.tuyến</string>
+	<key>UI-Search</key>
+	<string>Tìm</string>
+	<key>UI-Select-First-Candidate</key>
+	<string>Tiếp</string>
+	<key>UI-Select-Next-Candidate</key>
+	<string>Tiếp</string>
+	<key>UI-Send</key>
+	<string>Gửi</string>
+	<key>UI-Space</key>
+	<string>dấu cách</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.com .vn .org .edu .net</string>
+		<key>Strings</key>
+		<string>.com .vn .org .edu .net</string>
+	</dict>
+	<key>UI-Underline</key>
+	<string>gạch chân</string>
+	<key>UI-Undo</key>
+	<string>Hoàn tác</string>
+	<key>UI-Wait</key>
+	<string>chờ</string>
+</dict>
+</plist>

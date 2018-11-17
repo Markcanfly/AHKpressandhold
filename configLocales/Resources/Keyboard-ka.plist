@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-ვ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ვ უ̌ უ̂</string>
+		<key>Strings</key>
+		<string>ვ უ̌ უ̂</string>
+	</dict>
+	<key>Roman-Accent-ფ</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ფ ჶ</string>
+		<key>Strings</key>
+		<string>ფ ჶ</string>
+	</dict>
+	<key>Roman-Accent-ყ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ყ ჴ</string>
+		<key>Strings</key>
+		<string>ყ ჴ</string>
+	</dict>
+	<key>UI-ABC</key>
+	<string>ABC</string>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>€</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>$</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>£</string>
+	<key>UI-Bold</key>
+	<string>შრიფტის გამუქება</string>
+	<key>UI-Cancel</key>
+	<string>Cancel</string>
+	<key>UI-Confirm</key>
+	<string>confirm</string>
+	<key>UI-Copy</key>
+	<string>კოპირება</string>
+	<key>UI-Currency-ლ</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ლ € $ £ ¥</string>
+		<key>Strings</key>
+		<string>ლ € $ £ ¥</string>
+	</dict>
+	<key>UI-Cut</key>
+	<string>ამოჭრა</string>
+	<key>UI-Done</key>
+	<string>Done</string>
+	<key>UI-EmergencyCall</key>
+	<string>Emergency
+Call</string>
+	<key>UI-Go</key>
+	<string>Go</string>
+	<key>UI-Italic</key>
+	<string>კურსივი</string>
+	<key>UI-Join</key>
+	<string>Join</string>
+	<key>UI-LanguageIndicator</key>
+	<string>ქართული ენა</string>
+	<key>UI-Next</key>
+	<string>Next</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Paste</key>
+	<string>ჩასმა</string>
+	<key>UI-Pause</key>
+	<string>pause</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>ლ</string>
+	<key>UI-Redo</key>
+	<string>redo</string>
+	<key>UI-Return</key>
+	<string>შეყვანა</string>
+	<key>UI-Route</key>
+	<string>Route</string>
+	<key>UI-Search</key>
+	<string>Search</string>
+	<key>UI-Select-First-Candidate</key>
+	<string>next</string>
+	<key>UI-Select-Next-Candidate</key>
+	<string>next</string>
+	<key>UI-Send</key>
+	<string>Send</string>
+	<key>UI-Space</key>
+	<string>ჰარი</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.com .ge</string>
+		<key>Strings</key>
+		<string>.com .ge</string>
+	</dict>
+	<key>UI-Underline</key>
+	<string>ხაზგასმა</string>
+	<key>UI-Undo</key>
+	<string>undo</string>
+	<key>UI-Wait</key>
+	<string>wait</string>
+</dict>
+</plist>
