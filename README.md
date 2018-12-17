@@ -1,9 +1,9 @@
 # AHKpressandhold
-An AutoHotkey script made to mimic the macOS accent menu on Windows
+An AutoHotkey script made to mimic the macOS Press and Hold accent menu on Windows
 
 *The script itself only requires AutoHotkey to be installed, but Python is needed to easily update the script.*
 
-Basic variations taken from the US layout (international)
+Default variations taken from the US layout (international)
 
 |     |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |
 |----:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
