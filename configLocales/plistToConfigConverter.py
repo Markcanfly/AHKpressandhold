@@ -49,6 +49,18 @@ disableTooltipsIn=
 
     return tooltipsString
 
+
+# Takes a plistlib parsed dictionary, and returns the keycaps for the specified keys in a dictionary 
+
+def dict_from_plist(plist, keys):
+    dictionary = dict()
+    for key in keys:
+        singleCharKey = key[-1]
+        tempList = plist[key]['Keycaps'].split(' ') # Get a list of the PAH characters
+        if singleCharKey in tempList: tempList.remove(singleCharKey) # Filter out the char itself, according to the macOS implementation
+        dictionary[singleCharKey] = ",".join(tempList) # a string with the chars separated by a comma
+    return dictionary
+
 # Takes in a .plist keyboard file and returns the lowercase and uppercase dictionaries to place in the config
 
 def parse(filename='testlist.plist'):
@@ -77,24 +89,10 @@ def parse(filename='testlist.plist'):
     if lowerCaseKeys == [] and upperCaseKeys == []:
         return None
 
-    lowerCaseDict = dict()
-    upperCaseDict = dict()
+    # Extract the required PAH keycaps from the plist for the lowercase and uppercase keys
 
-    # For both lower- and uppercase chars create a dictionary
-    # and assign to each retained singleCharKey, (which were filtered out to be those that we can press on the keyboard)
-    # the appropriate 'press and hold versions' from the plist. which is simply a string
-
-    for key in lowerCaseKeys:
-        singleCharKey = key[-1]
-        tempList = plist[key]['Keycaps'].split(' ') # Get a list of the PAH characters
-        if singleCharKey in tempList: tempList.remove(singleCharKey) # Filter out the char itself, according to the macOS implementation
-        lowerCaseDict[singleCharKey] = ",".join(tempList) # Return a string with the chars separated by a comma
-
-    for key in upperCaseKeys:
-        singleCharKey = key[-1]
-        tempList = plist[key]['Keycaps'].split(' ') # Get a list of the PAH characters
-        if singleCharKey in tempList: tempList.remove(singleCharKey) # Filter out the char itself, according to the macOS implementation
-        upperCaseDict[singleCharKey] = ",".join(tempList) # Return a string with the chars separated by a comma
+    lowerCaseDict = dict_from_plist(plist, lowerCaseKeys)
+    upperCaseDict = dict_from_plist(plist, upperCaseKeys)
 
     return (lowerCaseDict, upperCaseDict)
 
