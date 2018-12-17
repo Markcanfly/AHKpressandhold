@@ -23,6 +23,9 @@ from string import ascii_uppercase
 
 def getTooltipsSection():
     tooltipsString = str()
+
+    # If a tooltips.txt file is found, use that as the base of the whole section, if not, use the default
+
     try:
         file = open('tooltips.txt', 'r', encoding='utf-8')
         tooltipsString = file.read()
@@ -62,6 +65,8 @@ def parse(filename='testlist.plist'):
 
     for key in plist.keys():
         if key.startswith('Roman-Accent-'):
+            # !!! key[-1] is the last character in that key, which is the character it needs to use for the dictionary
+            # It retains the keys in their current form, but filter out those which it won't parse
             if key[-1] in lowerCase:
                 lowerCaseKeys.append(key)
             elif key[-1] in upperCase:
@@ -72,10 +77,13 @@ def parse(filename='testlist.plist'):
     if lowerCaseKeys == [] and upperCaseKeys == []:
         return None
 
-    # 'convert' to the format used in the .ini
-
     lowerCaseDict = dict()
     upperCaseDict = dict()
+
+    # For both lower- and uppercase chars create a dictionary
+    # and assign to each retained singleCharKey, (which were filtered out to be those that we can press on the keyboard)
+    # the appropriate 'press and hold versions' from the plist. which is simply a string
+    # todo: filter our the chars that are the same as the key, and return a list instead of string
 
     for key in lowerCaseKeys:
         singleCharKey = key[-1]
@@ -87,7 +95,7 @@ def parse(filename='testlist.plist'):
 
     return (lowerCaseDict, upperCaseDict)
 
-# Find strings in tuple, return None if it hasn't found any
+# Return .plist filenames from a tuple containing all filenames in a directory, returned by os.listdir
 
 def plistFiles(files):
     plists = list()
@@ -102,7 +110,7 @@ def plistFiles(files):
 
 plistPaths = set()
 
-plistDirectory = 'Resources'
+plistDirectory = 'Resources' # Default directory for the plist files on macos
 
 if os.path.isdir(plistDirectory):
     plistFileNames = plistFiles(os.listdir(plistDirectory + '/')) # Find all the .plist files in the specified directory
@@ -114,7 +122,8 @@ else:
     if plistPaths is None:
         sys.exit('No .plists file found in either the Resources directory or the script directory.')
 
-# Make sure that the directory 'config' existss
+# This is where the parsing section ends, and the writing begins
+# Make sure that the directory 'config' exists
 
 try: 
     os.makedirs('config/')
@@ -128,6 +137,8 @@ except OSError as e:
 tooltips = getTooltipsSection()
 
 for plistFile in plistPaths:
+
+    # Extract region code from filename
     if 'Resources/' in plistFile:
         suffix = plistFile[19:]  # Remove 'Resources/Keyboard-'
     else:
@@ -144,6 +155,8 @@ for plistFile in plistPaths:
 
         configFileName = 'config/config_' + suffix + '.ini'
 
+        # Write the ini data to files
+
         with open(configFileName, 'w', encoding='utf8') as config:
             config.write(tooltips)
             # Write lowercase to file
@@ -151,7 +164,7 @@ for plistFile in plistPaths:
             config.write('[lowercase]\n')
             for key in lowerCase.keys():
                 config.write(
-                    key + ":" + lowerCase[key].replace(' ', ',') + '\n')
+                    key + ":" + lowerCase[key].replace(' ', ',') + '\n') # Because our parsing algorithm returns these as strings
             config.write('\n')
 
             # Write uppercase to file
