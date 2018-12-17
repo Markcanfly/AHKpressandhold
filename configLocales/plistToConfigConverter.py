@@ -83,15 +83,18 @@ def parse(filename='testlist.plist'):
     # For both lower- and uppercase chars create a dictionary
     # and assign to each retained singleCharKey, (which were filtered out to be those that we can press on the keyboard)
     # the appropriate 'press and hold versions' from the plist. which is simply a string
-    # todo: filter our the chars that are the same as the key, and return a list instead of string
 
     for key in lowerCaseKeys:
         singleCharKey = key[-1]
-        lowerCaseDict[singleCharKey] = plist[key]['Keycaps']
+        tempList = plist[key]['Keycaps'].split(' ') # Get a list of the PAH characters
+        if singleCharKey in tempList: tempList.remove(singleCharKey) # Filter out the char itself, according to the macOS implementation
+        lowerCaseDict[singleCharKey] = ",".join(tempList) # Return a string with the chars separated by a comma
 
     for key in upperCaseKeys:
         singleCharKey = key[-1]
-        upperCaseDict[singleCharKey] = plist[key]['Keycaps']
+        tempList = plist[key]['Keycaps'].split(' ') # Get a list of the PAH characters
+        if singleCharKey in tempList: tempList.remove(singleCharKey) # Filter out the char itself, according to the macOS implementation
+        upperCaseDict[singleCharKey] = ",".join(tempList) # Return a string with the chars separated by a comma
 
     return (lowerCaseDict, upperCaseDict)
 
@@ -164,7 +167,7 @@ for plistFile in plistPaths:
             config.write('[lowercase]\n')
             for key in lowerCase.keys():
                 config.write(
-                    key + ":" + lowerCase[key].replace(' ', ',') + '\n') # Because our parsing algorithm returns these as strings
+                    key + ":" + lowerCase[key] + '\n') # Because our parsing algorithm returns these as strings
             config.write('\n')
 
             # Write uppercase to file
@@ -172,5 +175,5 @@ for plistFile in plistPaths:
             config.write('[uppercase]\n')
             for key in upperCase.keys():
                 config.write(
-                    key + ":" + upperCase[key].replace(' ', ',') + '\n')
+                    key + ":" + upperCase[key] + '\n')
             config.write('\n')
