@@ -1,5 +1,49 @@
 import configparser
+from os import path # To use the isfile method
 config = configparser.ConfigParser()
+
+#region
+def get_default_config():
+    return """[tooltips]
+# Do you want tooltips to appear?
+tooltips=false
+# For how long do you want to have to hold a key down for a tooltip to appear? (in seconds, floating point value allowed)
+delayBeforeTooltip=0.6
+# After how long do you want the tooltip to disappear? (in seconds, floating point value allowed)
+tooltipTimeout=2.5
+# Type the names, (or a part of the name) of programs you want tooltips to be disabled in (separated by commas)
+disableTooltipsIn=
+
+# Here you can specify which keys do you want to use with different versions, and in what order shall those versions be.
+# Also, the number of variations needs to be the same for the upper- and lowercase versions of a character.
+# Use a comma to separate the values.
+[lowercase]
+e:è, é, ê, ë, ē, ė, ę
+y:ÿ
+u:û, ü, ù, ú, ū
+i:î, ï, í, ī, į, ì
+o:ô, ö, ò, ó, œ, ø, ō, õ
+a:à, á, â, ä, æ, ã, å, ā
+s:ß, ś, š
+l:ł
+z:ž, ź, ż
+c:ç, ć, č
+n:ñ, ń
+
+[uppercase]
+e:È, É, Ê, Ë, Ē, Ė, Ę
+y:Ÿ
+u:Û, Ü, Ù, Ú, Ū
+i:Î, Ï, Í, Ī, Į, Ì
+o:Ô, Ö, Ò, Ó, Œ, Ø, Ō, Õ
+a:À, Á, Â, Ä, Æ, Ã, Å, Ā
+s:ß, Ś, Š
+l:Ł
+z:Ž, Ź, Ż
+c:Ç, Ć, Č
+n:Ñ, Ń
+"""
+#endregion
 
 def main(sourceIni="config.ini", fileName = 'accents', fileNameSuffix = None):
 
@@ -20,12 +64,17 @@ def main(sourceIni="config.ini", fileName = 'accents', fileNameSuffix = None):
     # instantiate
     config = configparser.ConfigParser()
 
-    # parse config file, or if there's no config file, terminate the program
-    try:
+    # Try to read specified config file, if it doesn't exist, generate default and read
+    # Apparently, the configparser silently passes FileNotFoundError-s. Sigh. Great.
+    
+    if path.isfile(sourceIni):
         config.read(sourceIni, encoding="utf-8-sig")
-    except FileNotFoundError:
-        print("Config file not found.")
-        exit()
+    else:
+        print("Config file not found, using default config.")
+        if not path.isfile('config.ini'):
+            with open('config.ini', 'w', encoding='utf-8-sig') as configfile:
+                configfile.write(get_default_config())
+        config.read('config.ini', encoding="utf-8-sig")
 
     # Check the required data in the config 
 
