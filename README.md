@@ -1,8 +1,6 @@
 # AHKpressandhold
 An AutoHotkey script made to mimic the macOS Press and Hold accent menu on Windows
 
-*The script itself only requires AutoHotkey to be installed, but Python is needed to easily update the script.*
-
 Default variations taken from the US layout (international)
 
 |     |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |
@@ -19,7 +17,7 @@ Default variations taken from the US layout (international)
 |**y**|  ÿ  |     |     |     |     |     |     |     |
 |**z**|  ž  |  ź  |  ż  |     |     |     |     |     |
 
-To change the basic layout or the properties of the tooltips, change the included config.ini, then run accentscodegen.py (written in Python3), which writes the generated code to the .ahk file. 
+To change the basic layout or the properties of the tooltips, change the included config.ini.
 
 [Helpful tutorial on how to set it as a startup script](https://www.autohotkey.com/docs/FAQ.htm#Startup)
 
