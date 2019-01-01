@@ -6,12 +6,22 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 Fire_Hotkey() { ; determines from the combination pressed and the array which char should be sent
     
     global accent_versions
+
+    ;acquire data
     key := SubStr(A_ThisHotkey, 2, 1)
     num := SubStr(A_ThisHotkey, 6, 1)
     chars := accent_versions[key]
     char := SubStr(chars, num, 1)
+
     Send {BackSpace}
-    Send % char
+    
+    ;send data
+    if (GetKeyState("Shift", "P")) {
+    StringUpper, char_upper, char
+    Send, % char_upper
+    } else {
+    Send, % char
+    }
 
 }
 
@@ -37,7 +47,7 @@ For index, line in lines {
     section_keys.Push(SubStr(line, 1, 1)) ; extract each key (the first chars)
 
 }
-;Sleep, 1000 ; !REMOVE AFTER DEBUGGING!
+
 For index, key in section_keys {
 
     IniRead, chars, config.ini, lowercase, %key%
