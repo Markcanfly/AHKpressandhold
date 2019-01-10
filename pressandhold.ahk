@@ -12,17 +12,19 @@ Fire_Hotkey() { ; determines from the combination pressed and the array which ch
     ;acquire data
     key := SubStr(A_ThisHotkey, 2, 1)
     num := SubStr(A_ThisHotkey, 6, 1)
-    chars := lowercase_accent_versions[key]
-    char := SubStr(chars, num, 1)
 
-    Send {BackSpace}
+    lowercase_chars := lowercase_accent_versions[key]
+    lowercase_char := SubStr(lowercase_chars, num, 1)
+
+    uppercase_chars := uppercase_accent_versions[key]
+    uppercase_char := SubStr(uppercase_chars, num, 1)
     
     ;send data
+    Send, {BackSpace}
     if (GetKeyState("Shift", "P")) {
-    StringUpper, char_upper, char
-    Send, % char_upper
+        Send, % uppercase_char
     } else {
-    Send, % char
+        Send, % lowercase_char
     }
 
 }
@@ -36,6 +38,8 @@ Add_Hotkeys(key, len) { ; We add the hotkeys so that they target the Fire_Hotkey
     }
 
 }
+
+; get lowercase values
 
 IniRead, section, config.ini, lowercase ; get data from config
 
@@ -61,21 +65,32 @@ For index, key in lowercase_section_keys {
 
 }
 
+; get uppercase values
+
+uppercase_section_keys := []
+uppercase_accent_versions := {}
+
 IniRead, section, config.ini, uppercase
+test := true
+if (test = false) { ; if no section 'uppercase' is found or it is empty
 
-if (section = "") { ; if no section 'uppercase' is found or it is empty
+    ; just use StringUpper on the lowercase section of the lowercase section
+    For index, key in  uppercase_section_keys {
+        
+        chars := lowercase_accent_versions[key]
+        StringUpper, uppercase_version, chars
+        uppercase_accent_versions[key] = uppercase_version
+        Add_Hotkeys(key, len)   ; this should probably enable so you can have keys in the uppercase section different from lowercase, but not 100% sure
+    }
 
-} else {
+} else { ; if we do find such a section, parse it
 
     lines := StrSplit(section, "`n")
-
-    uppercase_section_keys := []
-    uppercase_accent_versions := {}
 
     For index, line in lines {
 
         uppercase_section_keys.Push(SubStr(line, 1, 1)) ; extract each key (the first chars)
-
+    
     }
 
     For index, key in uppercase_section_keys {
@@ -89,3 +104,9 @@ if (section = "") { ; if no section 'uppercase' is found or it is empty
 
     }
 }
+
+; test
+key := "e"
+foo := uppercase_accent_versions[key]
+
+MsgBox, % foo ; output's empty, when it should be uppercase é
