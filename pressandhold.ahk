@@ -104,9 +104,3 @@ if (test = false) { ; if no section 'uppercase' is found or it is empty
 
     }
 }
-
-; test
-key := "e"
-foo := uppercase_accent_versions[key]
-
-MsgBox, % foo ; output's empty, when it should be uppercase é
