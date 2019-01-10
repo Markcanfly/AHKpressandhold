@@ -20,6 +20,12 @@ Fire_Hotkey() { ; determines from the combination pressed and the array which ch
     uppercase_char := SubStr(uppercase_chars, num, 1)
     
     ;send data
+    
+    ; todo: check if the thing about to be sent is empty, and if so, don't send backspace
+    ; this is to avoid having those cases where there are more keys assigned for one of the keys
+    ; in either the upper or the lowercase section, therefore it will have a hotkey but no data to send
+    ; and will just send a backspace
+
     Send, {BackSpace}
     if (GetKeyState("Shift", "P")) {
         Send, % uppercase_char
@@ -71,36 +77,24 @@ uppercase_section_keys := []
 uppercase_accent_versions := {}
 
 IniRead, section, config.ini, uppercase
-test := true
-if (test = false) { ; if no section 'uppercase' is found or it is empty
 
-    ; just use StringUpper on the lowercase section of the lowercase section
-    For index, key in  uppercase_section_keys {
-        
-        chars := lowercase_accent_versions[key]
-        StringUpper, uppercase_version, chars
-        uppercase_accent_versions[key] = uppercase_version
-        Add_Hotkeys(key, len)   ; this should probably enable so you can have keys in the uppercase section different from lowercase, but not 100% sure
-    }
 
-} else { ; if we do find such a section, parse it
+lines := StrSplit(section, "`n")
 
-    lines := StrSplit(section, "`n")
+For index, line in lines {
 
-    For index, line in lines {
-
-        uppercase_section_keys.Push(SubStr(line, 1, 1)) ; extract each key (the first chars)
+    uppercase_section_keys.Push(SubStr(line, 1, 1)) ; extract each key (the first chars)
     
-    }
-
-    For index, key in uppercase_section_keys {
-
-        IniRead, chars, config.ini, uppercase, %key%
-        chars := StrReplace(chars, " ") ; remove spaces
-        chars := StrReplace(chars, ",") ; remove commas
-        uppercase_accent_versions[key] := chars
-        len := StrLen(chars)
-        Add_Hotkeys(key, len)
-
-    }
 }
+
+For index, key in uppercase_section_keys {
+
+    IniRead, chars, config.ini, uppercase, %key%
+    chars := StrReplace(chars, " ") ; remove spaces
+    chars := StrReplace(chars, ",") ; remove commas
+    uppercase_accent_versions[key] := chars
+    len := StrLen(chars)
+    Add_Hotkeys(key, len)
+
+}
+
