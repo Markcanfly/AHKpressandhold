@@ -21,16 +21,30 @@ Fire_Hotkey() { ; determines from the combination pressed and the array which ch
     
     ;send data
     
-    ; todo: check if the thing about to be sent is empty, and if so, don't send backspace
-    ; this is to avoid having those cases where there are more keys assigned for one of the keys
+    ; Check if the thing about to be sent is empty, and if so, don't send backspace
+    ; This is to avoid having those cases where there are more keys assigned for one of the keys
     ; in either the upper or the lowercase section, therefore it will have a hotkey but no data to send
-    ; and will just send a backspace
+    ; and will just send a backspace.
 
-    Send, {BackSpace}
+    
     if (GetKeyState("Shift", "P")) {
-        Send, % uppercase_char
+
+        if (!(uppercase_char = "")) {
+
+            Send, {BackSpace}
+            Send, % uppercase_char
+
+        }
+
     } else {
-        Send, % lowercase_char
+
+        if (!(lowercase_char = "")) {
+        
+            Send, {BackSpace}
+            Send, % lowercase_char
+        
+        }
+
     }
 
 }
