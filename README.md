@@ -17,7 +17,7 @@ Default variations taken from the US layout (international)
 |**y**|  ÿ  |     |     |     |     |     |     |     |
 |**z**|  ž  |  ź  |  ż  |     |     |     |     |     |
 
-To change the basic layout or the properties of the tooltips, change the included *config.ini*.
+To change the default settings, edit the included *config.ini*.
 
 
 ## How to use
